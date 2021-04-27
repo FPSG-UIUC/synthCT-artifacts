@@ -1,0 +1,1627 @@
+rosette/synth-target-LZCNTQ-R64-R64-0d00.rkt:
+[x] rosette/synth-target-LZCNTQ-R64-R64-0d00.rkt: Timeout!
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s60-a16c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s60-a16c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000030000024 64) 5) #(struct:PSPLIT-R64-R64 1 5 5))
+movq 0x30000024, R5
+psplit R1, R5, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s252-44ff.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s252-44ff.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000000f 64) 1) #(struct:PSPLIT-R64-R64 0 6 6))
+movq 0xf, R1
+psplit R0, R6, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s44-6130.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s44-6130.rkt: Success!
+(#(struct:POR-R64-R64 1 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000002 64) 1))
+por-r64-r64 R1, R1
+movq 0x2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s268-b72b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s268-b72b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000010 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x10, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s8-c1e1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s8-c1e1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 5) #(struct:PSPLIT-R64-R64 1 5 5))
+movq 0x10000024, R5
+psplit R1, R5, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s316-b812.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s316-b812.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000013 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x13, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s332-9fb6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s332-9fb6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000014 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x14, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s396-28b9.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s396-28b9.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000018 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x18, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s188-6eb3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s188-6eb3.rkt: Success!
+(#(struct:PMOVQ-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000000b 64) 1))
+movq R5, R6
+movq 0xb, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s92-2a74.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s92-2a74.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000005 64) 1))
+psplit R6, R6, R6
+movq 0x5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s428-3186.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s428-3186.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000001a 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x1a, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s492-98cf.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s492-98cf.rkt: Success!
+(#(struct:PXOR-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000001e 64) 1))
+pxor-r64-r64 R5, R6
+movq 0x1e, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s690-f5b6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s690-f5b6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000010002c 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x10002c, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s156-1288.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s156-1288.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000009 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x9, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s284-95c3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s284-95c3.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000011 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x11, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s444-ce17.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s444-ce17.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000001b 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x1b, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s460-2ef4.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s460-2ef4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000001c 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x1c, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s28-a87e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s28-a87e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 5) #(struct:PSPLIT-R64-R64 1 5 5))
+movq 0x10000024, R5
+psplit R1, R5, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s236-8c5e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s236-8c5e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000000e 64) 1) #(struct:PSPLIT-R64-R64 0 2 1))
+movq 0xe, R1
+psplit R0, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s604-385c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s604-385c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000025 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x25, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s754-6ab2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s754-6ab2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000010030 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x10030, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s172-da6c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s172-da6c.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 5 1 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000000a 64) 1))
+pcmov-r64-r64-r64 R5, R1, R0
+movq 0xa, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s204-202e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s204-202e.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 1 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000000c 64) 1))
+psplit R6, R1, R0
+movq 0xc, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s540-e13d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s540-e13d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000021 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x21, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s556-9669.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s556-9669.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000220002c 64) 0) #(struct:PSPLIT-R64-R64 1 0 0))
+movq 0x220002c, R0
+psplit R1, R0, R0
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s348-6468.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s348-6468.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000015 64) 1))
+pcmov-r64-r64-r64 R6, R6, R0
+movq 0x15, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s364-5696.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s364-5696.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000016 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x16, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s588-cbec.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s588-cbec.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000024 64) 1) #(struct:PSPLIT-R64-R64 0 6 6))
+movq 0x24, R1
+psplit R0, R6, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s124-3f1e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s124-3f1e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000007 64) 1) #(struct:PSPLIT-R64-R64 6 6 6))
+movq 0x7, R1
+psplit R6, R6, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s524-27ac.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s524-27ac.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000020 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x20, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s412-308c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s412-308c.rkt: Success!
+(#(struct:PXOR-R64-R64 1 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000019 64) 1))
+pxor-r64-r64 R1, R6
+movq 0x19, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s572-628b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s572-628b.rkt: Success!
+(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000023 64) 1))
+pxor-r64-r64 R6, R6
+movq 0x23, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s380-095b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s380-095b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000017 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x17, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s140-6d40.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s140-6d40.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0008480000000010 64) 6) #(struct:PSPLIT-R64-R64 1 6 6))
+movq 0x8480000000010, R6
+psplit R1, R6, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s476-215d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s476-215d.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000001d 64) 1))
+pcmov-r64-r64-r64 R6, R6, R0
+movq 0x1d, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s108-80d6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s108-80d6.rkt: Success!
+(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000006 64) 1))
+pxor-r64-r64 R6, R6
+movq 0x6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s12-b5be.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s12-b5be.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64 1 1))
+pmov-flag-r64 F(bv #x0000000000000006 64), R0
+pxor-r64-r64 R1, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s882-9d1b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s882-9d1b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000138 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x138, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s76-d8ca.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s76-d8ca.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000004 64) 1))
+movq 0x0, R6
+movq 0x4, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s290-bf82.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s290-bf82.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000200000000013 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x200000000013, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s2-a4aa.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s2-a4aa.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000800000002001 64) 1) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x800000002001, R1
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s562-c0c2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s562-c0c2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x10000024, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1-sr2-sr8-344e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1-sr2-sr8-344e.rkt: Success!
+(#(struct:PXOR-R64-R64 0 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 0) #(struct:PAND-R64-R64 0 1) #(struct:PXOR-R64-R64 0 1))
+pxor-r64-r64 R0, R1
+movq 0x1, R0
+pand-r64-r64 R0, R1
+pxor-r64-r64 R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s418-72ea.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s418-72ea.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000201008001b 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x201008001b, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s338-15cd.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s338-15cd.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000040000000016 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x40000000016, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s242-f2d0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s242-f2d0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0001000000000010 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x1000000000010, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s194-2e40.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s194-2e40.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000800000000000d 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x800000000000d, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s322-4537.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s322-4537.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000080000000015 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x80000000015, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s546-9106.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s546-9106.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000020000023 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x20000023, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s162-d316.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s162-d316.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x002000000000000b 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x2000000000000b, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s258-5afb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s258-5afb.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000800000000091 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x800000000091, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s210-d302.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s210-d302.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000400000000000e 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x400000000000e, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s82-6d2d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s82-6d2d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0400000000000006 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x400000000000006, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s354-155d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s354-155d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000020000000017 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x20000000017, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s274-0bbf.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s274-0bbf.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000400040441012 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x400040441012, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s114-ed9d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s114-ed9d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0100000000000008 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x100000000000008, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s34-4fb2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s34-4fb2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x2000000000000003 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x2000000000000003, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s18-cc7a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s18-cc7a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x4000400000000002 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x4000400000000002, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s66-3d45.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s66-3d45.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0800000000000005 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x800000000000005, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s306-12df.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s306-12df.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00001aa8e9abee94 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x1aa8e9abee94, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s482-123b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s482-123b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000020000001f 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x20000001f, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s130-9d40.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s130-9d40.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0080000000000009 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x80000000000009, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s620-7164.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s620-7164.rkt: Success!
+(#(struct:POR-R64-R64 1 2) #(struct:MOVQ-IMM-R64 (bv #x0000000000000026 64) 1))
+por-r64-r64 R1, R2
+movq 0x26, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s146-68c5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s146-68c5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x004000000000000a 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x4000000000000a, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s98-1ac7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s98-1ac7.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0200000000000007 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x200000000000007, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s498-031c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s498-031c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000100000020 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x100000020, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s594-e0cc.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s594-e0cc.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000004000026 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x4000026, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s530-6685.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s530-6685.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000040400022 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x40400022, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s226-2d3c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s226-2d3c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000200000040900f 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x200000040900f, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s450-1673.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s450-1673.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000080400001d 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x80400001d, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s514-4be0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s514-4be0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000080000021 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x80000021, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s578-ff13.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s578-ff13.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000008000025 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x8000025, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s466-b2c8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s466-b2c8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000048000001e 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x48000001e, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s434-2c03.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s434-2c03.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000100010001c 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x100010001c, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s370-df0c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s370-df0c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000010000000018 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x10000000018, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s386-c1da.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s386-c1da.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000008000000019 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x8000000019, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s50-0ff5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s50-0ff5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x1000800000000004 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x1000800000000004, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s610-0eb9.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s610-0eb9.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000002000027 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x2000027, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s178-c2a0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s178-c2a0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x001000000000000c 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x1000000000000c, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s992-sr993-sr1004-sr1008-dc66.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s992-sr993-sr1004-sr1008-dc66.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 1 2 0) #(struct:PMOVQ-R64-R64 2 1))
+pcmov-r64-r64-r64 R1, R2, R0
+movq R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s402-4065.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s402-4065.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000400003bf9a 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x400003bf9a, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s636-0a87.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s636-0a87.rkt: Success!
+(#(struct:PXOR-R64-R64 1 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000027 64) 1))
+pxor-r64-r64 R1, R6
+movq 0x27, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s626-a1d2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s626-a1d2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000001000028 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x1000028, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s652-5d4e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s652-5d4e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000028 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x28, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s642-d0ac.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s642-d0ac.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000800029 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x800029, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s668-ea1b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s668-ea1b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000029 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x29, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s658-84d6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s658-84d6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000040002a 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x40002a, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s684-b693.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s684-b693.rkt: Success!
+(#(struct:POR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000002a 64) 1))
+por-r64-r64 R6, R6
+movq 0x2a, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s674-1087.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s674-1087.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000020002b 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x20002b, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s300-7c7b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s300-7c7b.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000012 64) 1))
+pcmov-r64-r64-r64 R6, R6, R5
+movq 0x12, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s700-610a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s700-610a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000002b 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x2b, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s706-fb3c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s706-fb3c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000f7fed 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0xf7fed, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s722-668e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s722-668e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000004002e 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x4002e, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s732-847c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s732-847c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000002d 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x2d, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s738-3c02.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s738-3c02.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000002002f 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x2002f, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s748-b41a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s748-b41a.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 6 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000002e 64) 1))
+psplit R6, R6, R6
+movq 0x2e, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s220-f0a3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s220-f0a3.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000000d 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0xd, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s764-167f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s764-167f.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 6 1) #(struct:MOVQ-IMM-R64 (bv #x000000000000002f 64) 1))
+psplit R6, R6, R1
+movq 0x2f, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s780-7acf.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s780-7acf.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000030 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x30, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s786-bea2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s786-bea2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000004032 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x4032, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s770-a4e9.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s770-a4e9.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000008031 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x8031, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s812-0fea.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s812-0fea.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000032 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x32, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s802-323b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s802-323b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000002033 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x2033, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s828-b47c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s828-b47c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x003369c041894350 64) 6) #(struct:PSPLIT-R64-R64 1 6 6))
+movq 0x3369c041894350, R6
+psplit R1, R6, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s818-9000.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s818-9000.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000001034 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x1034, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s844-8078.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s844-8078.rkt: Success!
+(#(struct:PMOVQ-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000034 64) 1))
+movq R6, R6
+movq 0x34, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s834-896d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s834-896d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000835 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x835, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s860-70a3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s860-70a3.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000035 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x35, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s850-9d57.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s850-9d57.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000436 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x436, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s876-84ae.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s876-84ae.rkt: Success!
+(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000036 64) 1))
+pxor-r64-r64 R6, R6
+movq 0x36, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s866-8ce9.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s866-8ce9.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000237 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x237, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s892-c3b8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s892-c3b8.rkt: Success!
+(#(struct:PSPLIT-R64-R64 2 5 2) #(struct:MOVQ-IMM-R64 (bv #x0000000000000037 64) 1))
+psplit R2, R5, R2
+movq 0x37, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s508-44b0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s508-44b0.rkt: Success!
+(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000001f 64) 1))
+pxor-r64-r64 R6, R6
+movq 0x1f, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s908-3f83.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s908-3f83.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000038 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x38, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s924-ff6d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s924-ff6d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000007 64) 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000039 64) 1))
+movq 0x7, R1
+movq 0x39, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s914-69b6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s914-69b6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000007a 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x7a, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s940-9e90.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s940-9e90.rkt: Success!
+(#(struct:PXOR-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000003a 64) 1))
+pxor-r64-r64 R5, R6
+movq 0x3a, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s930-3a3a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s930-3a3a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003b 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x3b, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s956-9ee8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s956-9ee8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003b 64) 1) #(struct:PSET-FLAG (bv #x0000000000000005 64)))
+movq 0x3b, R1
+pset-flag F(bv #x0000000000000005 64)
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s946-58b7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s946-58b7.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0001134020405010 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 2 0))
+movq 0x1134020405010, R2
+pand-r64-r64 R2, R0
+psplit R1, R2, R0
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s972-444f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s972-444f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003c 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x3c, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s962-552a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s962-552a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0100000000000008 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 6 0))
+movq 0x100000000000008, R6
+pand-r64-r64 R6, R0
+psplit R1, R6, R0
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s988-1694.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s988-1694.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003d 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x3d, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s978-513f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s978-513f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x1000000000000004 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 5 0))
+movq 0x1000000000000004, R5
+pand-r64-r64 R5, R0
+psplit R1, R5, R0
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s994-a63a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s994-a63a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x001995097501103f 64) 6) #(struct:PSPLIT-R64-R64 1 0 6) #(struct:PSPLIT-R64-R64 6 1 6))
+movq 0x1995097501103f, R6
+psplit R1, R0, R6
+psplit R6, R1, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1020-7f0a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1020-7f0a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003f 64) 1) #(struct:PSET-FLAG (bv #x0000000000000002 64)))
+movq 0x3f, R1
+pset-flag F(bv #x0000000000000002 64)
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1004-6721.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1004-6721.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003e 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x3e, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1024-b5ed.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1024-b5ed.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000040 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x40, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1008-sr1009-sr1020-sr1024-bdf2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1008-sr1009-sr1020-sr1024-bdf2.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 0 1 2) #(struct:PAND-R64-R64 6 0))
+pcmov-r64-r64-r64 R0, R1, R2
+pand-r64-r64 R6, R0
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1010-6b39.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1010-6b39.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0x1, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s716-df1a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s716-df1a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000002c 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x2c, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s796-1306.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s796-1306.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000031 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x31, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s898-79a8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s898-79a8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000000b9 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0xb9, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s865-10e7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s865-10e7.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s865-sr866-sr872 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s865-sr866-sr872 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s865-sr866-sr872 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s866 0 1))
+pseudo-lzcntq-r64-r64-s865-sr866-sr872 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s865-sr866-sr872 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s865-sr866-sr872 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s866 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s753-31e7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s753-31e7.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s753-sr754-sr760 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s753-sr754-sr760 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s753-sr754-sr760 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s754 0 1))
+pseudo-lzcntq-r64-r64-s753-sr754-sr760 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s753-sr754-sr760 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s753-sr754-sr760 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s754 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s177-9f39.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s177-9f39.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s178 0 1))
+pseudo-lzcntq-r64-r64-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s178 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s977-fd45.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s977-fd45.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s977-sr978-sr984 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s977-sr978-sr984 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s977-sr978-sr984 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s978 0 1))
+pseudo-lzcntq-r64-r64-s977-sr978-sr984 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s977-sr978-sr984 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s977-sr978-sr984 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s978 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s129-1e63.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s129-1e63.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s130 0 1))
+pseudo-lzcntq-r64-r64-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s130 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s433-0720.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s433-0720.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s434 0 1))
+pseudo-lzcntq-r64-r64-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s434 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s769-b373.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s769-b373.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s769-sr770-sr776 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s769-sr770-sr776 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s769-sr770-sr776 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s770 0 1))
+pseudo-lzcntq-r64-r64-s769-sr770-sr776 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s769-sr770-sr776 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s769-sr770-sr776 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s770 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s161-afaa.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s161-afaa.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s162 0 1))
+pseudo-lzcntq-r64-r64-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s162 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s993-7861.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s993-7861.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s993-sr994-sr1000 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s993-sr994-sr1000 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s993-sr994-sr1000 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s994 0 1))
+pseudo-lzcntq-r64-r64-s993-sr994-sr1000 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s993-sr994-sr1000 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s993-sr994-sr1000 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s994 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s513-b834.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s513-b834.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s513-sr514-sr520 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s513-sr514-sr520 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s513-sr514-sr520 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s514 0 1))
+pseudo-lzcntq-r64-r64-s513-sr514-sr520 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s513-sr514-sr520 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s513-sr514-sr520 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s514 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s609-ec36.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s609-ec36.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s609-sr610-sr616 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s609-sr610-sr616 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s609-sr610-sr616 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s610 0 1))
+pseudo-lzcntq-r64-r64-s609-sr610-sr616 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s609-sr610-sr616 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s609-sr610-sr616 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s610 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s673-b827.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s673-b827.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s673-sr674-sr680 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s673-sr674-sr680 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s673-sr674-sr680 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s674 0 1))
+pseudo-lzcntq-r64-r64-s673-sr674-sr680 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s673-sr674-sr680 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s673-sr674-sr680 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s674 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1-2fe7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1-2fe7.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s2 0 1))
+pseudo-lzcntq-r64-r64-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s2 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s961-09b6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s961-09b6.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s961-sr962-sr968 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s961-sr962-sr968 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s961-sr962-sr968 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s962 0 1))
+pseudo-lzcntq-r64-r64-s961-sr962-sr968 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s961-sr962-sr968 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s961-sr962-sr968 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s962 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s417-6064.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s417-6064.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s418 0 1))
+pseudo-lzcntq-r64-r64-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s418 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s497-101b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s497-101b.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s497-sr498-sr504 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s497-sr498-sr504 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s497-sr498-sr504 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s498 0 1))
+pseudo-lzcntq-r64-r64-s497-sr498-sr504 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s497-sr498-sr504 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s497-sr498-sr504 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s498 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s273-44c1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s273-44c1.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s274 0 1))
+pseudo-lzcntq-r64-r64-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s274 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1009-b605.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1009-b605.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s1010 1 6) #(struct:pseudo-LZCNTQ-R64-R64-s1010 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s1010 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s1010 0 1))
+pseudo-lzcntq-r64-r64-s1010 [R1: 64, R2: 64] R1, R6
+pseudo-lzcntq-r64-r64-s1010 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s1010 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s1010 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s833-3bc2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s833-3bc2.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s833-sr834-sr840 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s833-sr834-sr840 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s833-sr834-sr840 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s834 0 1))
+pseudo-lzcntq-r64-r64-s833-sr834-sr840 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s833-sr834-sr840 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s833-sr834-sr840 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s834 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s465-6554.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s465-6554.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s466 0 1))
+pseudo-lzcntq-r64-r64-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s466 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s529-7df8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s529-7df8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s529-sr530-sr536 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s529-sr530-sr536 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s529-sr530-sr536 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s530 0 1))
+pseudo-lzcntq-r64-r64-s529-sr530-sr536 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s529-sr530-sr536 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s529-sr530-sr536 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s530 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s785-59ec.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s785-59ec.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s785-sr786-sr792 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s785-sr786-sr792 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s785-sr786-sr792 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s786 0 1))
+pseudo-lzcntq-r64-r64-s785-sr786-sr792 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s785-sr786-sr792 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s785-sr786-sr792 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s786 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s625-b008.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s625-b008.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s625-sr626-sr632 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s625-sr626-sr632 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s625-sr626-sr632 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s626 0 1))
+pseudo-lzcntq-r64-r64-s625-sr626-sr632 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s625-sr626-sr632 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s625-sr626-sr632 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s626 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s65-5ec6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s65-5ec6.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s66 0 1))
+pseudo-lzcntq-r64-r64-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s66 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s369-9806.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s369-9806.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s370 0 1))
+pseudo-lzcntq-r64-r64-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s370 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s817-dfe5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s817-dfe5.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s817-sr818-sr824 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s817-sr818-sr824 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s817-sr818-sr824 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s818 0 1))
+pseudo-lzcntq-r64-r64-s817-sr818-sr824 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s817-sr818-sr824 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s817-sr818-sr824 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s818 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s97-3ab3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s97-3ab3.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s98 0 1))
+pseudo-lzcntq-r64-r64-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s98 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s113-d000.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s113-d000.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s114 0 1))
+pseudo-lzcntq-r64-r64-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s114 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s545-546f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s545-546f.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s545-sr546-sr552 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s545-sr546-sr552 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s545-sr546-sr552 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s546 0 1))
+pseudo-lzcntq-r64-r64-s545-sr546-sr552 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s545-sr546-sr552 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s545-sr546-sr552 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s546 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s17-7d7c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s17-7d7c.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s18 0 1))
+pseudo-lzcntq-r64-r64-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s18 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s321-8ada.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s321-8ada.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s322 0 1))
+pseudo-lzcntq-r64-r64-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s322 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s33-828e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s33-828e.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s34 0 1))
+pseudo-lzcntq-r64-r64-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s34 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s49-125b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s49-125b.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s50 0 1))
+pseudo-lzcntq-r64-r64-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s50 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s593-bc2f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s593-bc2f.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s593-sr594-sr600 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s593-sr594-sr600 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s593-sr594-sr600 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s594 0 1))
+pseudo-lzcntq-r64-r64-s593-sr594-sr600 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s593-sr594-sr600 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s593-sr594-sr600 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s594 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s337-fa2a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s337-fa2a.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s338 0 1))
+pseudo-lzcntq-r64-r64-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s338 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s305-bd82.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s305-bd82.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s306 0 1))
+pseudo-lzcntq-r64-r64-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s306 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s145-f44d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s145-f44d.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s146 0 1))
+pseudo-lzcntq-r64-r64-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s146 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s81-6ea0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s81-6ea0.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s82 0 1))
+pseudo-lzcntq-r64-r64-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s82 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s257-dec2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s257-dec2.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s258 0 1))
+pseudo-lzcntq-r64-r64-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s258 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s561-f3cf.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s561-f3cf.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s561-sr562-sr568 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s561-sr562-sr568 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s561-sr562-sr568 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s562 0 1))
+pseudo-lzcntq-r64-r64-s561-sr562-sr568 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s561-sr562-sr568 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s561-sr562-sr568 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s562 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s801-1773.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s801-1773.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s801-sr802-sr808 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s801-sr802-sr808 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s801-sr802-sr808 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s802 0 1))
+pseudo-lzcntq-r64-r64-s801-sr802-sr808 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s801-sr802-sr808 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s801-sr802-sr808 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s802 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s705-97b6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s705-97b6.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s705-sr706-sr712 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s705-sr706-sr712 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s705-sr706-sr712 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s706 0 1))
+pseudo-lzcntq-r64-r64-s705-sr706-sr712 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s705-sr706-sr712 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s705-sr706-sr712 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s706 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s929-8d32.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s929-8d32.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s929-sr930-sr936 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s929-sr930-sr936 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s929-sr930-sr936 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s930 0 1))
+pseudo-lzcntq-r64-r64-s929-sr930-sr936 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s929-sr930-sr936 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s929-sr930-sr936 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s930 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s209-bad2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s209-bad2.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s210 0 1))
+pseudo-lzcntq-r64-r64-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s210 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s449-1b10.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s449-1b10.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s450 0 1))
+pseudo-lzcntq-r64-r64-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s450 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s849-ebf6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s849-ebf6.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s849-sr850-sr856 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s849-sr850-sr856 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s849-sr850-sr856 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s850 0 1))
+pseudo-lzcntq-r64-r64-s849-sr850-sr856 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s849-sr850-sr856 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s849-sr850-sr856 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s850 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s897-873e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s897-873e.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s897-sr898-sr904 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s897-sr898-sr904 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s897-sr898-sr904 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s898 0 1))
+pseudo-lzcntq-r64-r64-s897-sr898-sr904 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s897-sr898-sr904 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s897-sr898-sr904 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s898 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s657-83a2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s657-83a2.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s657-sr658-sr664 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s657-sr658-sr664 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s657-sr658-sr664 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s658 0 1))
+pseudo-lzcntq-r64-r64-s657-sr658-sr664 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s657-sr658-sr664 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s657-sr658-sr664 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s658 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s241-4e14.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s241-4e14.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s242 0 1))
+pseudo-lzcntq-r64-r64-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s242 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s881-c3db.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s881-c3db.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s881-sr882-sr888 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s881-sr882-sr888 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s881-sr882-sr888 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s882 0 1))
+pseudo-lzcntq-r64-r64-s881-sr882-sr888 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s881-sr882-sr888 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s881-sr882-sr888 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s882 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s641-6eae.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s641-6eae.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s641-sr642-sr648 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s641-sr642-sr648 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s641-sr642-sr648 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s642 0 1))
+pseudo-lzcntq-r64-r64-s641-sr642-sr648 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s641-sr642-sr648 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s641-sr642-sr648 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s642 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s289-454f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s289-454f.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s290 0 1))
+pseudo-lzcntq-r64-r64-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s290 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s737-1c03.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s737-1c03.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s737-sr738-sr744 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s737-sr738-sr744 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s737-sr738-sr744 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s738 0 1))
+pseudo-lzcntq-r64-r64-s737-sr738-sr744 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s737-sr738-sr744 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s737-sr738-sr744 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s738 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s913-9f8d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s913-9f8d.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s913-sr914-sr920 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s913-sr914-sr920 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s913-sr914-sr920 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s914 0 1))
+pseudo-lzcntq-r64-r64-s913-sr914-sr920 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s913-sr914-sr920 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s913-sr914-sr920 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s914 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s577-c932.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s577-c932.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s577-sr578-sr584 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s577-sr578-sr584 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s577-sr578-sr584 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s578 0 1))
+pseudo-lzcntq-r64-r64-s577-sr578-sr584 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s577-sr578-sr584 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s577-sr578-sr584 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s578 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s385-d5eb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s385-d5eb.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s386 0 1))
+pseudo-lzcntq-r64-r64-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s386 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s193-7714.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s193-7714.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s194 0 1))
+pseudo-lzcntq-r64-r64-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s194 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s689-090f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s689-090f.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s689-sr690-sr696 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s689-sr690-sr696 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s689-sr690-sr696 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s690 0 1))
+pseudo-lzcntq-r64-r64-s689-sr690-sr696 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s689-sr690-sr696 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s689-sr690-sr696 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s690 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s945-434e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s945-434e.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s945-sr946-sr952 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s945-sr946-sr952 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s945-sr946-sr952 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s946 0 1))
+pseudo-lzcntq-r64-r64-s945-sr946-sr952 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s945-sr946-sr952 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s945-sr946-sr952 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s946 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s401-aeef.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s401-aeef.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s402 0 1))
+pseudo-lzcntq-r64-r64-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s402 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s353-952e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s353-952e.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s354 0 1))
+pseudo-lzcntq-r64-r64-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s354 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s481-1791.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s481-1791.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s482 0 1))
+pseudo-lzcntq-r64-r64-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s482 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s225-43eb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s225-43eb.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s226 0 1))
+pseudo-lzcntq-r64-r64-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s226 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s721-6b83.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s721-6b83.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s721-sr722-sr728 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s721-sr722-sr728 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s721-sr722-sr728 6 6) #(struct:pseudo-LZCNTQ-R64-R64-s722 0 1))
+pseudo-lzcntq-r64-r64-s721-sr722-sr728 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s721-sr722-sr728 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s721-sr722-sr728 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntq-r64-r64-s722 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1008-0cc7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s1008-0cc7.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s1009 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s1020 1) #(struct:pseudo-LZCNTQ-R64-R64-s1024 6) #(struct:pseudo-LZCNTQ-R64-R64-s1008-sr1009-sr1020-sr1024 0 6 1))
+pseudo-lzcntq-r64-r64-s1009 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s1020 [R2: 64] R1
+pseudo-lzcntq-r64-r64-s1024 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s1008-sr1009-sr1020-sr1024 [R1: 64, R3: 64, R2: 64] R0, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s992-4021.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s992-4021.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s993 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s1004 6) #(struct:pseudo-LZCNTQ-R64-R64-s1008 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s992-sr993-sr1004-sr1008 6 2 1))
+pseudo-lzcntq-r64-r64-s993 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s1004 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s1008 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s992-sr993-sr1004-sr1008 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s976-8d79.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s976-8d79.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s988 5) #(struct:pseudo-LZCNTQ-R64-R64-s977 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s992 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s976-sr977-sr988-sr992 5 2 1))
+pseudo-lzcntq-r64-r64-s988 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s977 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s992 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s976-sr977-sr988-sr992 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s960-b63c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s960-b63c.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s961 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s976 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s972 2) #(struct:pseudo-LZCNTQ-R64-R64-s960-sr961-sr972-sr976 2 5 1))
+pseudo-lzcntq-r64-r64-s961 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s976 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s972 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s960-sr961-sr972-sr976 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s944-2a1f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s944-2a1f.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s956 2) #(struct:pseudo-LZCNTQ-R64-R64-s960 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s945 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s944-sr945-sr956-sr960 2 5 1))
+pseudo-lzcntq-r64-r64-s956 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s960 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s945 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s944-sr945-sr956-sr960 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s928-cae8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s928-cae8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s940 6) #(struct:pseudo-LZCNTQ-R64-R64-s944 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s929 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s928-sr929-sr940-sr944 6 2 1))
+pseudo-lzcntq-r64-r64-s940 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s944 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s929 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s928-sr929-sr940-sr944 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s912-ddc1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s912-ddc1.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s913 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s928 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s924 2) #(struct:pseudo-LZCNTQ-R64-R64-s912-sr913-sr924-sr928 2 6 1))
+pseudo-lzcntq-r64-r64-s913 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s928 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s924 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s912-sr913-sr924-sr928 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s896-e79c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s896-e79c.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s908 5) #(struct:pseudo-LZCNTQ-R64-R64-s897 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s912 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s896-sr897-sr908-sr912 5 6 1))
+pseudo-lzcntq-r64-r64-s908 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s897 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s912 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s896-sr897-sr908-sr912 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s880-e7cb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s880-e7cb.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s881 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s892 5) #(struct:pseudo-LZCNTQ-R64-R64-s896 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s880-sr881-sr892-sr896 5 0 1))
+pseudo-lzcntq-r64-r64-s881 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s892 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s896 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s880-sr881-sr892-sr896 [R3: 64, R1: 64, R2: 64] R5, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s864-f298.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s864-f298.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s865 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s880 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s876 5) #(struct:pseudo-LZCNTQ-R64-R64-s864-sr865-sr876-sr880 5 0 1))
+pseudo-lzcntq-r64-r64-s865 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s880 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s876 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s864-sr865-sr876-sr880 [R3: 64, R1: 64, R2: 64] R5, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s848-df0b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s848-df0b.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s849 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s864 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s860 6) #(struct:pseudo-LZCNTQ-R64-R64-s848-sr849-sr860-sr864 6 2 1))
+pseudo-lzcntq-r64-r64-s849 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s864 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s860 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s848-sr849-sr860-sr864 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s832-9b76.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s832-9b76.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s844 5) #(struct:pseudo-LZCNTQ-R64-R64-s848 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s833 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s832-sr833-sr844-sr848 5 2 1))
+pseudo-lzcntq-r64-r64-s844 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s848 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s833 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s832-sr833-sr844-sr848 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s816-ed30.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s816-ed30.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s817 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s832 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s828 2) #(struct:pseudo-LZCNTQ-R64-R64-s816-sr817-sr828-sr832 2 5 1))
+pseudo-lzcntq-r64-r64-s817 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s832 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s828 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s816-sr817-sr828-sr832 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s800-fd03.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s800-fd03.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s816 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s812 5) #(struct:pseudo-LZCNTQ-R64-R64-s801 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s800-sr801-sr812-sr816 5 6 1))
+pseudo-lzcntq-r64-r64-s816 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s812 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s801 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s800-sr801-sr812-sr816 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s784-e28d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s784-e28d.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s785 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s800 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s796 0) #(struct:pseudo-LZCNTQ-R64-R64-s784-sr785-sr796-sr800 0 6 1))
+pseudo-lzcntq-r64-r64-s785 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s800 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s796 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s784-sr785-sr796-sr800 [R3: 64, R1: 64, R2: 64] R0, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s768-15f8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s768-15f8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s784 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s769 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s780 5) #(struct:pseudo-LZCNTQ-R64-R64-s768-sr769-sr780-sr784 5 2 1))
+pseudo-lzcntq-r64-r64-s784 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s769 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s780 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s768-sr769-sr780-sr784 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s752-396d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s752-396d.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s753 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s764 6) #(struct:pseudo-LZCNTQ-R64-R64-s768 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s752-sr753-sr764-sr768 6 5 1))
+pseudo-lzcntq-r64-r64-s753 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s764 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s768 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s752-sr753-sr764-sr768 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s736-d5bc.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s736-d5bc.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s752 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s748 6) #(struct:pseudo-LZCNTQ-R64-R64-s737 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s736-sr737-sr748-sr752 6 2 1))
+pseudo-lzcntq-r64-r64-s752 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s748 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s737 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s736-sr737-sr748-sr752 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s720-bf35.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s720-bf35.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s732 6) #(struct:pseudo-LZCNTQ-R64-R64-s721 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s736 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s720-sr721-sr732-sr736 6 5 1))
+pseudo-lzcntq-r64-r64-s732 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s721 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s736 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s720-sr721-sr732-sr736 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s704-bf33.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s704-bf33.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s705 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s720 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s716 6) #(struct:pseudo-LZCNTQ-R64-R64-s704-sr705-sr716-sr720 6 5 1))
+pseudo-lzcntq-r64-r64-s705 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s720 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s716 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s704-sr705-sr716-sr720 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s688-88c8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s688-88c8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s704 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s700 5) #(struct:pseudo-LZCNTQ-R64-R64-s689 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s688-sr689-sr700-sr704 5 6 1))
+pseudo-lzcntq-r64-r64-s704 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s700 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s689 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s688-sr689-sr700-sr704 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s672-ce57.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s672-ce57.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s684 6) #(struct:pseudo-LZCNTQ-R64-R64-s673 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s688 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s672-sr673-sr684-sr688 6 0 1))
+pseudo-lzcntq-r64-r64-s684 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s673 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s688 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s672-sr673-sr684-sr688 [R3: 64, R1: 64, R2: 64] R6, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s656-0b4a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s656-0b4a.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s672 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s668 2) #(struct:pseudo-LZCNTQ-R64-R64-s657 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s656-sr657-sr668-sr672 2 6 1))
+pseudo-lzcntq-r64-r64-s672 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s668 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s657 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s656-sr657-sr668-sr672 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s640-2b80.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s640-2b80.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s652 5) #(struct:pseudo-LZCNTQ-R64-R64-s656 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s641 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s640-sr641-sr652-sr656 5 6 1))
+pseudo-lzcntq-r64-r64-s652 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s656 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s641 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s640-sr641-sr652-sr656 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s624-7a75.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s624-7a75.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s625 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s636 6) #(struct:pseudo-LZCNTQ-R64-R64-s640 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s624-sr625-sr636-sr640 6 5 1))
+pseudo-lzcntq-r64-r64-s625 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s636 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s640 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s624-sr625-sr636-sr640 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s608-fedd.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s608-fedd.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s609 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s624 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s620 0) #(struct:pseudo-LZCNTQ-R64-R64-s608-sr609-sr620-sr624 0 2 1))
+pseudo-lzcntq-r64-r64-s609 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s624 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s620 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s608-sr609-sr620-sr624 [R3: 64, R1: 64, R2: 64] R0, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s592-d61c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s592-d61c.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s608 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s604 5) #(struct:pseudo-LZCNTQ-R64-R64-s593 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s592-sr593-sr604-sr608 5 6 1))
+pseudo-lzcntq-r64-r64-s608 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s604 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s593 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s592-sr593-sr604-sr608 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s576-6f24.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s576-6f24.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s592 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s577 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s588 2) #(struct:pseudo-LZCNTQ-R64-R64-s576-sr577-sr588-sr592 2 6 1))
+pseudo-lzcntq-r64-r64-s592 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s577 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s588 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s576-sr577-sr588-sr592 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s560-2079.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s560-2079.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s572 5) #(struct:pseudo-LZCNTQ-R64-R64-s576 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s561 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s560-sr561-sr572-sr576 5 6 1))
+pseudo-lzcntq-r64-r64-s572 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s576 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s561 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s560-sr561-sr572-sr576 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s544-d964.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s544-d964.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s560 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s545 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s556 2) #(struct:pseudo-LZCNTQ-R64-R64-s544-sr545-sr556-sr560 2 5 1))
+pseudo-lzcntq-r64-r64-s560 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s545 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s556 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s544-sr545-sr556-sr560 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s528-7973.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s528-7973.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s529 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s540 5) #(struct:pseudo-LZCNTQ-R64-R64-s544 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s528-sr529-sr540-sr544 5 2 1))
+pseudo-lzcntq-r64-r64-s529 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s540 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s544 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s528-sr529-sr540-sr544 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s512-5203.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s512-5203.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s528 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s524 2) #(struct:pseudo-LZCNTQ-R64-R64-s513 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s512-sr513-sr524-sr528 2 5 1))
+pseudo-lzcntq-r64-r64-s528 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s524 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s513 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s512-sr513-sr524-sr528 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s496-09e2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s496-09e2.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s497 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s512 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s508 6) #(struct:pseudo-LZCNTQ-R64-R64-s496-sr497-sr508-sr512 6 5 1))
+pseudo-lzcntq-r64-r64-s497 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s512 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s508 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s496-sr497-sr508-sr512 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s480-4301.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s480-4301.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s496 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s492 5) #(struct:pseudo-LZCNTQ-R64-R64-s481 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s480-sr481-sr492-sr496 5 6 1))
+pseudo-lzcntq-r64-r64-s496 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s492 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s481 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s480-sr481-sr492-sr496 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s464-e4e9.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s464-e4e9.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s476 2) #(struct:pseudo-LZCNTQ-R64-R64-s480 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s465 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s464-sr465-sr476-sr480 2 5 1))
+pseudo-lzcntq-r64-r64-s476 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s480 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s465 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s464-sr465-sr476-sr480 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s448-b60a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s448-b60a.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s449 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s460 5) #(struct:pseudo-LZCNTQ-R64-R64-s464 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s448-sr449-sr460-sr464 5 0 1))
+pseudo-lzcntq-r64-r64-s449 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s460 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s464 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s448-sr449-sr460-sr464 [R3: 64, R1: 64, R2: 64] R5, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s432-c775.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s432-c775.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s448 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s444 6) #(struct:pseudo-LZCNTQ-R64-R64-s433 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s432-sr433-sr444-sr448 6 2 1))
+pseudo-lzcntq-r64-r64-s448 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s444 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s433 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s432-sr433-sr444-sr448 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s416-1c67.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s416-1c67.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s417 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s428 6) #(struct:pseudo-LZCNTQ-R64-R64-s432 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s416-sr417-sr428-sr432 6 2 1))
+pseudo-lzcntq-r64-r64-s417 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s428 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s432 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s416-sr417-sr428-sr432 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s400-eed0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s400-eed0.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s412 5) #(struct:pseudo-LZCNTQ-R64-R64-s416 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s401 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s400-sr401-sr412-sr416 5 6 1))
+pseudo-lzcntq-r64-r64-s412 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s416 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s401 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s400-sr401-sr412-sr416 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s384-ea13.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s384-ea13.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s400 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s385 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s396 0) #(struct:pseudo-LZCNTQ-R64-R64-s384-sr385-sr396-sr400 0 6 1))
+pseudo-lzcntq-r64-r64-s400 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s385 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s396 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s384-sr385-sr396-sr400 [R3: 64, R1: 64, R2: 64] R0, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s368-e9c8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s368-e9c8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s380 2) #(struct:pseudo-LZCNTQ-R64-R64-s384 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s369 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s368-sr369-sr380-sr384 2 5 1))
+pseudo-lzcntq-r64-r64-s380 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s384 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s369 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s368-sr369-sr380-sr384 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s352-7c12.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s352-7c12.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s353 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s368 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s364 2) #(struct:pseudo-LZCNTQ-R64-R64-s352-sr353-sr364-sr368 2 5 1))
+pseudo-lzcntq-r64-r64-s353 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s368 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s364 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s352-sr353-sr364-sr368 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s336-1783.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s336-1783.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s337 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s352 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s348 0) #(struct:pseudo-LZCNTQ-R64-R64-s336-sr337-sr348-sr352 0 6 1))
+pseudo-lzcntq-r64-r64-s337 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s352 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s348 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s336-sr337-sr348-sr352 [R3: 64, R1: 64, R2: 64] R0, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s320-d169.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s320-d169.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s321 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s332 2) #(struct:pseudo-LZCNTQ-R64-R64-s336 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s320-sr321-sr332-sr336 2 6 1))
+pseudo-lzcntq-r64-r64-s321 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s332 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s336 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s320-sr321-sr332-sr336 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s304-2444.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s304-2444.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s305 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s320 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s316 2) #(struct:pseudo-LZCNTQ-R64-R64-s304-sr305-sr316-sr320 2 0 1))
+pseudo-lzcntq-r64-r64-s305 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s320 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s316 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s304-sr305-sr316-sr320 [R3: 64, R1: 64, R2: 64] R2, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s288-5658.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s288-5658.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s289 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s304 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s300 6) #(struct:pseudo-LZCNTQ-R64-R64-s288-sr289-sr300-sr304 6 0 1))
+pseudo-lzcntq-r64-r64-s289 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s304 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s300 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s288-sr289-sr300-sr304 [R3: 64, R1: 64, R2: 64] R6, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s272-d34e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s272-d34e.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s284 5) #(struct:pseudo-LZCNTQ-R64-R64-s273 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s288 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s272-sr273-sr284-sr288 5 6 1))
+pseudo-lzcntq-r64-r64-s284 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s273 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s288 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s272-sr273-sr284-sr288 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s256-d1fb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s256-d1fb.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s257 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s272 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s268 0) #(struct:pseudo-LZCNTQ-R64-R64-s256-sr257-sr268-sr272 0 5 1))
+pseudo-lzcntq-r64-r64-s257 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s272 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s268 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s256-sr257-sr268-sr272 [R3: 64, R1: 64, R2: 64] R0, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s240-e123.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s240-e123.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s256 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s241 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s252 5) #(struct:pseudo-LZCNTQ-R64-R64-s240-sr241-sr252-sr256 5 2 1))
+pseudo-lzcntq-r64-r64-s256 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s241 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s252 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s240-sr241-sr252-sr256 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s224-f5e8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s224-f5e8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s240 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s225 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s236 2) #(struct:pseudo-LZCNTQ-R64-R64-s224-sr225-sr236-sr240 2 6 1))
+pseudo-lzcntq-r64-r64-s240 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s225 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s236 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s224-sr225-sr236-sr240 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s208-cef2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s208-cef2.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s224 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s209 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s220 6) #(struct:pseudo-LZCNTQ-R64-R64-s208-sr209-sr220-sr224 6 5 1))
+pseudo-lzcntq-r64-r64-s224 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s209 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s220 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s208-sr209-sr220-sr224 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s192-1549.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s192-1549.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s208 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s193 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s204 2) #(struct:pseudo-LZCNTQ-R64-R64-s192-sr193-sr204-sr208 2 5 1))
+pseudo-lzcntq-r64-r64-s208 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s193 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s204 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s192-sr193-sr204-sr208 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s176-a4fa.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s176-a4fa.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s192 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s177 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s188 0) #(struct:pseudo-LZCNTQ-R64-R64-s176-sr177-sr188-sr192 0 6 1))
+pseudo-lzcntq-r64-r64-s192 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s177 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s188 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s176-sr177-sr188-sr192 [R3: 64, R1: 64, R2: 64] R0, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s160-383d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s160-383d.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s172 5) #(struct:pseudo-LZCNTQ-R64-R64-s161 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s176 0 0) #(struct:pseudo-LZCNTQ-R64-R64-s160-sr161-sr172-sr176 5 0 1))
+pseudo-lzcntq-r64-r64-s172 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s161 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s176 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntq-r64-r64-s160-sr161-sr172-sr176 [R3: 64, R1: 64, R2: 64] R5, R0, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s144-6cd1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s144-6cd1.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s145 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s156 6) #(struct:pseudo-LZCNTQ-R64-R64-s160 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s144-sr145-sr156-sr160 6 5 1))
+pseudo-lzcntq-r64-r64-s145 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s156 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s160 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s144-sr145-sr156-sr160 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s128-e0a8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s128-e0a8.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s144 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s129 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s140 6) #(struct:pseudo-LZCNTQ-R64-R64-s128-sr129-sr140-sr144 6 5 1))
+pseudo-lzcntq-r64-r64-s144 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s129 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s140 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s128-sr129-sr140-sr144 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s112-c944.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s112-c944.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s113 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s124 5) #(struct:pseudo-LZCNTQ-R64-R64-s128 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s112-sr113-sr124-sr128 5 2 1))
+pseudo-lzcntq-r64-r64-s113 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s124 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s128 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s112-sr113-sr124-sr128 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s96-7f51.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s96-7f51.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s112 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s97 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s108 0) #(struct:pseudo-LZCNTQ-R64-R64-s96-sr97-sr108-sr112 0 5 1))
+pseudo-lzcntq-r64-r64-s112 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s97 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s108 [R2: 64] R0
+pseudo-lzcntq-r64-r64-s96-sr97-sr108-sr112 [R3: 64, R1: 64, R2: 64] R0, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s80-3579.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s80-3579.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s96 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s92 6) #(struct:pseudo-LZCNTQ-R64-R64-s81 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s80-sr81-sr92-sr96 6 5 1))
+pseudo-lzcntq-r64-r64-s96 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s92 [R2: 64] R6
+pseudo-lzcntq-r64-r64-s81 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s80-sr81-sr92-sr96 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s64-6d69.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s64-6d69.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s76 5) #(struct:pseudo-LZCNTQ-R64-R64-s65 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s80 0 6) #(struct:pseudo-LZCNTQ-R64-R64-s64-sr65-sr76-sr80 5 6 1))
+pseudo-lzcntq-r64-r64-s76 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s65 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s80 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntq-r64-r64-s64-sr65-sr76-sr80 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s48-5d68.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s48-5d68.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s49 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s60 2) #(struct:pseudo-LZCNTQ-R64-R64-s64 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s48-sr49-sr60-sr64 2 5 1))
+pseudo-lzcntq-r64-r64-s49 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s60 [R2: 64] R2
+pseudo-lzcntq-r64-r64-s64 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s48-sr49-sr60-sr64 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s32-a022.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s32-a022.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s48 0 2) #(struct:pseudo-LZCNTQ-R64-R64-s33 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s44 5) #(struct:pseudo-LZCNTQ-R64-R64-s32-sr33-sr44-sr48 5 2 1))
+pseudo-lzcntq-r64-r64-s48 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntq-r64-r64-s33 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s44 [R2: 64] R5
+pseudo-lzcntq-r64-r64-s32-sr33-sr44-sr48 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTQ-R64-R64-s16-9dcb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTQ-R64-R64-s16-9dcb.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s32 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s32 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s17 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s16-sr17-sr28-sr32 1 5 1))
+pseudo-lzcntq-r64-r64-s32 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s32 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s17 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s16-sr17-sr28-sr32 [R3: 64, R1: 64, R2: 64] R1, R5, R1
+rosette/synth-target-LZCNTQ-R64-R64-3433.rkt:
+[*] rosette/synth-target-LZCNTQ-R64-R64-3433.rkt: Success!
+(#(struct:pseudo-LZCNTQ-R64-R64-s1 0 1) #(struct:pseudo-LZCNTQ-R64-R64-s16 0 5) #(struct:pseudo-LZCNTQ-R64-R64-s12 2) #(struct:pseudo-LZCNTQ-R64-R64-sr1-sr12-sr16 2 5 1))
+pseudo-lzcntq-r64-r64-s1 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntq-r64-r64-s16 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntq-r64-r64-s12 [R2: 64] R2
+pseudo-lzcntq-r64-r64-sr1-sr12-sr16 [R3: 64, R1: 64, R2: 64] R2, R5, R1

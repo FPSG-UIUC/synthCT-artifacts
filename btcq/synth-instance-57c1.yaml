@@ -1,0 +1,97 @@
+rosette/synth-target-BTCQ-R64-R64-3ac7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - BTSQ-R64-R64
+  - BTRQ-R64-R64
+  - BTQ-R64-R64
+  - SHLXQ-R64-R64-R64
+  - SARXQ-R64-R64-R64
+  - BLSMSKQ-R64-R64
+  - BLSRQ-R64-R64
+  - RORQ-R64-ONE
+  - DECQ-R64
+  - ROLQ-R64-ONE
+  - INCQ-R64
+  - ANDB-R8-R8
+  - SARB-RH-ONE
+  - TESTB-RH-R8
+  - ANDQ-R64-R64
+  - POPCNTW-R16-R16
+  - XORQ-R64-R64
+  - CLC
+  - XORW-R16-R16
+  - SARL-R32-ONE
+  - ANDNL-R32-R32-R32
+  - BZHIQ-R64-R64-R64
+  - ORL-R32-R32
+  - XORB-RH-R8
+  - TESTQ-R64-R64
+  - ANDB-RH-RH
+  - BEXTRQ-R64-R64-R64
+  - BSRL-R32-R32
+  - XORL-R32-R32
+  - XORB-R8-R8
+  - ANDL-R32-R32
+  - ANDB-R8-RH
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:151:0:\
+    \ cegis\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-BTCQ-R64-R64-3ac7.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-BTCQ-R64-R64-3ac7.rkt
+  spec: BTCQ-R64-R64
+  state: timeout
+  time: 10.018369913101196
+rosette/synth-target-BTCQ-R64-R64-c0a1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTCQ-R64-R64-s4
+  - pseudo-BTCQ-R64-R64-sr4
+  data: '(#(struct:pseudo-BTCQ-R64-R64-s4 1 2) #(struct:MOVQ-IMM-R64 (bv #x0018000000000004
+    64) 5) #(struct:pseudo-BTCQ-R64-R64-s4 0 5) #(struct:PXOR-R64-R64 5 1))
+
+    pseudo-btcq-r64-r64-s4 [R1: 64, R2: 64] R1, R2
+
+    movq 0x18000000000004, R5
+
+    pseudo-btcq-r64-r64-s4 [R1: 64, R2: 64] R0, R5
+
+    pxor-r64-r64 R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BTCQ-R64-R64-c0a1.rkt
+  spec: BTCQ-R64-R64
+  state: success
+  time: 25.2998628616333
+rosette/synth-target-pseudo-BTCQ-R64-R64-s4-5cb0.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 2) #(struct:PSPLIT-R64-R64
+    1 2 2) #(struct:PCONCAT-R32-R32 2 1 0))
+
+    movq 0x1, R2
+
+    psplit R1, R2, R2
+
+    pconcat-r32-r32 R2, R1, R0'
+  debug: sat! 3
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTCQ-R64-R64-s4-5cb0.rkt
+  spec: pseudo-BTCQ-R64-R64-s4
+  state: success
+  time: 37.512720346450806
+rosette/synth-target-pseudo-BTCQ-R64-R64-sr4-fd1c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 0 1) #(struct:PAND-R64-R64 1 1))
+
+    pxor-r64-r64 R0, R1
+
+    pand-r64-r64 R1, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTCQ-R64-R64-sr4-fd1c.rkt
+  spec: pseudo-BTCQ-R64-R64-sr4
+  state: success
+  time: 1.5646281242370605

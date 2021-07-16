@@ -1,0 +1,352 @@
+rosette/synth-target-BSWAP-R32-07a8.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-BSWAP-R32-07a8.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-BSWAP-R32-07a8.rkt
+  spec: BSWAP-R32
+  state: timeout
+  time: 10.055931568145752
+rosette/synth-target-BSWAP-R32-7a1b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BSWAP-R32-s1
+  - pseudo-BSWAP-R32-s18
+  - pseudo-BSWAP-R32-sr1-sr18
+  data: '(#(struct:pseudo-BSWAP-R32-sr1-sr18 0 4) #(struct:pseudo-BSWAP-R32-s18 4)
+    #(struct:MOVQ-IMM-R64 (bv #x0000020200000038 64) 1) #(struct:pseudo-BSWAP-R32-s18
+    0) #(struct:PMOVQ-R64-R64 2 1) #(struct:PSPLIT-R64-R64 2 1 1) #(struct:pseudo-BSWAP-R32-sr1-sr18
+    4 0))
+
+    pseudo-bswap-r32-sr1-sr18 [R2: 64, R1: 64] R0, R4
+
+    pseudo-bswap-r32-s18 [R1: 64] R4
+
+    movq 0x20200000038, R1
+
+    pseudo-bswap-r32-s18 [R1: 64] R0
+
+    movq R2, R1
+
+    psplit R2, R1, R1
+
+    pseudo-bswap-r32-sr1-sr18 [R2: 64, R1: 64] R4, R0'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-BSWAP-R32-7a1b.rkt
+  spec: BSWAP-R32
+  state: success
+  time: 762.6658358573914
+rosette/synth-target-BSWAP-R32-d516.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-BSWAP-R32-d516.rkt\""
+  max_timeout: 21600
+  name: rosette/synth-target-BSWAP-R32-d516.rkt
+  spec: BSWAP-R32
+  state: timeout
+  time: 21600.041166305542
+rosette/synth-target-pseudo-BSWAP-R32-s1-1e2d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-pseudo-BSWAP-R32-s1-1e2d.rkt\""
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s1-1e2d.rkt
+  spec: pseudo-BSWAP-R32-s1
+  state: timeout
+  time: 21600.142186641693
+rosette/synth-target-pseudo-BSWAP-R32-s1-sr2-sr12-28c5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BSWAP-R32-s2
+  - pseudo-BSWAP-R32-s12
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-pseudo-BSWAP-R32-s1-sr2-sr12-28c5.rkt\""
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s1-sr2-sr12-28c5.rkt
+  spec: pseudo-BSWAP-R32-s1-sr2-sr12
+  state: timeout
+  time: 21600.08617758751
+rosette/synth-target-pseudo-BSWAP-R32-s12-969d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000038 64) 2) #(struct:PSPLIT-R64-R64
+    4 0 2) #(struct:PMOVQ-R64-R64 6 6) #(struct:PSPLIT-R64-R64 6 4 2) #(struct:PSPLIT-R64-R64
+    6 4 2) #(struct:PMOVQ-R64-R64 6 1) #(struct:PMOVQ-R64-R64 4 0))
+
+    movq 0x38, R2
+
+    psplit R4, R0, R2
+
+    movq R6, R6
+
+    psplit R6, R4, R2
+
+    psplit R6, R4, R2
+
+    movq R6, R1
+
+    movq R4, R0'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s12-969d.rkt
+  spec: pseudo-BSWAP-R32-s12
+  state: success
+  time: 956.4902694225311
+rosette/synth-target-pseudo-BSWAP-R32-s18-5683.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-pseudo-BSWAP-R32-s18-5683.rkt\""
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s18-5683.rkt
+  spec: pseudo-BSWAP-R32-s18
+  state: timeout
+  time: 21600.150004386902
+rosette/synth-target-pseudo-BSWAP-R32-s18-d0bc.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BSWAP-R32-s19
+  - pseudo-BSWAP-R32-s25
+  - pseudo-BSWAP-R32-s18-sr19-sr25
+  data: '(#(struct:PMOVQ-R64-R64 0 2) #(struct:MOVQ-IMM-R64 (bv #x000000000000033e
+    64) 5) #(struct:pseudo-BSWAP-R32-s19 2) #(struct:MOVQ-IMM-R64 (bv #x0000000000000028
+    64) 4) #(struct:pseudo-BSWAP-R32-s25 0) #(struct:pseudo-BSWAP-R32-s18-sr19-sr25
+    2 0) #(struct:PSPLIT-R64-R64 6 6 6))
+
+    movq R0, R2
+
+    movq 0x33e, R5
+
+    pseudo-bswap-r32-s19 [R1: 64] R2
+
+    movq 0x28, R4
+
+    pseudo-bswap-r32-s25 [R1: 64] R0
+
+    pseudo-bswap-r32-s18-sr19-sr25 [R2: 64, R1: 64] R2, R0
+
+    psplit R6, R6, R6'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s18-d0bc.rkt
+  spec: pseudo-BSWAP-R32-s18
+  state: success
+  time: 299.2965886592865
+rosette/synth-target-pseudo-BSWAP-R32-s18-sr19-sr25-9478.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BSWAP-R32-s19
+  - pseudo-BSWAP-R32-s25
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-pseudo-BSWAP-R32-s18-sr19-sr25-9478.rkt\""
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s18-sr19-sr25-9478.rkt
+  spec: pseudo-BSWAP-R32-s18-sr19-sr25
+  state: timeout
+  time: 21600.14426255226
+rosette/synth-target-pseudo-BSWAP-R32-s19-8e56.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000002760002b 64) 2) #(struct:PSPLIT-R64-R64
+    6 2 2) #(struct:PSPLIT-R64-R64 1 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000050000000008
+    64) 5) #(struct:PSPLIT-R64-R64 1 5 6) #(struct:PCONCAT-R32-R32 0 5 1) #(struct:PSPLIT-R64-R64
+    0 5 5))
+
+    movq 0x2760002b, R2
+
+    psplit R6, R2, R2
+
+    psplit R1, R6, R6
+
+    movq 0x50000000008, R5
+
+    psplit R1, R5, R6
+
+    pconcat-r32-r32 R0, R5, R1
+
+    psplit R0, R5, R5'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s19-8e56.rkt
+  spec: pseudo-BSWAP-R32-s19
+  state: success
+  time: 8877.686007499695
+rosette/synth-target-pseudo-BSWAP-R32-s2-56ac.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000004 64) 6) #(struct:MOVQ-IMM-R64
+    (bv #x0000000000000010 64) 5) #(struct:PCONCAT-R32-R32 6 4 0) #(struct:PMOVQ-R64-R64
+    6 1) #(struct:PSPLIT-R64-R64 6 6 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000038
+    64) 5) #(struct:PSPLIT-R64-R64 6 0 5))
+
+    movq 0x4, R6
+
+    movq 0x10, R5
+
+    pconcat-r32-r32 R6, R4, R0
+
+    movq R6, R1
+
+    psplit R6, R6, R5
+
+    movq 0x38, R5
+
+    psplit R6, R0, R5'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s2-56ac.rkt
+  spec: pseudo-BSWAP-R32-s2
+  state: success
+  time: 87.9141845703125
+rosette/synth-target-pseudo-BSWAP-R32-s2-sr3-sr6-3802.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BSWAP-R32-s3
+  - pseudo-BSWAP-R32-s6
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-pseudo-BSWAP-R32-s2-sr3-sr6-3802.rkt\""
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s2-sr3-sr6-3802.rkt
+  spec: pseudo-BSWAP-R32-s2-sr3-sr6
+  state: timeout
+  time: 21600.136791706085
+rosette/synth-target-pseudo-BSWAP-R32-s25-da8d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0007e00c0000001f 64) 6) #(struct:MOVQ-IMM-R64
+    (bv #x000000400e01010c 64) 2) #(struct:PSPLIT-R64-R64 6 6 2) #(struct:PSPLIT-R64-R64
+    1 2 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000008 64) 6) #(struct:PCONCAT-R32-R32
+    0 6 1) #(struct:PSPLIT-R64-R64 0 6 6))
+
+    movq 0x7e00c0000001f, R6
+
+    movq 0x400e01010c, R2
+
+    psplit R6, R6, R2
+
+    psplit R1, R2, R6
+
+    movq 0x8, R6
+
+    pconcat-r32-r32 R0, R6, R1
+
+    psplit R0, R6, R6'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s25-da8d.rkt
+  spec: pseudo-BSWAP-R32-s25
+  state: success
+  time: 8486.52384018898
+rosette/synth-target-pseudo-BSWAP-R32-s3-1084.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PMOVQ-R64-R64 0 5) #(struct:PSPLIT-R64-R64 1 2 6) #(struct:MOVQ-IMM-R64
+    (bv #x00c0014805419150 64) 4) #(struct:PSPLIT-R64-R64 6 0 4) #(struct:MOVQ-IMM-R64
+    (bv #x0000014000900021 64) 4) #(struct:MOVQ-IMM-R64 (bv #x0000000000000033 64)
+    5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 0))
+
+    movq R0, R5
+
+    psplit R1, R2, R6
+
+    movq 0xc0014805419150, R4
+
+    psplit R6, R0, R4
+
+    movq 0x14000900021, R4
+
+    movq 0x33, R5
+
+    movq 0x0, R0'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s3-1084.rkt
+  spec: pseudo-BSWAP-R32-s3
+  state: success
+  time: 3.94891095161438
+rosette/synth-target-pseudo-BSWAP-R32-s6-f2bb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0010000000000000 64) 2) #(struct:MOVQ-IMM-R64
+    (bv #x0040000000000020 64) 5) #(struct:PCONCAT-R32-R32 1 5 4) #(struct:PMOVQ-R64-R64
+    6 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000038 64) 4) #(struct:PNOP) #(struct:PSPLIT-R64-R64
+    6 0 4))
+
+    movq 0x10000000000000, R2
+
+    movq 0x40000000000020, R5
+
+    pconcat-r32-r32 R1, R5, R4
+
+    movq R6, R1
+
+    movq 0x38, R4
+
+    pnop
+
+    psplit R6, R0, R4'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-s6-f2bb.rkt
+  spec: pseudo-BSWAP-R32-s6
+  state: success
+  time: 318.40090346336365
+rosette/synth-target-pseudo-BSWAP-R32-sr1-sr18-81b1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BSWAP-R32-s1
+  - pseudo-BSWAP-R32-s18
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000004000010020 64) 5) #(struct:MOVQ-IMM-R64
+    (bv #x0000000000100030 64) 6) #(struct:PSPLIT-R64-R64 4 6 5) #(struct:PMOVQ-R64-R64
+    1 1) #(struct:PSPLIT-R64-R64 5 0 6) #(struct:PSPLIT-R64-R64 5 6 6) #(struct:PCONCAT-R32-R32
+    1 0 5))
+
+    movq 0x4000010020, R5
+
+    movq 0x100030, R6
+
+    psplit R4, R6, R5
+
+    movq R1, R1
+
+    psplit R5, R0, R6
+
+    psplit R5, R6, R6
+
+    pconcat-r32-r32 R1, R0, R5'
+  debug: sat! 7
+  max_timeout: 21600
+  name: rosette/synth-target-pseudo-BSWAP-R32-sr1-sr18-81b1.rkt
+  spec: pseudo-BSWAP-R32-sr1-sr18
+  state: success
+  time: 7479.770618200302

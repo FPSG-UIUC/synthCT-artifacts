@@ -1,0 +1,1077 @@
+rosette/synth-target-ANDNQ-R64-R64-R64-d42c.rkt:
+[*] rosette/synth-target-ANDNQ-R64-R64-R64-d42c.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 2) #(struct:PNOT-R64 2) #(struct:PAND-R64-R64 0 2))
+movq R1, R2
+pnot R2
+pand-r64-r64 R0, R2
+rosette/synth-target-ANDQ-R64-R64-61a5.rkt:
+[*] rosette/synth-target-ANDQ-R64-R64-61a5.rkt: Success!
+(#(struct:PAND-R64-R64 0 1))
+pand-r64-r64 R0, R1
+rosette/synth-target-ANDW-R16-R16-0439.rkt:
+[*] rosette/synth-target-ANDW-R16-R16-0439.rkt: Success!
+(#(struct:PAND-R64-R64 1 0) #(struct:XCHGW-R16-R16 1 0))
+pand-r64-r64 R1, R0
+xchgw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-BLSIQ-R64-R64-cea2.rkt:
+[*] rosette/synth-target-BLSIQ-R64-R64-cea2.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 1) #(struct:XORQ-R64-R64 0 1) #(struct:ANDNQ-R64-R64-R64 0 1 1))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R1
+xorq-r64-r64 [R1: 64, R2: 64] R0, R1
+andnq-r64-r64-r64 [R1: 64, R2: 64, R3: 64] R0, R1, R1
+rosette/synth-target-BLSMSKL-R32-R32-4244.rkt:
+[x] rosette/synth-target-BLSMSKL-R32-R32-4244.rkt: Timeout!
+rosette/synth-target-BLSRQ-R64-R64-bb6a.rkt:
+[*] rosette/synth-target-BLSRQ-R64-R64-bb6a.rkt: Success!
+(#(struct:ANDNQ-R64-R64-R64 0 0 1) #(struct:PXOR-R64-R64 0 1))
+andnq-r64-r64-r64 [R1: 64, R2: 64, R3: 64] R0, R0, R1
+pxor-r64-r64 R0, R1
+rosette/synth-target-BSFL-R32-R32-9b0a.rkt:
+[*] rosette/synth-target-BSFL-R32-R32-9b0a.rkt: Success!
+(#(struct:BSRL-R32-R32 6 1))
+bsrl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSFQ-R64-R64-c6cd.rkt:
+[*] rosette/synth-target-BSFQ-R64-R64-c6cd.rkt: Success!
+(#(struct:BSRL-R32-R32 6 1))
+bsrl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-bsfw-R16-R16-40c6.rkt:
+[*] rosette/synth-target-bsfw-R16-R16-40c6.rkt: Success!
+(#(struct:BSFQ-R64-R64 6 1))
+bsfq-r64-r64 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-BSRL-R32-R32-4be9.rkt:
+[*] rosette/synth-target-BSRL-R32-R32-4be9.rkt: Success!
+(#(struct:BSFL-R32-R32 6 1))
+bsfl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSRQ-R64-R64-d4a4.rkt:
+[*] rosette/synth-target-BSRQ-R64-R64-d4a4.rkt: Success!
+(#(struct:BSRW-R16-R16 6 1))
+bsrw-r16-r16 [R1: 16, R2: 16] R6, R1
+rosette/synth-target-BSRW-R16-R16-7e26.rkt:
+[*] rosette/synth-target-BSRW-R16-R16-7e26.rkt: Success!
+(#(struct:BSFL-R32-R32 6 1))
+bsfl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSWAP-R64-b818.rkt:
+[x] rosette/synth-target-BSWAP-R64-b818.rkt: Timeout!
+rosette/synth-target-BTCW-R16-R16-f7c8.rkt:
+[x] rosette/synth-target-BTCW-R16-R16-f7c8.rkt: Timeout!
+rosette/synth-target-BTRL-R32-R32-b4cf.rkt:
+[*] rosette/synth-target-BTRL-R32-R32-b4cf.rkt: Success!
+(#(struct:SARXL-R32-R32-R32 0 1 1) #(struct:SHLXL-R32-R32-R32 0 1 1))
+sarxl-r32-r32-r32 [R1: 32, R2: 32, R3: 32] R0, R1, R1
+shlxl-r32-r32-r32 [R1: 32, R2: 32, R3: 32] R0, R1, R1
+rosette/synth-target-BTRW-R16-R16-7bf3.rkt:
+[x] rosette/synth-target-BTRW-R16-R16-7bf3.rkt: Timeout!
+rosette/synth-target-BTSW-R16-R16-d11d.rkt:
+[x] rosette/synth-target-BTSW-R16-R16-d11d.rkt: Timeout!
+rosette/synth-target-CLTQ-a1e7.rkt:
+[x] rosette/synth-target-CLTQ-a1e7.rkt: Timeout!
+rosette/synth-target-CWTD-c97f.rkt:
+[x] rosette/synth-target-CWTD-c97f.rkt: Timeout!
+rosette/synth-target-CQTO-456b.rkt:
+[*] rosette/synth-target-CQTO-456b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 2) #(struct:IMULQ-R64 2))
+movq 0x1, R2
+imulq-r64 [R1: 64] R2
+rosette/synth-target-CWTL-f04e.rkt:
+[x] rosette/synth-target-CWTL-f04e.rkt: Timeout!
+rosette/synth-target-DECL-R32-ccc4.rkt:
+[*] rosette/synth-target-DECL-R32-ccc4.rkt: Success!
+(#(struct:BLSMSKL-R32-R32 0 1) #(struct:PXOR-R64-R64 1 0) #(struct:XCHGL-EAX-R32 0))
+blsmskl-r32-r32 [R1: 32, R2: 32] R0, R1
+pxor-r64-r64 R1, R0
+xchgl-eax-r32 [R1: 32, %eax: 32] R0
+rosette/synth-target-DIVQ-R64-5479.rkt:
+[x] rosette/synth-target-DIVQ-R64-5479.rkt: Timeout!
+rosette/synth-target-IDIVQ-R64-2884.rkt:
+[x] rosette/synth-target-IDIVQ-R64-2884.rkt: Timeout!
+rosette/synth-target-INCB-R8-5544.rkt:
+[*] rosette/synth-target-INCB-R8-5544.rkt: Success!
+(#(struct:NOTB-R8 0) #(struct:NEGB-R8 0))
+notb-r8 [R1: 8] R0
+negb-r8 [R1: 8] R0
+rosette/synth-target-INCB-RH-81aa.rkt:
+[*] rosette/synth-target-INCB-RH-81aa.rkt: Success!
+(#(struct:NOTB-RH 0) #(struct:NEGB-RH 0))
+notb-rh [R1: 8] R0
+negb-rh [R1: 8] R0
+rosette/synth-target-INCL-R32-af6f.rkt:
+[*] rosette/synth-target-INCL-R32-af6f.rkt: Success!
+(#(struct:PNOT-R64 0) #(struct:NEGL-R32 0))
+pnot R0
+negl-r32 [R1: 32] R0
+rosette/synth-target-INCW-R16-cd84.rkt:
+[*] rosette/synth-target-INCW-R16-cd84.rkt: Success!
+(#(struct:NOTW-R16 0) #(struct:NEGW-R16 0))
+notw-r16 [R1: 16] R0
+negw-r16 [R1: 16] R0
+rosette/synth-target-NEGQ-R64-3208.rkt:
+[*] rosette/synth-target-NEGQ-R64-3208.rkt: Success!
+(#(struct:DECQ-R64 0) #(struct:NOTQ-R64 0))
+decq-r64 [R1: 64] R0
+notq-r64 [R1: 64] R0
+rosette/synth-target-NOTQ-R64-e4d3.rkt:
+[*] rosette/synth-target-NOTQ-R64-e4d3.rkt: Success!
+(#(struct:PNOT-R64 0))
+pnot R0
+rosette/synth-target-ORL-R32-R32-9a2f.rkt:
+[*] rosette/synth-target-ORL-R32-R32-9a2f.rkt: Success!
+(#(struct:POR-R64-R64 0 1) #(struct:XCHGL-R32-R32 1 1))
+por-r64-r64 R0, R1
+xchgl-r32-r32 [R1: 32, R2: 32] R1, R1
+rosette/synth-target-ORW-R16-R16-05d7.rkt:
+[*] rosette/synth-target-ORW-R16-R16-05d7.rkt: Success!
+(#(struct:MOVZWL-R32-R16 0 2) #(struct:POR-R64-R64 2 1))
+movzwl-r32-r16 [R1: 16, R2: 32] R0, R2
+por-r64-r64 R2, R1
+rosette/synth-target-ROLW-R16-ONE-802e.rkt:
+[*] rosette/synth-target-ROLW-R16-ONE-802e.rkt: Success!
+(#(struct:XADDW-R16-R16 1 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 2) #(struct:ORW-R16-R16 2 1))
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R1
+pmov-flag-r64 F(bv #x0000000000000000 64), R2
+orw-r16-r16 [R1: 16, R2: 16] R2, R1
+rosette/synth-target-RORL-R32-ONE-2868.rkt:
+[x] rosette/synth-target-RORL-R32-ONE-2868.rkt: Timeout!
+rosette/synth-target-RORW-R16-ONE-1c97.rkt:
+[x] rosette/synth-target-RORW-R16-ONE-1c97.rkt: Timeout!
+rosette/synth-target-SARXQ-R64-R64-R64-7e41.rkt:
+[x] rosette/synth-target-SARXQ-R64-R64-R64-7e41.rkt: Timeout!
+rosette/synth-target-SETAE-RH-2f78.rkt:
+[*] rosette/synth-target-SETAE-RH-2f78.rkt: Success!
+(#(struct:SETNC-RH 0))
+setnc-rh [R1: 8] R0
+rosette/synth-target-SETNL-R8-4813.rkt:
+[*] rosette/synth-target-SETNL-R8-4813.rkt: Success!
+(#(struct:SETGE-R8 0))
+setge-r8 [R1: 8] R0
+rosette/synth-target-SHLXQ-R64-R64-R64-9e61.rkt:
+[*] rosette/synth-target-SHLXQ-R64-R64-R64-9e61.rkt: Success!
+(#(struct:XORQ-R64-R64 2 2) #(struct:PCONCAT-R32-R32 1 2 0))
+xorq-r64-r64 [R1: 64, R2: 64] R2, R2
+pconcat-r32-r32 R1, R2, R0
+rosette/synth-target-XORW-R16-R16-5e25.rkt:
+[*] rosette/synth-target-XORW-R16-R16-5e25.rkt: Success!
+(#(struct:MOVZWL-R32-R16 0 6) #(struct:PXOR-R64-R64 6 1))
+movzwl-r32-r16 [R1: 16, R2: 32] R0, R6
+pxor-r64-r64 R6, R1
+rosette/synth-target-BSFQ-R64-R64-a88e.rkt:
+[*] rosette/synth-target-BSFQ-R64-R64-a88e.rkt: Success!
+(#(struct:BSFL-R32-R32 6 1))
+bsfl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSFL-R32-R32-6853.rkt:
+[x] rosette/synth-target-BSFL-R32-R32-6853.rkt: Unsat!
+unsat! 4
+rosette/synth-target-bsfw-R16-R16-67cc.rkt:
+[*] rosette/synth-target-bsfw-R16-R16-67cc.rkt: Success!
+(#(struct:BSFL-R32-R32 6 1))
+bsfl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSRW-R16-R16-d02a.rkt:
+[*] rosette/synth-target-BSRW-R16-R16-d02a.rkt: Success!
+(#(struct:BSRL-R32-R32 6 1))
+bsrl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSRQ-R64-R64-f8d0.rkt:
+[x] rosette/synth-target-BSRQ-R64-R64-f8d0.rkt: Unsat!
+unsat! 4
+rosette/synth-target-BSRL-R32-R32-e39a.rkt:
+[x] rosette/synth-target-BSRL-R32-R32-e39a.rkt: Unsat!
+unsat! 4
+rosette/synth-target-SETAE-RH-65cc.rkt:
+[*] rosette/synth-target-SETAE-RH-65cc.rkt: Success!
+(#(struct:SETNB-RH 0))
+setnb-rh [R1: 8] R0
+rosette/synth-target-SETNL-R8-aa6b.rkt:
+[*] rosette/synth-target-SETNL-R8-aa6b.rkt: Success!
+(#(struct:PRESET-FLAG (bv #x0000000000000003 64)) #(struct:SETG-R8 0))
+preset-flag F(bv #x0000000000000003 64)
+setg-r8 [R1: 8] R0
+rosette/synth-target-SETAE-RH-6598.rkt:
+[*] rosette/synth-target-SETAE-RH-6598.rkt: Success!
+(#(struct:PRESET-FLAG (bv #x0000000000000003 64)) #(struct:SETNBE-RH 0))
+preset-flag F(bv #x0000000000000003 64)
+setnbe-rh [R1: 8] R0
+rosette/synth-target-bsfw-R16-R16-d448.rkt:
+[*] rosette/synth-target-bsfw-R16-R16-d448.rkt: Success!
+(#(struct:BSRL-R32-R32 6 1))
+bsrl-r32-r32 [R1: 32, R2: 32] R6, R1
+rosette/synth-target-BSFQ-R64-R64-9854.rkt:
+[x] rosette/synth-target-BSFQ-R64-R64-9854.rkt: Unsat!
+unsat! 4
+rosette/synth-target-BSRW-R16-R16-6f3f.rkt:
+[*] rosette/synth-target-BSRW-R16-R16-6f3f.rkt: Success!
+(#(struct:BSRQ-R64-R64 6 1))
+bsrq-r64-r64 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-bsfw-R16-R16-a728.rkt:
+[*] rosette/synth-target-bsfw-R16-R16-a728.rkt: Success!
+(#(struct:BSRQ-R64-R64 6 1))
+bsrq-r64-r64 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-BSRW-R16-R16-7ea7.rkt:
+[x] rosette/synth-target-BSRW-R16-R16-7ea7.rkt: Unsat!
+unsat! 4
+rosette/synth-target-bsfw-R16-R16-ad15.rkt:
+[x] rosette/synth-target-bsfw-R16-R16-ad15.rkt: Unsat!
+unsat! 4
+rosette/synth-target-SETNL-R8-5c6d.rkt:
+[*] rosette/synth-target-SETNL-R8-5c6d.rkt: Success!
+(#(struct:PRESET-FLAG (bv #x0000000000000003 64)) #(struct:SETNLE-R8 0))
+preset-flag F(bv #x0000000000000003 64)
+setnle-r8 [R1: 8] R0
+rosette/synth-target-NEGQ-R64-92aa.rkt:
+[*] rosette/synth-target-NEGQ-R64-92aa.rkt: Success!
+(#(struct:NOTQ-R64 0) #(struct:INCQ-R64 0))
+notq-r64 [R1: 64] R0
+incq-r64 [R1: 64] R0
+rosette/synth-target-NEGQ-R64-b51e.rkt:
+[*] rosette/synth-target-NEGQ-R64-b51e.rkt: Success!
+(#(struct:PNOT-R64 0) #(struct:INCQ-R64 0))
+pnot R0
+incq-r64 [R1: 64] R0
+rosette/synth-target-INCB-RH-9349.rkt:
+[*] rosette/synth-target-INCB-RH-9349.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000004080408001 64) 6) #(struct:XADDB-RH-R8 6 0))
+movq 0x4080408001, R6
+xaddb-rh-r8 [R1: 8, R2: 8] R6, R0
+rosette/synth-target-INCB-R8-5f7d.rkt:
+[*] rosette/synth-target-INCB-R8-5f7d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x392f9360c4248101 64) 5) #(struct:XADDB-R8-R8 5 0))
+movq 0x392f9360c4248101, R5
+xaddb-r8-r8 [R1: 8, R2: 8] R5, R0
+rosette/synth-target-INCB-RH-7ebd.rkt:
+[*] rosette/synth-target-INCB-RH-7ebd.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0d06081140c40201 64) 5) #(struct:XADDB-RH-R8 5 0))
+movq 0xd06081140c40201, R5
+xaddb-rh-r8 [R1: 8, R2: 8] R5, R0
+rosette/synth-target-SETAE-RH-b2ae.rkt:
+[*] rosette/synth-target-SETAE-RH-b2ae.rkt: Success!
+(#(struct:PRESET-FLAG (bv #x0000000000000003 64)) #(struct:SETA-RH 0))
+preset-flag F(bv #x0000000000000003 64)
+seta-rh [R1: 8] R0
+rosette/synth-target-INCW-R16-f333.rkt:
+[*] rosette/synth-target-INCW-R16-f333.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xddfffd582fc10001 64) 5) #(struct:XADDW-R16-R16 5 0))
+movq 0xddfffd582fc10001, R5
+xaddw-r16-r16 [R1: 16, R2: 16] R5, R0
+rosette/synth-target-SETNL-R8-a52a.rkt:
+[*] rosette/synth-target-SETNL-R8-a52a.rkt: Success!
+(#(struct:SETNGE-R8 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 2) #(struct:PXOR-R64-R64 2 0))
+setnge-r8 [R1: 8] R0
+movq 0x1, R2
+pxor-r64-r64 R2, R0
+rosette/synth-target-INCB-R8-0712.rkt:
+[*] rosette/synth-target-INCB-R8-0712.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000101 64) 5) #(struct:XADDB-R8-RH 5 0))
+movq 0x101, R5
+xaddb-r8-rh [R1: 8, R2: 8] R5, R0
+rosette/synth-target-INCB-RH-0063.rkt:
+[*] rosette/synth-target-INCB-RH-0063.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000100 64) 5) #(struct:XADDB-RH-RH 5 0))
+movq 0x100, R5
+xaddb-rh-rh [R1: 8, R2: 8] R5, R0
+rosette/synth-target-XORW-R16-R16-7574.rkt:
+[*] rosette/synth-target-XORW-R16-R16-7574.rkt: Success!
+(#(struct:PXOR-R64-R64 1 0) #(struct:XCHGW-R16-R16 1 0))
+pxor-r64-r64 R1, R0
+xchgw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-NEGQ-R64-3975.rkt:
+[*] rosette/synth-target-NEGQ-R64-3975.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 6) #(struct:PXOR-R64-R64 6 0) #(struct:PNOT-R64 0))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R6
+pxor-r64-r64 R6, R0
+pnot R0
+rosette/synth-target-INCB-RH-45f1.rkt:
+[*] rosette/synth-target-INCB-RH-45f1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xd08c2898113301ce 64) 2) #(struct:XADDB-RH-RH 2 0))
+movq 0xd08c2898113301ce, R2
+xaddb-rh-rh [R1: 8, R2: 8] R2, R0
+rosette/synth-target-SETAE-RH-8f98.rkt:
+[*] rosette/synth-target-SETAE-RH-8f98.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 5) #(struct:PMOV-R64-FLAG 5 (bv #x0000000000000004 64)) #(struct:SETNS-RH 0))
+pmov-flag-r64 F(bv #x0000000000000000 64), R5
+pmov-r64-flag R5, F(bv #x0000000000000004 64)
+setns-rh [R1: 8] R0
+rosette/synth-target-INCW-R16-a5c6.rkt:
+[*] rosette/synth-target-INCW-R16-a5c6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000001 64) 1) #(struct:XADDW-R16-R16 1 0))
+movq 0x10000001, R1
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-INCB-R8-3438.rkt:
+[*] rosette/synth-target-INCB-R8-3438.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xe018005803050104 64) 6) #(struct:XADDB-R8-RH 6 0))
+movq 0xe018005803050104, R6
+xaddb-r8-rh [R1: 8, R2: 8] R6, R0
+rosette/synth-target-NEGQ-R64-668e.rkt:
+[*] rosette/synth-target-NEGQ-R64-668e.rkt: Success!
+(#(struct:DECQ-R64 0) #(struct:PNOT-R64 0))
+decq-r64 [R1: 64] R0
+pnot R0
+rosette/synth-target-NEGQ-R64-ccf9.rkt:
+[*] rosette/synth-target-NEGQ-R64-ccf9.rkt: Success!
+(#(struct:PNOT-R64 0) #(struct:INCQ-R64 0))
+pnot R0
+incq-r64 [R1: 64] R0
+rosette/synth-target-INCW-R16-79e0.rkt:
+[*] rosette/synth-target-INCW-R16-79e0.rkt: Success!
+(#(struct:NEGW-R16 0) #(struct:DECW-R16 0) #(struct:NEGW-R16 0))
+negw-r16 [R1: 16] R0
+decw-r16 [R1: 16] R0
+negw-r16 [R1: 16] R0
+rosette/synth-target-INCB-RH-f296.rkt:
+[*] rosette/synth-target-INCB-RH-f296.rkt: Success!
+(#(struct:XCHGB-RH-R8 2 0) #(struct:INCB-R8 2) #(struct:XCHGB-RH-R8 2 0))
+xchgb-rh-r8 [R1: 8, R2: 8] R2, R0
+incb-r8 [R1: 8] R2
+xchgb-rh-r8 [R1: 8, R2: 8] R2, R0
+rosette/synth-target-XORW-R16-R16-a897.rkt:
+[*] rosette/synth-target-XORW-R16-R16-a897.rkt: Success!
+(#(struct:PXOR-R64-R64 1 0) #(struct:MOVW-R16-R16 0 1))
+pxor-r64-r64 R1, R0
+movw-r16-r16 [R1: 16, R2: 16] R0, R1
+rosette/synth-target-INCB-RH-ee43.rkt:
+[*] rosette/synth-target-INCB-RH-ee43.rkt: Success!
+(#(struct:XCHGB-RH-R8 6 0) #(struct:INCB-R8 6) #(struct:XCHGB-R8-RH 0 6))
+xchgb-rh-r8 [R1: 8, R2: 8] R6, R0
+incb-r8 [R1: 8] R6
+xchgb-r8-rh [R1: 8, R2: 8] R0, R6
+rosette/synth-target-INCW-R16-80ed.rkt:
+[*] rosette/synth-target-INCW-R16-80ed.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000002ffff 64) 2) #(struct:XORW-R16-R16 2 0) #(struct:NOTW-R16 0))
+movq 0x2ffff, R2
+xorw-r16-r16 [R1: 16, R2: 16] R2, R0
+notw-r16 [R1: 16] R0
+rosette/synth-target-ANDW-R16-R16-cbea.rkt:
+[*] rosette/synth-target-ANDW-R16-R16-cbea.rkt: Success!
+(#(struct:PAND-R64-R64 1 0) #(struct:CMPXCHGW-R16-R16 0 1))
+pand-r64-r64 R1, R0
+cmpxchgw-r16-r16 [R1: 16, R2: 16] R0, R1
+rosette/synth-target-NEGQ-R64-45ac.rkt:
+[*] rosette/synth-target-NEGQ-R64-45ac.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 6) #(struct:XORQ-R64-R64 6 0) #(struct:PNOT-R64 0))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R6
+xorq-r64-r64 [R1: 64, R2: 64] R6, R0
+pnot R0
+rosette/synth-target-INCB-R8-6e66.rkt:
+[*] rosette/synth-target-INCB-R8-6e66.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x709875c86b5f1001 64) 6) #(struct:XADDB-R8-R8 6 0))
+movq 0x709875c86b5f1001, R6
+xaddb-r8-r8 [R1: 8, R2: 8] R6, R0
+rosette/synth-target-NEGQ-R64-2072.rkt:
+[*] rosette/synth-target-NEGQ-R64-2072.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 6) #(struct:XORQ-R64-R64 6 0) #(struct:PNOT-R64 0))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R6
+xorq-r64-r64 [R1: 64, R2: 64] R6, R0
+pnot R0
+rosette/synth-target-INCB-R8-9ec8.rkt:
+[*] rosette/synth-target-INCB-R8-9ec8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0770410d66b3ff82 64) 1) #(struct:XORB-R8-RH 1 0) #(struct:NOTB-R8 0))
+movq 0x770410d66b3ff82, R1
+xorb-r8-rh [R1: 8, R2: 8] R1, R0
+notb-r8 [R1: 8] R0
+rosette/synth-target-INCL-R32-cbcb.rkt:
+[x] rosette/synth-target-INCL-R32-cbcb.rkt: Timeout!
+rosette/synth-target-BLSRQ-R64-R64-dafe.rkt:
+[*] rosette/synth-target-BLSRQ-R64-R64-dafe.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 1) #(struct:PAND-R64-R64 0 1) #(struct:PXOR-R64-R64 0 1))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R1
+pand-r64-r64 R0, R1
+pxor-r64-r64 R0, R1
+rosette/synth-target-ORW-R16-R16-89e1.rkt:
+[*] rosette/synth-target-ORW-R16-R16-89e1.rkt: Success!
+(#(struct:POR-R64-R64 1 0) #(struct:XADDW-R16-R16 1 0))
+por-r64-r64 R1, R0
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-INCB-R8-2bc3.rkt:
+[*] rosette/synth-target-INCB-R8-2bc3.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000800154 64) 6) #(struct:XADDB-RH-R8 0 6) #(struct:XADDB-RH-R8 0 6))
+movq 0x800154, R6
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R6
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R6
+rosette/synth-target-ANDW-R16-R16-9b4f.rkt:
+[*] rosette/synth-target-ANDW-R16-R16-9b4f.rkt: Success!
+(#(struct:PAND-R64-R64 1 0) #(struct:XADDW-R16-R16 1 0))
+pand-r64-r64 R1, R0
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-XORW-R16-R16-8474.rkt:
+[*] rosette/synth-target-XORW-R16-R16-8474.rkt: Success!
+(#(struct:PXOR-R64-R64 1 0) #(struct:CMPXCHGW-R16-R16 0 1))
+pxor-r64-r64 R1, R0
+cmpxchgw-r16-r16 [R1: 16, R2: 16] R0, R1
+rosette/synth-target-CQTO-dea7.rkt:
+[x] rosette/synth-target-CQTO-dea7.rkt: Timeout!
+rosette/synth-target-SHLXQ-R64-R64-R64-23f0.rkt:
+[*] rosette/synth-target-SHLXQ-R64-R64-R64-23f0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:PCONCAT-R32-R32 1 2 0))
+movq 0x0, R2
+pconcat-r32-r32 R1, R2, R0
+rosette/synth-target-ANDW-R16-R16-dccf.rkt:
+[*] rosette/synth-target-ANDW-R16-R16-dccf.rkt: Success!
+(#(struct:PAND-R64-R64 1 0) #(struct:MOVW-R16-R16 0 1))
+pand-r64-r64 R1, R0
+movw-r16-r16 [R1: 16, R2: 16] R0, R1
+rosette/synth-target-ORW-R16-R16-ca11.rkt:
+[*] rosette/synth-target-ORW-R16-R16-ca11.rkt: Success!
+(#(struct:POR-R64-R64 1 0) #(struct:XCHGW-R16-R16 1 0))
+por-r64-r64 R1, R0
+xchgw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-XORW-R16-R16-e0ee.rkt:
+[*] rosette/synth-target-XORW-R16-R16-e0ee.rkt: Success!
+(#(struct:PXOR-R64-R64 1 0) #(struct:XADDW-R16-R16 1 0))
+pxor-r64-r64 R1, R0
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R0
+rosette/synth-target-BTRL-R32-R32-3876.rkt:
+[*] rosette/synth-target-BTRL-R32-R32-3876.rkt: Success!
+(#(struct:SHRXL-R32-R32-R32 0 1 1) #(struct:SHLXL-R32-R32-R32 0 1 1))
+shrxl-r32-r32-r32 [R1: 32, R2: 32, R3: 32] R0, R1, R1
+shlxl-r32-r32-r32 [R1: 32, R2: 32, R3: 32] R0, R1, R1
+rosette/synth-target-ANDW-R16-R16-077e.rkt:
+[*] rosette/synth-target-ANDW-R16-R16-077e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xffffffffffff0000 64) 6) #(struct:PCONCAT-R32-R32 6 0 6) #(struct:PAND-R64-R64 0 1))
+movq 0xffffffffffff0000, R6
+pconcat-r32-r32 R6, R0, R6
+pand-r64-r64 R0, R1
+rosette/synth-target-XORW-R16-R16-a551.rkt:
+[*] rosette/synth-target-XORW-R16-R16-a551.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000080030 64) 6) #(struct:PSPLIT-R64-R64 6 0 6) #(struct:PXOR-R64-R64 0 1))
+movq 0x80030, R6
+psplit R6, R0, R6
+pxor-r64-r64 R0, R1
+rosette/synth-target-ORW-R16-R16-c162.rkt:
+[*] rosette/synth-target-ORW-R16-R16-c162.rkt: Success!
+(#(struct:POR-R64-R64 1 0) #(struct:MOVW-R16-R16 0 1))
+por-r64-r64 R1, R0
+movw-r16-r16 [R1: 16, R2: 16] R0, R1
+rosette/synth-target-ORW-R16-R16-a94a.rkt:
+[*] rosette/synth-target-ORW-R16-R16-a94a.rkt: Success!
+(#(struct:POR-R64-R64 1 0) #(struct:CMPXCHGW-R16-R16 0 1))
+por-r64-r64 R1, R0
+cmpxchgw-r16-r16 [R1: 16, R2: 16] R0, R1
+rosette/synth-target-ORW-R16-R16-f674.rkt:
+[x] rosette/synth-target-ORW-R16-R16-f674.rkt: Timeout!
+rosette/synth-target-SETAE-RH-7b49.rkt:
+[*] rosette/synth-target-SETAE-RH-7b49.rkt: Success!
+(#(struct:SETB-RH 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000100 64) 5) #(struct:PXOR-R64-R64 5 0))
+setb-rh [R1: 8] R0
+movq 0x100, R5
+pxor-r64-r64 R5, R0
+rosette/synth-target-ORL-R32-R32-c469.rkt:
+[*] rosette/synth-target-ORL-R32-R32-c469.rkt: Success!
+(#(struct:POR-R64-R64 0 1) #(struct:ANDL-R32-R32 1 1))
+por-r64-r64 R0, R1
+andl-r32-r32 [R1: 32, R2: 32] R1, R1
+rosette/synth-target-SETAE-RH-3ba7.rkt:
+[*] rosette/synth-target-SETAE-RH-3ba7.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 6) #(struct:PMOV-R64-FLAG 6 (bv #x0000000000000001 64)) #(struct:SETNP-RH 0))
+pmov-flag-r64 F(bv #x0000000000000000 64), R6
+pmov-r64-flag R6, F(bv #x0000000000000001 64)
+setnp-rh [R1: 8] R0
+rosette/synth-target-BTRL-R32-R32-886a.rkt:
+[x] rosette/synth-target-BTRL-R32-R32-886a.rkt: Timeout!
+rosette/synth-target-ORL-R32-R32-65e3.rkt:
+[*] rosette/synth-target-ORL-R32-R32-65e3.rkt: Success!
+(#(struct:POR-R64-R64 0 1) #(struct:MOVL-R32-R32 1 1))
+por-r64-r64 R0, R1
+movl-r32-r32 [R1: 32, R2: 32] R1, R1
+rosette/synth-target-SETAE-RH-642d.rkt:
+[*] rosette/synth-target-SETAE-RH-642d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000100 64) 5) #(struct:SETC-RH 0) #(struct:PXOR-R64-R64 5 0))
+movq 0x100, R5
+setc-rh [R1: 8] R0
+pxor-r64-r64 R5, R0
+rosette/synth-target-BTRL-R32-R32-ce08.rkt:
+[x] rosette/synth-target-BTRL-R32-R32-ce08.rkt: Timeout!
+rosette/synth-target-SETAE-RH-b318.rkt:
+[*] rosette/synth-target-SETAE-RH-b318.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000100 64) 2) #(struct:SETNAE-RH 0) #(struct:PXOR-R64-R64 2 0))
+movq 0x100, R2
+setnae-rh [R1: 8] R0
+pxor-r64-r64 R2, R0
+rosette/synth-target-SETAE-RH-3ca8.rkt:
+[*] rosette/synth-target-SETAE-RH-3ca8.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 2) #(struct:PMOV-R64-FLAG 2 (bv #x0000000000000001 64)) #(struct:SETPO-RH 0))
+pmov-flag-r64 F(bv #x0000000000000000 64), R2
+pmov-r64-flag R2, F(bv #x0000000000000001 64)
+setpo-rh [R1: 8] R0
+rosette/synth-target-ORL-R32-R32-c48f.rkt:
+[*] rosette/synth-target-ORL-R32-R32-c48f.rkt: Success!
+(#(struct:POR-R64-R64 1 0) #(struct:CMPXCHGL-R32-R32 0 1))
+por-r64-r64 R1, R0
+cmpxchgl-r32-r32 [R1: 32, R2: 32] R0, R1
+rosette/synth-target-BLSIQ-R64-R64-e2c9.rkt:
+[*] rosette/synth-target-BLSIQ-R64-R64-e2c9.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000002 64) 6) #(struct:ANDNQ-R64-R64-R64 0 6 6) #(struct:ANDNQ-R64-R64-R64 0 6 1))
+movq 0x2, R6
+andnq-r64-r64-r64 [R1: 64, R2: 64, R3: 64] R0, R6, R6
+andnq-r64-r64-r64 [R1: 64, R2: 64, R3: 64] R0, R6, R1
+rosette/synth-target-INCW-R16-f956.rkt:
+[*] rosette/synth-target-INCW-R16-f956.rkt: Success!
+(#(struct:NOTW-R16 0) #(struct:DECW-R16 0) #(struct:NOTW-R16 0))
+notw-r16 [R1: 16] R0
+decw-r16 [R1: 16] R0
+notw-r16 [R1: 16] R0
+rosette/synth-target-SETNL-R8-69fb.rkt:
+[*] rosette/synth-target-SETNL-R8-69fb.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000004 64) 1) #(struct:SETNO-R8 0) #(struct:PXOR-R64-R64 1 0))
+pmov-flag-r64 F(bv #x0000000000000004 64), R1
+setno-r8 [R1: 8] R0
+pxor-r64-r64 R1, R0
+rosette/synth-target-INCB-R8-edcc.rkt:
+[*] rosette/synth-target-INCB-R8-edcc.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000104 64) 2) #(struct:XADDB-RH-R8 0 2) #(struct:XADDB-RH-R8 0 2))
+movq 0x104, R2
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R2
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R2
+rosette/synth-target-SETAE-RH-023d.rkt:
+[*] rosette/synth-target-SETAE-RH-023d.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 1) #(struct:PMOV-R64-FLAG 1 (bv #x0000000000000006 64)) #(struct:SETNO-RH 0))
+pmov-flag-r64 F(bv #x0000000000000000 64), R1
+pmov-r64-flag R1, F(bv #x0000000000000006 64)
+setno-rh [R1: 8] R0
+rosette/synth-target-ORL-R32-R32-f143.rkt:
+[*] rosette/synth-target-ORL-R32-R32-f143.rkt: Success!
+(#(struct:POR-R64-R64 0 1) #(struct:XCHGL-R32-EAX 1))
+por-r64-r64 R0, R1
+xchgl-r32-eax [%eax: 32, R2: 32] R1
+rosette/synth-target-INCB-R8-5118.rkt:
+[*] rosette/synth-target-INCB-R8-5118.rkt: Success!
+(#(struct:NEGB-R8 0) #(struct:DECB-R8 0) #(struct:NEGB-R8 0))
+negb-r8 [R1: 8] R0
+decb-r8 [R1: 8] R0
+negb-r8 [R1: 8] R0
+rosette/synth-target-INCB-RH-d23a.rkt:
+[*] rosette/synth-target-INCB-RH-d23a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000100000014001 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XCHGB-R8-RH 0 5))
+movq 0x100000014001, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xchgb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-DECL-R32-bd74.rkt:
+[*] rosette/synth-target-DECL-R32-bd74.rkt: Success!
+(#(struct:BLSMSKL-R32-R32 0 1) #(struct:MOVL-R32-R32 0 0) #(struct:PXOR-R64-R64 1 0))
+blsmskl-r32-r32 [R1: 32, R2: 32] R0, R1
+movl-r32-r32 [R1: 32, R2: 32] R0, R0
+pxor-r64-r64 R1, R0
+rosette/synth-target-INCB-RH-e2ef.rkt:
+[*] rosette/synth-target-INCB-RH-e2ef.rkt: Success!
+(#(struct:XCHGB-R8-RH 0 5) #(struct:INCB-R8 5) #(struct:XADDB-R8-RH 0 5))
+xchgb-r8-rh [R1: 8, R2: 8] R0, R5
+incb-r8 [R1: 8] R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-NEGQ-R64-6177.rkt:
+[*] rosette/synth-target-NEGQ-R64-6177.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 5) #(struct:PXOR-R64-R64 5 0) #(struct:PNOT-R64 0))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R5
+pxor-r64-r64 R5, R0
+pnot R0
+rosette/synth-target-INCB-RH-b044.rkt:
+[*] rosette/synth-target-INCB-RH-b044.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xef5b37fffff7e001 64) 2) #(struct:XADDB-R8-RH 0 2) #(struct:XCHGB-R8-RH 0 2))
+movq 0xef5b37fffff7e001, R2
+xaddb-r8-rh [R1: 8, R2: 8] R0, R2
+xchgb-r8-rh [R1: 8, R2: 8] R0, R2
+rosette/synth-target-INCB-RH-0eb1.rkt:
+[*] rosette/synth-target-INCB-RH-0eb1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ff00 64) 1) #(struct:PXOR-R64-R64 1 0) #(struct:NOTB-RH 0))
+movq 0xff00, R1
+pxor-r64-r64 R1, R0
+notb-rh [R1: 8] R0
+rosette/synth-target-NEGQ-R64-10dc.rkt:
+[*] rosette/synth-target-NEGQ-R64-10dc.rkt: Success!
+(#(struct:BLSMSKQ-R64-R64 0 5) #(struct:PXOR-R64-R64 5 0) #(struct:PNOT-R64 0))
+blsmskq-r64-r64 [R1: 64, R2: 64] R0, R5
+pxor-r64-r64 R5, R0
+pnot R0
+rosette/synth-target-SETAE-RH-0a11.rkt:
+[*] rosette/synth-target-SETAE-RH-0a11.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 1) #(struct:PMOV-R64-FLAG 1 (bv #x0000000000000003 64)) #(struct:SETNZ-RH 0))
+pmov-flag-r64 F(bv #x0000000000000000 64), R1
+pmov-r64-flag R1, F(bv #x0000000000000003 64)
+setnz-rh [R1: 8] R0
+rosette/synth-target-INCB-RH-6752.rkt:
+[*] rosette/synth-target-INCB-RH-6752.rkt: Success!
+(#(struct:XCHGB-R8-RH 0 6) #(struct:INCB-R8 6) #(struct:XCHGB-R8-RH 0 6))
+xchgb-r8-rh [R1: 8, R2: 8] R0, R6
+incb-r8 [R1: 8] R6
+xchgb-r8-rh [R1: 8, R2: 8] R0, R6
+rosette/synth-target-SETNL-R8-1d7a.rkt:
+[*] rosette/synth-target-SETNL-R8-1d7a.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 6) #(struct:SETNS-R8 0) #(struct:PXOR-R64-R64 6 0))
+pmov-flag-r64 F(bv #x0000000000000006 64), R6
+setns-r8 [R1: 8] R0
+pxor-r64-r64 R6, R0
+rosette/synth-target-INCB-RH-7dd1.rkt:
+[*] rosette/synth-target-INCB-RH-7dd1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ff00 64) 1) #(struct:PXOR-R64-R64 1 0) #(struct:NOTB-RH 0))
+movq 0xff00, R1
+pxor-r64-r64 R1, R0
+notb-rh [R1: 8] R0
+rosette/synth-target-INCB-R8-f8cb.rkt:
+[*] rosette/synth-target-INCB-R8-f8cb.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x16c2443714882fff 64) 2) #(struct:XORB-R8-R8 2 0) #(struct:NOTB-R8 0))
+movq 0x16c2443714882fff, R2
+xorb-r8-r8 [R1: 8, R2: 8] R2, R0
+notb-r8 [R1: 8] R0
+rosette/synth-target-SETNL-R8-ee4d.rkt:
+[*] rosette/synth-target-SETNL-R8-ee4d.rkt: Success!
+(#(struct:SETL-R8 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 1) #(struct:PXOR-R64-R64 1 0))
+setl-r8 [R1: 8] R0
+movq 0x1, R1
+pxor-r64-r64 R1, R0
+rosette/synth-target-ORL-R32-R32-df21.rkt:
+[*] rosette/synth-target-ORL-R32-R32-df21.rkt: Success!
+(#(struct:POR-R64-R64 1 0) #(struct:XADDL-R32-R32 1 0))
+por-r64-r64 R1, R0
+xaddl-r32-r32 [R1: 32, R2: 32] R1, R0
+rosette/synth-target-BLSIQ-R64-R64-bf85.rkt:
+[*] rosette/synth-target-BLSIQ-R64-R64-bf85.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000002 64) 1) #(struct:ANDNQ-R64-R64-R64 0 1 5) #(struct:ANDNQ-R64-R64-R64 0 5 1))
+movq 0x2, R1
+andnq-r64-r64-r64 [R1: 64, R2: 64, R3: 64] R0, R1, R5
+andnq-r64-r64-r64 [R1: 64, R2: 64, R3: 64] R0, R5, R1
+rosette/synth-target-INCB-R8-0378.rkt:
+[*] rosette/synth-target-INCB-R8-0378.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000108 64) 2) #(struct:XADDB-RH-R8 0 2) #(struct:XADDB-RH-R8 0 2))
+movq 0x108, R2
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R2
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R2
+rosette/synth-target-INCB-RH-9036.rkt:
+[*] rosette/synth-target-INCB-RH-9036.rkt: Success!
+(#(struct:NEGB-RH 0) #(struct:DECB-RH 0) #(struct:NEGB-RH 0))
+negb-rh [R1: 8] R0
+decb-rh [R1: 8] R0
+negb-rh [R1: 8] R0
+rosette/synth-target-DECL-R32-234d.rkt:
+[*] rosette/synth-target-DECL-R32-234d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 5) #(struct:NOTL-R32 0) #(struct:PXOR-R64-R64 5 0))
+movq 0xffffffff, R5
+notl-r32 [R1: 32] R0
+pxor-r64-r64 R5, R0
+rosette/synth-target-INCW-R16-ce64.rkt:
+[*] rosette/synth-target-INCW-R16-ce64.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ffff 64) 6) #(struct:PXOR-R64-R64 6 0) #(struct:NOTW-R16 0))
+movq 0xffff, R6
+pxor-r64-r64 R6, R0
+notw-r16 [R1: 16] R0
+rosette/synth-target-INCB-R8-f467.rkt:
+[*] rosette/synth-target-INCB-R8-f467.rkt: Success!
+(#(struct:XCHGB-RH-R8 0 5) #(struct:INCB-RH 5) #(struct:XCHGB-RH-R8 0 5))
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R5
+incb-rh [R1: 8] R5
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R5
+rosette/synth-target-ORL-R32-R32-5aec.rkt:
+[*] rosette/synth-target-ORL-R32-R32-5aec.rkt: Success!
+(#(struct:POR-R64-R64 0 1) #(struct:XCHGL-EAX-R32 1))
+por-r64-r64 R0, R1
+xchgl-eax-r32 [R1: 32, %eax: 32] R1
+rosette/synth-target-INCB-RH-60b1.rkt:
+[*] rosette/synth-target-INCB-RH-60b1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000041001 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XADDB-R8-RH 0 5))
+movq 0x41001, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-R8-9696.rkt:
+[*] rosette/synth-target-INCB-R8-9696.rkt: Success!
+(#(struct:XCHGB-RH-R8 0 5) #(struct:INCB-RH 5) #(struct:XCHGB-RH-R8 0 5))
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R5
+incb-rh [R1: 8] R5
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-RH-6c10.rkt:
+[*] rosette/synth-target-INCB-RH-6c10.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000600000008001 64) 2) #(struct:XADDB-R8-RH 0 2) #(struct:XCHGB-R8-RH 0 2))
+movq 0x600000008001, R2
+xaddb-r8-rh [R1: 8, R2: 8] R0, R2
+xchgb-r8-rh [R1: 8, R2: 8] R0, R2
+rosette/synth-target-SETAE-RH-1ad1.rkt:
+[*] rosette/synth-target-SETAE-RH-1ad1.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 1) #(struct:PMOV-R64-FLAG 1 (bv #x0000000000000003 64)) #(struct:SETNE-RH 0))
+pmov-flag-r64 F(bv #x0000000000000000 64), R1
+pmov-r64-flag R1, F(bv #x0000000000000003 64)
+setne-rh [R1: 8] R0
+rosette/synth-target-DECL-R32-0cf9.rkt:
+[*] rosette/synth-target-DECL-R32-0cf9.rkt: Success!
+(#(struct:BLSMSKL-R32-R32 0 6) #(struct:CMPXCHGL-R32-R32 0 0) #(struct:PXOR-R64-R64 6 0))
+blsmskl-r32-r32 [R1: 32, R2: 32] R0, R6
+cmpxchgl-r32-r32 [R1: 32, R2: 32] R0, R0
+pxor-r64-r64 R6, R0
+rosette/synth-target-INCB-R8-c096.rkt:
+[*] rosette/synth-target-INCB-R8-c096.rkt: Success!
+(#(struct:XCHGB-RH-R8 0 1) #(struct:INCB-RH 1) #(struct:XCHGB-RH-R8 0 1))
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R1
+incb-rh [R1: 8] R1
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R1
+rosette/synth-target-INCB-RH-2762.rkt:
+[*] rosette/synth-target-INCB-RH-2762.rkt: Success!
+(#(struct:XCHGB-RH-R8 5 0) #(struct:INCB-R8 5) #(struct:XADDB-R8-RH 0 5))
+xchgb-rh-r8 [R1: 8, R2: 8] R5, R0
+incb-r8 [R1: 8] R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-R8-a819.rkt:
+[*] rosette/synth-target-INCB-R8-a819.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000000ff 64) 6) #(struct:PXOR-R64-R64 6 0) #(struct:NOTB-R8 0))
+movq 0xff, R6
+pxor-r64-r64 R6, R0
+notb-r8 [R1: 8] R0
+rosette/synth-target-INCB-RH-5d42.rkt:
+[*] rosette/synth-target-INCB-RH-5d42.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0101402000001001 64) 1) #(struct:XADDB-R8-RH 0 1) #(struct:XADDB-R8-RH 0 1))
+movq 0x101402000001001, R1
+xaddb-r8-rh [R1: 8, R2: 8] R0, R1
+xaddb-r8-rh [R1: 8, R2: 8] R0, R1
+rosette/synth-target-INCB-RH-4172.rkt:
+[*] rosette/synth-target-INCB-RH-4172.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000001000000801 64) 2) #(struct:XADDB-R8-RH 0 2) #(struct:XCHGB-RH-R8 2 0))
+movq 0x1000000801, R2
+xaddb-r8-rh [R1: 8, R2: 8] R0, R2
+xchgb-rh-r8 [R1: 8, R2: 8] R2, R0
+rosette/synth-target-INCB-RH-a825.rkt:
+[*] rosette/synth-target-INCB-RH-a825.rkt: Success!
+(#(struct:NEGB-RH 0) #(struct:DECB-RH 0) #(struct:NEGB-RH 0))
+negb-rh [R1: 8] R0
+decb-rh [R1: 8] R0
+negb-rh [R1: 8] R0
+rosette/synth-target-INCB-R8-6a04.rkt:
+[*] rosette/synth-target-INCB-R8-6a04.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000001000000102 64) 2) #(struct:XADDB-RH-R8 0 2) #(struct:XADDB-RH-R8 0 2))
+movq 0x1000000102, R2
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R2
+xaddb-rh-r8 [R1: 8, R2: 8] R0, R2
+rosette/synth-target-INCB-R8-07c6.rkt:
+[*] rosette/synth-target-INCB-R8-07c6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000000ff 64) 5) #(struct:PXOR-R64-R64 5 0) #(struct:NOTB-R8 0))
+movq 0xff, R5
+pxor-r64-r64 R5, R0
+notb-r8 [R1: 8] R0
+rosette/synth-target-INCB-RH-dc4b.rkt:
+[*] rosette/synth-target-INCB-RH-dc4b.rkt: Success!
+(#(struct:XCHGB-RH-R8 2 0) #(struct:INCB-R8 2) #(struct:XCHGB-RH-R8 2 0))
+xchgb-rh-r8 [R1: 8, R2: 8] R2, R0
+incb-r8 [R1: 8] R2
+xchgb-rh-r8 [R1: 8, R2: 8] R2, R0
+rosette/synth-target-DECL-R32-21e4.rkt:
+[*] rosette/synth-target-DECL-R32-21e4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 6) #(struct:NOTL-R32 0) #(struct:PXOR-R64-R64 6 0))
+movq 0xffffffff, R6
+notl-r32 [R1: 32] R0
+pxor-r64-r64 R6, R0
+rosette/synth-target-INCB-RH-4033.rkt:
+[*] rosette/synth-target-INCB-RH-4033.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ff00 64) 2) #(struct:PXOR-R64-R64 2 0) #(struct:NOTB-RH 0))
+movq 0xff00, R2
+pxor-r64-r64 R2, R0
+notb-rh [R1: 8] R0
+rosette/synth-target-ORL-R32-R32-a0a5.rkt:
+[x] rosette/synth-target-ORL-R32-R32-a0a5.rkt: Timeout!
+rosette/synth-target-DECL-R32-9ec7.rkt:
+[*] rosette/synth-target-DECL-R32-9ec7.rkt: Success!
+(#(struct:NOTL-R32 0) #(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 5) #(struct:PXOR-R64-R64 5 0))
+notl-r32 [R1: 32] R0
+movq 0xffffffff, R5
+pxor-r64-r64 R5, R0
+rosette/synth-target-INCB-RH-9bf8.rkt:
+[*] rosette/synth-target-INCB-RH-9bf8.rkt: Success!
+(#(struct:XCHGB-RH-R8 5 0) #(struct:INCB-R8 5) #(struct:XCHGB-RH-R8 5 0))
+xchgb-rh-r8 [R1: 8, R2: 8] R5, R0
+incb-r8 [R1: 8] R5
+xchgb-rh-r8 [R1: 8, R2: 8] R5, R0
+rosette/synth-target-INCB-RH-2694.rkt:
+[*] rosette/synth-target-INCB-RH-2694.rkt: Success!
+(#(struct:NEGB-RH 0) #(struct:DECB-RH 0) #(struct:NEGB-RH 0))
+negb-rh [R1: 8] R0
+decb-rh [R1: 8] R0
+negb-rh [R1: 8] R0
+rosette/synth-target-INCB-RH-6d47.rkt:
+[*] rosette/synth-target-INCB-RH-6d47.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000040101 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XCHGB-RH-R8 5 0))
+movq 0x40101, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xchgb-rh-r8 [R1: 8, R2: 8] R5, R0
+rosette/synth-target-INCB-RH-d175.rkt:
+[*] rosette/synth-target-INCB-RH-d175.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0004000000004001 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XADDB-R8-RH 0 5))
+movq 0x4000000004001, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-RH-7ba0.rkt:
+[*] rosette/synth-target-INCB-RH-7ba0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x2454800000000401 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XADDB-R8-RH 0 5))
+movq 0x2454800000000401, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-RH-a4e7.rkt:
+[*] rosette/synth-target-INCB-RH-a4e7.rkt: Success!
+(#(struct:XCHGB-R8-RH 0 5) #(struct:INCB-R8 5) #(struct:XCHGB-R8-RH 0 5))
+xchgb-r8-rh [R1: 8, R2: 8] R0, R5
+incb-r8 [R1: 8] R5
+xchgb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-RH-4aa5.rkt:
+[*] rosette/synth-target-INCB-RH-4aa5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000004000000401 64) 6) #(struct:XADDB-R8-RH 0 6) #(struct:XADDB-R8-RH 0 6))
+movq 0x4000000401, R6
+xaddb-r8-rh [R1: 8, R2: 8] R0, R6
+xaddb-r8-rh [R1: 8, R2: 8] R0, R6
+rosette/synth-target-INCB-RH-ebbf.rkt:
+[*] rosette/synth-target-INCB-RH-ebbf.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000600000008001 64) 2) #(struct:XADDB-R8-RH 0 2) #(struct:XCHGB-R8-RH 0 2))
+movq 0x600000008001, R2
+xaddb-r8-rh [R1: 8, R2: 8] R0, R2
+xchgb-r8-rh [R1: 8, R2: 8] R0, R2
+rosette/synth-target-NEGQ-R64-50a6.rkt:
+[x] rosette/synth-target-NEGQ-R64-50a6.rkt: Timeout!
+rosette/synth-target-NEGQ-R64-2144.rkt:
+[x] rosette/synth-target-NEGQ-R64-2144.rkt: Timeout!
+rosette/synth-target-INCB-RH-98a2.rkt:
+[*] rosette/synth-target-INCB-RH-98a2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000001000000801 64) 2) #(struct:XADDB-R8-RH 0 2) #(struct:XCHGB-RH-R8 2 0))
+movq 0x1000000801, R2
+xaddb-r8-rh [R1: 8, R2: 8] R0, R2
+xchgb-rh-r8 [R1: 8, R2: 8] R2, R0
+rosette/synth-target-INCB-RH-b01a.rkt:
+[*] rosette/synth-target-INCB-RH-b01a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x2454800000000401 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XADDB-R8-RH 0 5))
+movq 0x2454800000000401, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-NEGQ-R64-f67b.rkt:
+[x] rosette/synth-target-NEGQ-R64-f67b.rkt: Timeout!
+rosette/synth-target-INCB-RH-66c1.rkt:
+[*] rosette/synth-target-INCB-RH-66c1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000008002001 64) 1) #(struct:XADDB-R8-RH 0 1) #(struct:XCHGB-R8-RH 0 1))
+movq 0x8002001, R1
+xaddb-r8-rh [R1: 8, R2: 8] R0, R1
+xchgb-r8-rh [R1: 8, R2: 8] R0, R1
+rosette/synth-target-INCB-RH-41ba.rkt:
+[*] rosette/synth-target-INCB-RH-41ba.rkt: Success!
+(#(struct:XCHGB-R8-RH 0 6) #(struct:INCB-R8 6) #(struct:XCHGB-R8-RH 0 6))
+xchgb-r8-rh [R1: 8, R2: 8] R0, R6
+incb-r8 [R1: 8] R6
+xchgb-r8-rh [R1: 8, R2: 8] R0, R6
+rosette/synth-target-INCB-RH-6641.rkt:
+[*] rosette/synth-target-INCB-RH-6641.rkt: Success!
+(#(struct:NEGB-RH 0) #(struct:DECB-RH 0) #(struct:NEGB-RH 0))
+negb-rh [R1: 8] R0
+decb-rh [R1: 8] R0
+negb-rh [R1: 8] R0
+rosette/synth-target-SETAE-RH-a701.rkt:
+[*] rosette/synth-target-SETAE-RH-a701.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000008 64) 5) #(struct:SETNB-R8 5) #(struct:PMOV-R64-FLAG 5 (bv #x0000000000000003 64)) #(struct:SETE-RH 0))
+movq 0x8, R5
+setnb-r8 [R1: 8] R5
+pmov-r64-flag R5, F(bv #x0000000000000003 64)
+sete-rh [R1: 8] R0
+rosette/synth-target-INCB-RH-dbc1.rkt:
+[*] rosette/synth-target-INCB-RH-dbc1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ff00 64) 6) #(struct:PXOR-R64-R64 6 0) #(struct:NOTB-RH 0))
+movq 0xff00, R6
+pxor-r64-r64 R6, R0
+notb-rh [R1: 8] R0
+rosette/synth-target-INCB-RH-436f.rkt:
+[*] rosette/synth-target-INCB-RH-436f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ff00 64) 6) #(struct:PXOR-R64-R64 6 0) #(struct:NOTB-RH 0))
+movq 0xff00, R6
+pxor-r64-r64 R6, R0
+notb-rh [R1: 8] R0
+rosette/synth-target-INCB-R8-6188.rkt:
+[*] rosette/synth-target-INCB-R8-6188.rkt: Success!
+(#(struct:XCHGB-RH-R8 0 1) #(struct:INCB-RH 1) #(struct:XCHGB-RH-R8 0 1))
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R1
+incb-rh [R1: 8] R1
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R1
+rosette/synth-target-INCB-R8-a9ab.rkt:
+[*] rosette/synth-target-INCB-R8-a9ab.rkt: Success!
+(#(struct:XCHGB-RH-R8 0 5) #(struct:INCB-RH 5) #(struct:XCHGB-RH-R8 0 5))
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R5
+incb-rh [R1: 8] R5
+xchgb-rh-r8 [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-RH-a21a.rkt:
+[x] rosette/synth-target-INCB-RH-a21a.rkt: Timeout!
+rosette/synth-target-SETNL-R8-66a2.rkt:
+[x] rosette/synth-target-SETNL-R8-66a2.rkt: Timeout!
+rosette/synth-target-INCW-R16-f25e.rkt:
+[x] rosette/synth-target-INCW-R16-f25e.rkt: Timeout!
+rosette/synth-target-INCB-RH-35be.rkt:
+[*] rosette/synth-target-INCB-RH-35be.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x2454800000000401 64) 5) #(struct:XADDB-R8-RH 0 5) #(struct:XADDB-R8-RH 0 5))
+movq 0x2454800000000401, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+xaddb-r8-rh [R1: 8, R2: 8] R0, R5
+rosette/synth-target-INCB-RH-a0d0.rkt:
+[x] rosette/synth-target-INCB-RH-a0d0.rkt: Timeout!
+rosette/synth-target-INCB-RH-3dcb.rkt:
+[*] rosette/synth-target-INCB-RH-3dcb.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000002008001 64) 1) #(struct:XADDB-R8-RH 0 1) #(struct:XADDB-R8-RH 0 1))
+movq 0x2008001, R1
+xaddb-r8-rh [R1: 8, R2: 8] R0, R1
+xaddb-r8-rh [R1: 8, R2: 8] R0, R1
+rosette/synth-target-INCB-RH-e666.rkt:
+[*] rosette/synth-target-INCB-RH-e666.rkt: Success!
+(#(struct:NOTB-RH 0) #(struct:DECB-RH 0) #(struct:NOTB-RH 0))
+notb-rh [R1: 8] R0
+decb-rh [R1: 8] R0
+notb-rh [R1: 8] R0
+rosette/synth-target-BTRL-R32-R32-9059.rkt:
+[x] rosette/synth-target-BTRL-R32-R32-9059.rkt: Timeout!
+rosette/synth-target-INCB-RH-c6e1.rkt:
+[*] rosette/synth-target-INCB-RH-c6e1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ff00 64) 6) #(struct:PXOR-R64-R64 6 0) #(struct:NOTB-RH 0))
+movq 0xff00, R6
+pxor-r64-r64 R6, R0
+notb-rh [R1: 8] R0
+rosette/synth-target-INCB-RH-1201.rkt:
+[x] rosette/synth-target-INCB-RH-1201.rkt: Timeout!
+rosette/synth-target-DECL-R32-5d0c.rkt:
+[*] rosette/synth-target-DECL-R32-5d0c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:ANDNL-R32-R32-R32 1 0 0) #(struct:PXOR-R64-R64 1 0))
+movq 0xffffffff, R1
+andnl-r32-r32-r32 [R1: 32, R2: 32, R3: 32] R1, R0, R0
+pxor-r64-r64 R1, R0
+rosette/synth-target-INCB-RH-fff6.rkt:
+[x] rosette/synth-target-INCB-RH-fff6.rkt: Timeout!
+rosette/synth-target-BLSIQ-R64-R64-c851.rkt:
+[x] rosette/synth-target-BLSIQ-R64-R64-c851.rkt: Timeout!
+rosette/synth-target-INCB-RH-0833.rkt:
+[x] rosette/synth-target-INCB-RH-0833.rkt: Timeout!
+rosette/synth-target-INCB-RH-d955.rkt:
+[x] rosette/synth-target-INCB-RH-d955.rkt: Timeout!
+rosette/synth-target-INCB-RH-0743.rkt:
+[x] rosette/synth-target-INCB-RH-0743.rkt: Timeout!
+rosette/synth-target-INCB-RH-2888.rkt:
+[x] rosette/synth-target-INCB-RH-2888.rkt: Timeout!
+rosette/synth-target-INCB-R8-1af3.rkt:
+[x] rosette/synth-target-INCB-R8-1af3.rkt: Timeout!
+rosette/synth-target-BLSIQ-R64-R64-3a44.rkt:
+[x] rosette/synth-target-BLSIQ-R64-R64-3a44.rkt: Timeout!
+rosette/synth-target-INCW-R16-8c6d.rkt:
+[x] rosette/synth-target-INCW-R16-8c6d.rkt: Timeout!
+rosette/synth-target-ROLW-R16-ONE-0514.rkt:
+[*] rosette/synth-target-ROLW-R16-ONE-0514.rkt: Success!
+(#(struct:XADDW-R16-R16 1 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 6) #(struct:XORW-R16-R16 6 1))
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R1
+pmov-flag-r64 F(bv #x0000000000000000 64), R6
+xorw-r16-r16 [R1: 16, R2: 16] R6, R1
+rosette/synth-target-INCB-RH-02d1.rkt:
+[x] rosette/synth-target-INCB-RH-02d1.rkt: Timeout!
+rosette/synth-target-INCB-R8-708b.rkt:
+[x] rosette/synth-target-INCB-R8-708b.rkt: Timeout!
+rosette/synth-target-INCB-RH-6a2c.rkt:
+[x] rosette/synth-target-INCB-RH-6a2c.rkt: Timeout!
+rosette/synth-target-INCB-RH-3368.rkt:
+[x] rosette/synth-target-INCB-RH-3368.rkt: Timeout!
+rosette/synth-target-NEGQ-R64-c7ec.rkt:
+[x] rosette/synth-target-NEGQ-R64-c7ec.rkt: Timeout!
+rosette/synth-target-INCB-RH-ae1e.rkt:
+[x] rosette/synth-target-INCB-RH-ae1e.rkt: Timeout!
+rosette/synth-target-NEGQ-R64-c52f.rkt:
+[x] rosette/synth-target-NEGQ-R64-c52f.rkt: Timeout!
+rosette/synth-target-INCB-RH-ede3.rkt:
+[x] rosette/synth-target-INCB-RH-ede3.rkt: Timeout!
+rosette/synth-target-INCB-RH-0336.rkt:
+[x] rosette/synth-target-INCB-RH-0336.rkt: Timeout!
+rosette/synth-target-ROLW-R16-ONE-1cd5.rkt:
+[x] rosette/synth-target-ROLW-R16-ONE-1cd5.rkt: Timeout!
+rosette/synth-target-INCB-RH-0555.rkt:
+[x] rosette/synth-target-INCB-RH-0555.rkt: Timeout!
+rosette/synth-target-INCB-RH-d6f2.rkt:
+[x] rosette/synth-target-INCB-RH-d6f2.rkt: Timeout!
+rosette/synth-target-INCB-RH-8ae5.rkt:
+[x] rosette/synth-target-INCB-RH-8ae5.rkt: Timeout!
+rosette/synth-target-INCB-RH-03b0.rkt:
+[x] rosette/synth-target-INCB-RH-03b0.rkt: Timeout!
+rosette/synth-target-BLSIQ-R64-R64-ae9f.rkt:
+[x] rosette/synth-target-BLSIQ-R64-R64-ae9f.rkt: Timeout!
+rosette/synth-target-INCB-RH-0c69.rkt:
+[x] rosette/synth-target-INCB-RH-0c69.rkt: Timeout!
+rosette/synth-target-INCB-RH-1729.rkt:
+[x] rosette/synth-target-INCB-RH-1729.rkt: Timeout!
+rosette/synth-target-DECL-R32-bbc1.rkt:
+[x] rosette/synth-target-DECL-R32-bbc1.rkt: Timeout!
+rosette/synth-target-INCB-R8-85b7.rkt:
+[x] rosette/synth-target-INCB-R8-85b7.rkt: Timeout!
+rosette/synth-target-INCB-R8-9ab1.rkt:
+[x] rosette/synth-target-INCB-R8-9ab1.rkt: Timeout!
+rosette/synth-target-INCB-RH-7017.rkt:
+[x] rosette/synth-target-INCB-RH-7017.rkt: Timeout!
+rosette/synth-target-INCW-R16-5962.rkt:
+[x] rosette/synth-target-INCW-R16-5962.rkt: Timeout!
+rosette/synth-target-INCB-R8-835d.rkt:
+[x] rosette/synth-target-INCB-R8-835d.rkt: Timeout!
+rosette/synth-target-INCB-R8-8108.rkt:
+[x] rosette/synth-target-INCB-R8-8108.rkt: Timeout!
+rosette/synth-target-INCB-R8-09a6.rkt:
+[x] rosette/synth-target-INCB-R8-09a6.rkt: Timeout!
+rosette/synth-target-INCB-RH-d722.rkt:
+[*] rosette/synth-target-INCB-RH-d722.rkt: Success!
+(#(struct:XCHGB-RH-R8 5 0) #(struct:MOVQ-IMM-R64 (bv #x25f294b202000101 64) 2) #(struct:XADDB-R8-R8 5 2) #(struct:XCHGB-R8-RH 0 2))
+xchgb-rh-r8 [R1: 8, R2: 8] R5, R0
+movq 0x25f294b202000101, R2
+xaddb-r8-r8 [R1: 8, R2: 8] R5, R2
+xchgb-r8-rh [R1: 8, R2: 8] R0, R2
+rosette/synth-target-DECL-R32-6d4a.rkt:
+[x] rosette/synth-target-DECL-R32-6d4a.rkt: Timeout!
+rosette/synth-target-INCB-RH-f3ff.rkt:
+[x] rosette/synth-target-INCB-RH-f3ff.rkt: Timeout!
+rosette/synth-target-ROLW-R16-ONE-faa3.rkt:
+[*] rosette/synth-target-ROLW-R16-ONE-faa3.rkt: Success!
+(#(struct:XADDW-R16-R16 1 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 2) #(struct:XADDW-R16-R16 2 1))
+xaddw-r16-r16 [R1: 16, R2: 16] R1, R1
+pmov-flag-r64 F(bv #x0000000000000000 64), R2
+xaddw-r16-r16 [R1: 16, R2: 16] R2, R1
+rosette/synth-target-INCB-RH-33e5.rkt:
+[x] rosette/synth-target-INCB-RH-33e5.rkt: Timeout!
+rosette/synth-target-BLSRQ-R64-R64-7b62.rkt:
+[x] rosette/synth-target-BLSRQ-R64-R64-7b62.rkt: Timeout!
+rosette/synth-target-INCB-RH-685f.rkt:
+[x] rosette/synth-target-INCB-RH-685f.rkt: Timeout!
+rosette/synth-target-DECL-R32-b779.rkt:
+[x] rosette/synth-target-DECL-R32-b779.rkt: Timeout!
+rosette/synth-target-INCB-R8-7044.rkt:
+[x] rosette/synth-target-INCB-R8-7044.rkt: Timeout!
+rosette/synth-target-INCB-RH-712c.rkt:
+[x] rosette/synth-target-INCB-RH-712c.rkt: Timeout!
+rosette/synth-target-INCW-R16-507d.rkt:
+[x] rosette/synth-target-INCW-R16-507d.rkt: Timeout!
+rosette/synth-target-INCB-R8-37e5.rkt:
+[*] rosette/synth-target-INCB-R8-37e5.rkt: Success!
+(#(struct:XCHGB-R8-R8 0 1) #(struct:PNOT-R64 1) #(struct:MOVB-R8-R8 1 0) #(struct:NEGB-R8 0))
+xchgb-r8-r8 [R1: 8, R2: 8] R0, R1
+pnot R1
+movb-r8-r8 [R1: 8, R2: 8] R1, R0
+negb-r8 [R1: 8] R0
+rosette/synth-target-ROLW-R16-ONE-ae37.rkt:
+[x] rosette/synth-target-ROLW-R16-ONE-ae37.rkt: Timeout!
+rosette/synth-target-INCW-R16-5aa9.rkt:
+[x] rosette/synth-target-INCW-R16-5aa9.rkt: Timeout!
+rosette/synth-target-SETAE-RH-e125.rkt:
+[x] rosette/synth-target-SETAE-RH-e125.rkt: Timeout!
+rosette/synth-target-SETAE-RH-8592.rkt:
+[x] rosette/synth-target-SETAE-RH-8592.rkt: Timeout!
+rosette/synth-target-INCB-R8-dc33.rkt:
+[x] rosette/synth-target-INCB-R8-dc33.rkt: Timeout!
+rosette/synth-target-ROLW-R16-ONE-0b05.rkt:
+[x] rosette/synth-target-ROLW-R16-ONE-0b05.rkt: Timeout!
+rosette/synth-target-DECL-R32-0e1b.rkt:
+[x] rosette/synth-target-DECL-R32-0e1b.rkt: Timeout!
+rosette/synth-target-INCB-R8-1684.rkt:
+[*] rosette/synth-target-INCB-R8-1684.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 2) #(struct:PNOT-R64 2) #(struct:XCHGB-R8-R8 0 2) #(struct:NEGB-R8 0))
+movq R0, R2
+pnot R2
+xchgb-r8-r8 [R1: 8, R2: 8] R0, R2
+negb-r8 [R1: 8] R0
+rosette/synth-target-INCB-R8-d49f.rkt:
+[*] rosette/synth-target-INCB-R8-d49f.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 5) #(struct:PNOT-R64 5) #(struct:MOVB-R8-R8 5 0) #(struct:NEGB-R8 0))
+movq R0, R5
+pnot R5
+movb-r8-r8 [R1: 8, R2: 8] R5, R0
+negb-r8 [R1: 8] R0
+rosette/synth-target-INCB-R8-8111.rkt:
+[x] rosette/synth-target-INCB-R8-8111.rkt: Timeout!
+rosette/synth-target-INCB-RH-6002.rkt:
+[x] rosette/synth-target-INCB-RH-6002.rkt: Timeout!
+rosette/synth-target-INCB-RH-d24d.rkt:
+[x] rosette/synth-target-INCB-RH-d24d.rkt: Timeout!
+rosette/synth-target-INCB-RH-e761.rkt:
+[x] rosette/synth-target-INCB-RH-e761.rkt: Timeout!
+rosette/synth-target-INCB-R8-a1e6.rkt:
+[x] rosette/synth-target-INCB-R8-a1e6.rkt: Timeout!
+rosette/synth-target-INCB-R8-4f30.rkt:
+[x] rosette/synth-target-INCB-R8-4f30.rkt: Timeout!
+rosette/synth-target-INCB-R8-0d02.rkt:
+[x] rosette/synth-target-INCB-R8-0d02.rkt: Timeout!
+rosette/synth-target-INCB-R8-6d76.rkt:
+[x] rosette/synth-target-INCB-R8-6d76.rkt: Timeout!

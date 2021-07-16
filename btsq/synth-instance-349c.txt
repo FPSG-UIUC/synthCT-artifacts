@@ -1,0 +1,20 @@
+rosette/synth-target-BTSQ-R64-R64-be4d.rkt:
+[x] rosette/synth-target-BTSQ-R64-R64-be4d.rkt: Timeout!
+rosette/synth-target-pseudo-BTSQ-R64-R64-sr4-38b9.rkt:
+[*] rosette/synth-target-pseudo-BTSQ-R64-R64-sr4-38b9.rkt: Success!
+(#(struct:PXOR-R64-R64 0 5) #(struct:POR-R64-R64 0 1))
+pxor-r64-r64 R0, R5
+por-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTSQ-R64-R64-s4-f3d4.rkt:
+[*] rosette/synth-target-pseudo-BTSQ-R64-R64-s4-f3d4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 2) #(struct:PSPLIT-R64-R64 1 2 2) #(struct:PCONCAT-R32-R32 2 1 0))
+movq 0x1, R2
+psplit R1, R2, R2
+pconcat-r32-r32 R2, R1, R0
+rosette/synth-target-BTSQ-R64-R64-a635.rkt:
+[*] rosette/synth-target-BTSQ-R64-R64-a635.rkt: Success!
+(#(struct:pseudo-BTSQ-R64-R64-s4 0 6) #(struct:pseudo-BTSQ-R64-R64-sr4 6 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:PNOP))
+pseudo-btsq-r64-r64-s4 [R1: 64, R2: 64] R0, R6
+pseudo-btsq-r64-r64-sr4 [R1: 64, R2: 64] R6, R1
+movq 0x0, R2
+pnop

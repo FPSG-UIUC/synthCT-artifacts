@@ -1,0 +1,59 @@
+rosette/synth-target-BTRL-R32-R32-8f92.rkt:
+[x] rosette/synth-target-BTRL-R32-R32-8f92.rkt: Timeout!
+rosette/synth-target-pseudo-BTRL-R32-R32-sr4-0d88.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-sr4-0d88.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0xffffffff, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-s1-7993.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s1-7993.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64 1 1))
+pmov-flag-r64 F(bv #x0000000000000006 64), R0
+pxor-r64-r64 R1, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-sr1-eb16.rkt:
+[x] rosette/synth-target-pseudo-BTRL-R32-R32-sr1-eb16.rkt: Timeout!
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-1ecd.rkt:
+[x] rosette/synth-target-pseudo-BTRL-R32-R32-s4-1ecd.rkt: Timeout!
+rosette/synth-target-BTRL-R32-R32-edad.rkt:
+[*] rosette/synth-target-BTRL-R32-R32-edad.rkt: Success!
+(#(struct:POR-R64-R64 1 1) #(struct:pseudo-BTRL-R32-R32-s4 0 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 6) #(struct:PNOP))
+por-r64-r64 R1, R1
+pseudo-btrl-r32-r32-s4 [R1: 64, R2: 64] R0, R1
+pmov-flag-r64 F(bv #x0000000000000006 64), R6
+pnop
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-s5-aebd.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-s5-aebd.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 6) #(struct:PAND-R64-R64 6 1))
+movq 0xffffffff, R6
+pand-r64-r64 R6, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-sr1-sr4-d64a.rkt:
+[x] rosette/synth-target-pseudo-BTRL-R32-R32-sr1-sr4-d64a.rkt: Unsat!
+unsat! 3
+rosette/synth-target-BTRL-R32-R32-ebe7.rkt:
+[*] rosette/synth-target-BTRL-R32-R32-ebe7.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0400000000000000 64) 2) #(struct:pseudo-BTRL-R32-R32-s1 6) #(struct:pseudo-BTRL-R32-R32-sr1 2 0 1) #(struct:PNOP))
+movq 0x400000000000000, R2
+pseudo-btrl-r32-r32-s1 [R2: 64] R6
+pseudo-btrl-r32-r32-sr1 [R3: 64, R1: 64, R2: 64] R2, R0, R1
+pnop
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-c5b5.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-c5b5.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 1) #(struct:PMOVQ-R64-R64 0 6) #(struct:PMOV-FLAG-R64 (bv #x0000000000000005 64) 0) #(struct:pseudo-BTRL-R32-R32-s4-sr5 6 1))
+pcmov-r64-r64-r64 R6, R6, R1
+movq R0, R6
+pmov-flag-r64 F(bv #x0000000000000005 64), R0
+pseudo-btrl-r32-r32-s4-sr5 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-d40f.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-d40f.rkt: Success!
+(#(struct:pseudo-BTRL-R32-R32-s4-s11 0 5) #(struct:PMOVQ-R64-R64 5 2) #(struct:pseudo-BTRL-R32-R32-s4-s11 6 0) #(struct:pseudo-BTRL-R32-R32-s4-sr11 5 1))
+pseudo-btrl-r32-r32-s4-s11 [R1: 64, R2: 64] R0, R5
+movq R5, R2
+pseudo-btrl-r32-r32-s4-s11 [R1: 64, R2: 64] R6, R0
+pseudo-btrl-r32-r32-s4-sr11 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-sr1-b63e.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-sr1-b63e.rkt: Success!
+(#(struct:pseudo-BTRL-R32-R32-sr1-s4 0 1) #(struct:pseudo-BTRL-R32-R32-sr1-sr4 2 1 1) #(struct:PXOR-R64-R64 2 6) #(struct:PCONCAT-R32-R32 6 6 5))
+pseudo-btrl-r32-r32-sr1-s4 [R1: 64, R2: 64] R0, R1
+pseudo-btrl-r32-r32-sr1-sr4 [R3: 64, R1: 64, R2: 64] R2, R1, R1
+pxor-r64-r64 R2, R6
+pconcat-r32-r32 R6, R6, R5

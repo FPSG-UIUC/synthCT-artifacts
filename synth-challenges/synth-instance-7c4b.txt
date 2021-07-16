@@ -1,0 +1,174 @@
+rosette/synth-target-ADCQ-R64-R64-3fad.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-3fad.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-c128.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-c128.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-3c62.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-3c62.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-e0fd.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-e0fd.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-9f74.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-9f74.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-64d9.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-64d9.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-827a.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-827a.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-4506.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-4506.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-ee59.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-ee59.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-7128.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-7128.rkt: Unsat!
+unsat! 1
+rosette/synth-target-ADCQ-R64-R64-173c.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-173c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 4) #(struct:SBBQ-R64-R64 0 4) #(struct:SUBQ-R64-R64 4 1))
+movq 0x0, R4
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R4
+subq-r64-r64 [R1: 64, R2: 64] R4, R1
+rosette/synth-target-ADCQ-R64-R64-4dd8.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-4dd8.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-6f3a.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-6f3a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 5) #(struct:SBBQ-R64-R64 0 5) #(struct:PNOP) #(struct:SUBQ-R64-R64 5 1))
+movq 0x0, R5
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R5
+pnop
+subq-r64-r64 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-ADCQ-R64-R64-cfa0.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-cfa0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:SBBQ-R64-R64 0 2) #(struct:SUBQ-R64-R64 2 1))
+movq 0x0, R2
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R2
+subq-r64-r64 [R1: 64, R2: 64] R2, R1
+rosette/synth-target-ADCQ-R64-R64-61b7.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-61b7.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-b5a8.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-b5a8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:SBBQ-R64-R64 0 6) #(struct:SUBQ-R64-R64 6 1))
+movq 0x0, R6
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R6
+subq-r64-r64 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-ADCQ-R64-R64-b995.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-b995.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 5) #(struct:ROLQ-R64-CL 5) #(struct:SBBQ-R64-R64 0 5) #(struct:SUBQ-R64-R64 5 1))
+movq 0x0, R5
+movq 0x0, R5
+rolq-r64-cl [%cl: 8, R2: 64] R5
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R5
+subq-r64-r64 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-ADCQ-R64-R64-6ee8.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-6ee8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:SBBQ-R64-R64 0 6) #(struct:SUBQ-R64-R64 6 1) #(struct:SETAE-RH 6))
+movq 0x0, R6
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R6
+subq-r64-r64 [R1: 64, R2: 64] R6, R1
+setae-rh [R1: 8] R6
+rosette/synth-target-ADCQ-R64-R64-48ae.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-48ae.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-ec97.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-ec97.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000000ff 64) 5) #(struct:INCB-R8 5) #(struct:SBBQ-R64-R64 0 5) #(struct:INCB-R8 6) #(struct:SUBQ-R64-R64 5 1))
+movq 0xff, R5
+incb-r8 [R1: 8] R5
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R5
+incb-r8 [R1: 8] R6
+subq-r64-r64 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-ADCQ-R64-R64-3bfa.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-3bfa.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 5) #(struct:SBBQ-R64-R64 0 5) #(struct:SUBQ-R64-R64 5 1))
+movq 0x0, R5
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R5
+subq-r64-r64 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-ADCQ-R64-R64-421e.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-421e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:SBBQ-R64-R64 0 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 4) #(struct:SUBQ-R64-R64 6 1))
+movq 0x0, R6
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R6
+movq 0x0, R4
+subq-r64-r64 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-ADCQ-R64-R64-76bb.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-76bb.rkt: Unsat!
+unsat! 2
+rosette/synth-target-ADCQ-R64-R64-d63c.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-d63c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:SETA-RH 5) #(struct:SBBQ-R64-R64 0 6) #(struct:SETA-RH 4) #(struct:SETA-RH 4) #(struct:SETA-RH 4) #(struct:SETA-RH 2) #(struct:SUBQ-R64-R64 6 1))
+movq 0x0, R6
+seta-rh [R1: 8] R5
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R6
+seta-rh [R1: 8] R4
+seta-rh [R1: 8] R4
+seta-rh [R1: 8] R4
+seta-rh [R1: 8] R2
+subq-r64-r64 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-ADCQ-R64-R64-702c.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-702c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xffffffffffffffff 64) 5) #(struct:MOVQ-IMM-R64 (bv #x0000002000008001 64) 6) #(struct:SBBQ-R64-R64 0 5) #(struct:ROLW-R16-ONE 6) #(struct:SBBQ-R64-R64 5 1))
+movq 0xffffffffffffffff, R5
+movq 0x2000008001, R6
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R5
+rolw-r16-one [$1: ??, R2: 16] $1, R6
+sbbq-r64-r64 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-ADCQ-R64-R64-9438.rkt:
+[*] rosette/synth-target-ADCQ-R64-R64-9438.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 4) #(struct:SBBQ-R64-R64 0 4) #(struct:SUBQ-R64-R64 4 1))
+movq 0x0, R4
+sbbq-r64-r64 [R1: 64, R2: 64] R0, R4
+subq-r64-r64 [R1: 64, R2: 64] R4, R1
+rosette/synth-target-ADCQ-R64-R64-1629.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-1629.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-7e4d.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-7e4d.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-5de6.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-5de6.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-bd44.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-bd44.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-3d0d.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-3d0d.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-f10a.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-f10a.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-446a.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-446a.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-8fad.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-8fad.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-2e16.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-2e16.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-768d.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-768d.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-76ba.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-76ba.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-4f73.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-4f73.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-4433.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-4433.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-3a0f.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-3a0f.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-0d07.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-0d07.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-83d4.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-83d4.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-d9eb.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-d9eb.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-28d4.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-28d4.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-b30c.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-b30c.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-5684.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-5684.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-c375.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-c375.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-5300.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-5300.rkt: Timeout!
+rosette/synth-target-ADCQ-R64-R64-ef27.rkt:
+[x] rosette/synth-target-ADCQ-R64-R64-ef27.rkt: Timeout!

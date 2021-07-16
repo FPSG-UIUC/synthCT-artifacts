@@ -1,0 +1,57 @@
+Run Parameters:
+
+    * Commit Hash of synthesis: 5fe36c1941348cc5d376c5ae1598ef6da9739b8c
+    * Re-run instructions with errors from the synthesis run 'ea39', see .log file for
+      original details
+    * All other run parameters are similar to the original run 'ea39'
+
+
+## List of instruction re-run:
+
+```
+ANDNQ-R64-R64-R64-f499
+ANDQ-R64-R64-ea24
+ANDW-R16-R16-c54c
+BLSIQ-R64-R64-a4da
+BLSMSKL-R32-R32-3217
+BLSRQ-R64-R64-d73a
+BSFL-R32-R32-4631
+BSFQ-R64-R64-8099
+bsfw-R16-R16-4eb5
+BSRL-R32-R32-5f97
+BSRQ-R64-R64-e911
+BSRW-R16-R16-ea88
+BTCW-R16-R16-7ea6
+BTRW-R16-R16-567f
+BTSW-R16-R16-743d
+CLTQ-ff88
+CQTO-6197
+CWTD-278f
+CWTL-b683
+DECL-R32-3fa5
+DIVQ-R64-6425
+IDIVQ-R64-1f3a
+INCB-R8-25c7
+INCB-RH-7e55
+INCL-R32-a2c7
+INCW-R16-d4e8
+NEGQ-R64-2633
+NOTQ-R64-3bfc
+ORL-R32-R32-3f71
+ORW-R16-R16-3a1a
+ROLW-R16-ONE-df9f
+RORL-R32-ONE-4b4b
+RORW-R16-ONE-261a
+SARXQ-R64-R64-R64-b5f2
+SETNL-R8-0156
+SHLDQ-R64-R64-2dd3
+SHLDW-R16-R16-bda7
+SHLXQ-R64-R64-R64-dfd8
+SHRDL-R32-R32-8455
+SHLDQ-R64-R64-afd0
+SHLDW-R16-R16-af98
+XORW-R16-R16-f3cc
+BSWAP-R64-3d98
+BTRL-R32-R32-1161
+SETAE-RH-a6ea
+```

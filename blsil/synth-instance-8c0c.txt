@@ -1,0 +1,60 @@
+rosette/synth-target-BLSIL-R32-R32-07b4.rkt:
+[x] rosette/synth-target-BLSIL-R32-R32-07b4.rkt: Timeout!
+rosette/synth-target-pseudo-BLSIL-R32-R32-sr4-64a6.rkt:
+[*] rosette/synth-target-pseudo-BLSIL-R32-R32-sr4-64a6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0xffffffff, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BLSIL-R32-R32-s1-04b4.rkt:
+[*] rosette/synth-target-pseudo-BLSIL-R32-R32-s1-04b4.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64 1 1))
+pmov-flag-r64 F(bv #x0000000000000006 64), R0
+pxor-r64-r64 R1, R1
+rosette/synth-target-pseudo-BLSIL-R32-R32-s4-e628.rkt:
+[x] rosette/synth-target-pseudo-BLSIL-R32-R32-s4-e628.rkt: Timeout!
+rosette/synth-target-pseudo-BLSIL-R32-R32-sr1-6e77.rkt:
+[x] rosette/synth-target-pseudo-BLSIL-R32-R32-sr1-6e77.rkt: Timeout!
+rosette/synth-target-BLSIL-R32-R32-888f.rkt:
+[*] rosette/synth-target-BLSIL-R32-R32-888f.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 5 5) #(struct:MOVQ-IMM-R64 (bv #x0420040369124201 64) 6) #(struct:PMOVQ-R64-R64 0 2) #(struct:pseudo-BLSIL-R32-R32-s4 2 1))
+psplit R6, R5, R5
+movq 0x420040369124201, R6
+movq R0, R2
+pseudo-blsil-r32-r32-s4 [R1: 64, R2: 64] R2, R1
+rosette/synth-target-pseudo-BLSIL-R32-R32-sr1-8822.rkt:
+[*] rosette/synth-target-pseudo-BLSIL-R32-R32-sr1-8822.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000002186000003a 64) 2) #(struct:pseudo-BLSIL-R32-R32-sr1-s4 0 6) #(struct:PRESET-FLAG (bv #x0000000000000006 64)) #(struct:pseudo-BLSIL-R32-R32-sr1-sr4 6 1))
+movq 0x2186000003a, R2
+pseudo-blsil-r32-r32-sr1-s4 [R1: 64, R2: 64] R0, R6
+preset-flag F(bv #x0000000000000006 64)
+pseudo-blsil-r32-r32-sr1-sr4 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-pseudo-BLSIL-R32-R32-sr4-sr1-51e1.rkt:
+[x] rosette/synth-target-pseudo-BLSIL-R32-R32-sr4-sr1-51e1.rkt: Timeout!
+rosette/synth-target-pseudo-BLSIL-R32-R32-s4-217d.rkt:
+[*] rosette/synth-target-pseudo-BLSIL-R32-R32-s4-217d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:PMOVQ-R64-R64 0 1) #(struct:pseudo-BLSIL-R32-R32-s4-sr16 1 1) #(struct:PXOR-R64-R64 6 6))
+movq 0x0, R6
+movq R0, R1
+pseudo-blsil-r32-r32-s4-sr16 [R1: 64, R2: 64] R1, R1
+pxor-r64-r64 R6, R6
+rosette/synth-target-BLSIL-R32-R32-72e9.rkt:
+[*] rosette/synth-target-BLSIL-R32-R32-72e9.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 1 1) #(struct:PSPLIT-R64-R64 1 1 2) #(struct:PXOR-R64-R64 1 1) #(struct:pseudo-BLSIL-R32-R32-sr1 0 1))
+psplit R6, R1, R1
+psplit R1, R1, R2
+pxor-r64-r64 R1, R1
+pseudo-blsil-r32-r32-sr1 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-BLSIL-R32-R32-s4-fd2e.rkt:
+[*] rosette/synth-target-pseudo-BLSIL-R32-R32-s4-fd2e.rkt: Success!
+(#(struct:PNOT-R64 1) #(struct:pseudo-BLSIL-R32-R32-s4-s5 0 2) #(struct:PAND-R64-R64 0 2) #(struct:PMOVQ-R64-R64 2 1))
+pnot R1
+pseudo-blsil-r32-r32-s4-s5 [R1: 64, R2: 64] R0, R2
+pand-r64-r64 R0, R2
+movq R2, R1
+rosette/synth-target-BLSIL-R32-R32-e01b.rkt:
+[*] rosette/synth-target-BLSIL-R32-R32-e01b.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 1 1) #(struct:PSPLIT-R64-R64 1 1 2) #(struct:PXOR-R64-R64 1 1) #(struct:pseudo-BLSIL-R32-R32-sr1 0 1))
+psplit R6, R1, R1
+psplit R1, R1, R2
+pxor-r64-r64 R1, R1
+pseudo-blsil-r32-r32-sr1 [R1: 64, R2: 64] R0, R1

@@ -1,0 +1,20 @@
+rosette/synth-target-BTCQ-R64-R64-3ac7.rkt:
+[x] rosette/synth-target-BTCQ-R64-R64-3ac7.rkt: Timeout!
+rosette/synth-target-pseudo-BTCQ-R64-R64-s4-5cb0.rkt:
+[*] rosette/synth-target-pseudo-BTCQ-R64-R64-s4-5cb0.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 2) #(struct:PSPLIT-R64-R64 1 2 2) #(struct:PCONCAT-R32-R32 2 1 0))
+movq 0x1, R2
+psplit R1, R2, R2
+pconcat-r32-r32 R2, R1, R0
+rosette/synth-target-pseudo-BTCQ-R64-R64-sr4-fd1c.rkt:
+[*] rosette/synth-target-pseudo-BTCQ-R64-R64-sr4-fd1c.rkt: Success!
+(#(struct:PXOR-R64-R64 0 1) #(struct:PAND-R64-R64 1 1))
+pxor-r64-r64 R0, R1
+pand-r64-r64 R1, R1
+rosette/synth-target-BTCQ-R64-R64-c0a1.rkt:
+[*] rosette/synth-target-BTCQ-R64-R64-c0a1.rkt: Success!
+(#(struct:pseudo-BTCQ-R64-R64-s4 1 2) #(struct:MOVQ-IMM-R64 (bv #x0018000000000004 64) 5) #(struct:pseudo-BTCQ-R64-R64-s4 0 5) #(struct:PXOR-R64-R64 5 1))
+pseudo-btcq-r64-r64-s4 [R1: 64, R2: 64] R1, R2
+movq 0x18000000000004, R5
+pseudo-btcq-r64-r64-s4 [R1: 64, R2: 64] R0, R5
+pxor-r64-r64 R5, R1

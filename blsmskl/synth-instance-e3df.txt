@@ -1,0 +1,54 @@
+rosette/synth-target-BLSMSKL-R32-R32-e587.rkt:
+[x] rosette/synth-target-BLSMSKL-R32-R32-e587.rkt: Timeout!
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s1-fcfb.rkt:
+[*] rosette/synth-target-pseudo-BLSMSKL-R32-R32-s1-fcfb.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64 1 1))
+pmov-flag-r64 F(bv #x0000000000000006 64), R0
+pxor-r64-r64 R1, R1
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-0482.rkt:
+[*] rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-0482.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0xffffffff, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-7d21.rkt:
+[x] rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-7d21.rkt: Timeout!
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-f2b0.rkt:
+[x] rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-f2b0.rkt: Timeout!
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-8071.rkt:
+[*] rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-8071.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x5888000000000023 64) 5) #(struct:pseudo-BLSMSKL-R32-R32-sr1-s4 0 5) #(struct:pseudo-BLSMSKL-R32-R32-sr1-sr4 5 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000005 64) 0))
+movq 0x5888000000000023, R5
+pseudo-blsmskl-r32-r32-sr1-s4 [R1: 64, R2: 64] R0, R5
+pseudo-blsmskl-r32-r32-sr1-sr4 [R1: 64, R2: 64] R5, R1
+pmov-flag-r64 F(bv #x0000000000000005 64), R0
+rosette/synth-target-BLSMSKL-R32-R32-5356.rkt:
+[*] rosette/synth-target-BLSMSKL-R32-R32-5356.rkt: Success!
+(#(struct:pseudo-BLSMSKL-R32-R32-sr4 1 6) #(struct:PCMOV-R64-R64-R64 6 6 2) #(struct:pseudo-BLSMSKL-R32-R32-s4 0 1) #(struct:PMOVQ-R64-R64 6 0))
+pseudo-blsmskl-r32-r32-sr4 [R1: 64, R2: 64] R1, R6
+pcmov-r64-r64-r64 R6, R6, R2
+pseudo-blsmskl-r32-r32-s4 [R1: 64, R2: 64] R0, R1
+movq R6, R0
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-sr1-b5d1.rkt:
+[x] rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-sr1-b5d1.rkt: Unsat!
+unsat! 3
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-eb06.rkt:
+[*] rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-eb06.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000020 64) 5) #(struct:pseudo-BLSMSKL-R32-R32-s4-sr5 5 2) #(struct:pseudo-BLSMSKL-R32-R32-s4-s5 0 1) #(struct:pseudo-BLSMSKL-R32-R32-s4-sr5 0 1))
+movq 0x20, R5
+pseudo-blsmskl-r32-r32-s4-sr5 [R1: 64, R2: 64] R5, R2
+pseudo-blsmskl-r32-r32-s4-s5 [R1: 64, R2: 64] R0, R1
+pseudo-blsmskl-r32-r32-s4-sr5 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-7fac.rkt:
+[*] rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-7fac.rkt: Success!
+(#(struct:pseudo-BLSMSKL-R32-R32-s4-sr15 0 0) #(struct:PMOVQ-R64-R64 0 2) #(struct:PNOP) #(struct:pseudo-BLSMSKL-R32-R32-s4-s15 2 1))
+pseudo-blsmskl-r32-r32-s4-sr15 [R1: 64, R2: 64] R0, R0
+movq R0, R2
+pnop
+pseudo-blsmskl-r32-r32-s4-s15 [R1: 64, R2: 64] R2, R1
+rosette/synth-target-BLSMSKL-R32-R32-a326.rkt:
+[*] rosette/synth-target-BLSMSKL-R32-R32-a326.rkt: Success!
+(#(struct:PXOR-R64-R64 2 2) #(struct:PAND-R64-R64 2 1) #(struct:PXOR-R64-R64 6 6) #(struct:pseudo-BLSMSKL-R32-R32-sr1 0 1))
+pxor-r64-r64 R2, R2
+pand-r64-r64 R2, R1
+pxor-r64-r64 R6, R6
+pseudo-blsmskl-r32-r32-sr1 [R1: 64, R2: 64] R0, R1

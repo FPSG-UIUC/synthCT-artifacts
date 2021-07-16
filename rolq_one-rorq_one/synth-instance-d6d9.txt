@@ -1,0 +1,22 @@
+rosette/synth-target-RORQ-R64-ONE-c67f.rkt:
+[*] rosette/synth-target-RORQ-R64-ONE-c67f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000203f 64) 4) #(struct:PMOVQ-R64-R64 1 6) #(struct:PSPLIT-R64-R64 1 6 4) #(struct:PCONCAT-R32-R32 6 1 4))
+movq 0x203f, R4
+movq R1, R6
+psplit R1, R6, R4
+pconcat-r32-r32 R6, R1, R4
+rosette/synth-target-ROLQ-R64-ONE-8bb5.rkt:
+[*] rosette/synth-target-ROLQ-R64-ONE-8bb5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x1100e400e8ebf881 64) 2) #(struct:PSPLIT-R64-R64 4 1 2) #(struct:PCONCAT-R32-R32 1 4 2) #(struct:PMOVQ-R64-R64 4 1))
+movq 0x1100e400e8ebf881, R2
+psplit R4, R1, R2
+pconcat-r32-r32 R1, R4, R2
+movq R4, R1
+rosette/synth-target-ROLL-R32-ONE-b2ec.rkt:
+[x] rosette/synth-target-ROLL-R32-ONE-b2ec.rkt: Timeout!
+rosette/synth-target-ROLW-R16-ONE-310e.rkt:
+[x] rosette/synth-target-ROLW-R16-ONE-310e.rkt: Timeout!
+rosette/synth-target-RORW-R16-ONE-8c10.rkt:
+[x] rosette/synth-target-RORW-R16-ONE-8c10.rkt: Timeout!
+rosette/synth-target-RORL-R32-ONE-e0f7.rkt:
+[x] rosette/synth-target-RORL-R32-ONE-e0f7.rkt: Timeout!

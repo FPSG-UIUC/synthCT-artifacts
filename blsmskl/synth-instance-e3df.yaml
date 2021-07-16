@@ -1,0 +1,219 @@
+rosette/synth-target-BLSMSKL-R32-R32-5356.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BLSMSKL-R32-R32-s4
+  - pseudo-BLSMSKL-R32-R32-sr4
+  data: '(#(struct:pseudo-BLSMSKL-R32-R32-sr4 1 6) #(struct:PCMOV-R64-R64-R64 6 6
+    2) #(struct:pseudo-BLSMSKL-R32-R32-s4 0 1) #(struct:PMOVQ-R64-R64 6 0))
+
+    pseudo-blsmskl-r32-r32-sr4 [R1: 64, R2: 64] R1, R6
+
+    pcmov-r64-r64-r64 R6, R6, R2
+
+    pseudo-blsmskl-r32-r32-s4 [R1: 64, R2: 64] R0, R1
+
+    movq R6, R0'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BLSMSKL-R32-R32-5356.rkt
+  spec: BLSMSKL-R32-R32
+  state: success
+  time: 24.588616847991943
+rosette/synth-target-BLSMSKL-R32-R32-a326.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BLSMSKL-R32-R32-s1
+  - pseudo-BLSMSKL-R32-R32-sr1
+  data: '(#(struct:PXOR-R64-R64 2 2) #(struct:PAND-R64-R64 2 1) #(struct:PXOR-R64-R64
+    6 6) #(struct:pseudo-BLSMSKL-R32-R32-sr1 0 1))
+
+    pxor-r64-r64 R2, R2
+
+    pand-r64-r64 R2, R1
+
+    pxor-r64-r64 R6, R6
+
+    pseudo-blsmskl-r32-r32-sr1 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BLSMSKL-R32-R32-a326.rkt
+  spec: BLSMSKL-R32-R32
+  state: success
+  time: 46.583776235580444
+rosette/synth-target-BLSMSKL-R32-R32-e587.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - DECL-R32
+  - BLSRL-R32-R32
+  - BTSL-R32-R32
+  - BTCL-R32-R32
+  - INCL-R32
+  - SHLXL-R32-R32-R32
+  - SARXL-R32-R32-R32
+  - BTRL-R32-R32
+  - BTL-R32-R32
+  - SHRXL-R32-R32-R32
+  - IDIVL-R32
+  - ANDL-R32-R32
+  - DIVL-R32
+  - XCHGL-EAX-R32
+  - XCHGL-R32-R32
+  - TESTL-R32-R32
+  - MOVL-R32-R32
+  - XCHGL-R32-EAX
+  - RORL-R32-ONE
+  - ROLL-R32-ONE
+  - CMPXCHGL-R32-R32
+  - NOTL-R32
+  - ANDNL-R32-R32-R32
+  - XORL-R32-R32
+  - ORL-R32-R32
+  - NEGL-R32
+  - XADDL-R32-R32
+  - POPCNTL-R32-R32
+  - BLSIL-R32-R32
+  - CLTD
+  - CMOVPEL-R32-R32
+  - CMOVPL-R32-R32
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:151:0:\
+    \ cegis\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-BLSMSKL-R32-R32-e587.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-BLSMSKL-R32-R32-e587.rkt
+  spec: BLSMSKL-R32-R32
+  state: timeout
+  time: 10.021609783172607
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s1-fcfb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64
+    1 1))
+
+    pmov-flag-r64 F(bv #x0000000000000006 64), R0
+
+    pxor-r64-r64 R1, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-s1-fcfb.rkt
+  spec: pseudo-BLSMSKL-R32-R32-s1
+  state: success
+  time: 1.018585205078125
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-7fac.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BLSMSKL-R32-R32-s4-s15
+  - pseudo-BLSMSKL-R32-R32-s4-sr15
+  data: '(#(struct:pseudo-BLSMSKL-R32-R32-s4-sr15 0 0) #(struct:PMOVQ-R64-R64 0 2)
+    #(struct:PNOP) #(struct:pseudo-BLSMSKL-R32-R32-s4-s15 2 1))
+
+    pseudo-blsmskl-r32-r32-s4-sr15 [R1: 64, R2: 64] R0, R0
+
+    movq R0, R2
+
+    pnop
+
+    pseudo-blsmskl-r32-r32-s4-s15 [R1: 64, R2: 64] R2, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-7fac.rkt
+  spec: pseudo-BLSMSKL-R32-R32-s4
+  state: success
+  time: 40.081724882125854
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-eb06.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BLSMSKL-R32-R32-s4-s5
+  - pseudo-BLSMSKL-R32-R32-s4-sr5
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000020 64) 5) #(struct:pseudo-BLSMSKL-R32-R32-s4-sr5
+    5 2) #(struct:pseudo-BLSMSKL-R32-R32-s4-s5 0 1) #(struct:pseudo-BLSMSKL-R32-R32-s4-sr5
+    0 1))
+
+    movq 0x20, R5
+
+    pseudo-blsmskl-r32-r32-s4-sr5 [R1: 64, R2: 64] R5, R2
+
+    pseudo-blsmskl-r32-r32-s4-s5 [R1: 64, R2: 64] R0, R1
+
+    pseudo-blsmskl-r32-r32-s4-sr5 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-eb06.rkt
+  spec: pseudo-BLSMSKL-R32-R32-s4
+  state: success
+  time: 25.722346305847168
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-f2b0.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-f2b0.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-s4-f2b0.rkt
+  spec: pseudo-BLSMSKL-R32-R32-s4
+  state: timeout
+  time: 600.1133053302765
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-7d21.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-7d21.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-7d21.rkt
+  spec: pseudo-BLSMSKL-R32-R32-sr1
+  state: timeout
+  time: 600.0390675067902
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-8071.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BLSMSKL-R32-R32-sr1-s4
+  - pseudo-BLSMSKL-R32-R32-sr1-sr4
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x5888000000000023 64) 5) #(struct:pseudo-BLSMSKL-R32-R32-sr1-s4
+    0 5) #(struct:pseudo-BLSMSKL-R32-R32-sr1-sr4 5 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000005
+    64) 0))
+
+    movq 0x5888000000000023, R5
+
+    pseudo-blsmskl-r32-r32-sr1-s4 [R1: 64, R2: 64] R0, R5
+
+    pseudo-blsmskl-r32-r32-sr1-sr4 [R1: 64, R2: 64] R5, R1
+
+    pmov-flag-r64 F(bv #x0000000000000005 64), R0'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr1-8071.rkt
+  spec: pseudo-BLSMSKL-R32-R32-sr1
+  state: success
+  time: 12.028489112854004
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-0482.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64
+    0 1))
+
+    movq 0xffffffff, R1
+
+    pand-r64-r64 R0, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-0482.rkt
+  spec: pseudo-BLSMSKL-R32-R32-sr4
+  state: success
+  time: 1.021174430847168
+rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-sr1-b5d1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: unsat! 3
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BLSMSKL-R32-R32-sr4-sr1-b5d1.rkt
+  spec: pseudo-BLSMSKL-R32-R32-sr4-sr1
+  state: unsat
+  time: 51.7164990901947

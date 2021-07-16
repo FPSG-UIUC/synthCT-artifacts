@@ -1,0 +1,2542 @@
+rosette/synth-target-LZCNTL-R32-R32-2303.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s1
+  - pseudo-LZCNTL-R32-R32-s12
+  - pseudo-LZCNTL-R32-R32-s16
+  - pseudo-LZCNTL-R32-R32-sr1-sr12-sr16
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s1 0 1) #(struct:pseudo-LZCNTL-R32-R32-s1
+    1 6) #(struct:pseudo-LZCNTL-R32-R32-s16 0 0) #(struct:pseudo-LZCNTL-R32-R32-sr1-sr12-sr16
+    6 0 1))
+
+    pseudo-lzcntl-r32-r32-s1 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s1 [R1: 64, R2: 64] R1, R6
+
+    pseudo-lzcntl-r32-r32-s16 [R1: 64, R2: 64] R0, R0
+
+    pseudo-lzcntl-r32-r32-sr1-sr12-sr16 [R3: 64, R1: 64, R2: 64] R6, R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-LZCNTL-R32-R32-2303.rkt
+  spec: LZCNTL-R32-R32
+  state: success
+  time: 6.123589515686035
+rosette/synth-target-LZCNTL-R32-R32-9789.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - TZCNTL-R32-R32
+  - LZCNTQ-R64-R64
+  - TZCNTQ-R64-R64
+  - TZCNTW-R16-R16
+  - LZCNTW-R16-R16
+  - BTRQ-R64-R64
+  - MULXQ-R64-R64-R64
+  - MULQ-R64
+  - BTCQ-R64-R64
+  - BTSQ-R64-R64
+  - CMOVNGQ-R64-R64
+  - CMOVBEQ-R64-R64
+  - CMOVGQ-R64-R64
+  - CMOVNLEQ-R64-R64
+  - CMOVLEQ-R64-R64
+  - CMOVNLQ-R64-R64
+  - CMOVNSQ-R64-R64
+  - CMOVNLEW-R16-R16
+  - CMOVNEQ-R64-R64
+  - CMOVNPQ-R64-R64
+  - CMOVNAQ-R64-R64
+  - CMOVPOQ-R64-R64
+  - CMOVLQ-R64-R64
+  - BLSIQ-R64-R64
+  data: ''
+  debug: "user break\n  context...:\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:151:0:\
+    \ cegis\n   /root/.local/share/racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n   /synthesis/dsa-fuzz/rosette/synthesis_core.rkt:74:0:\
+    \ optimize-prog-single\n   body of \"/synthesis/dsa-fuzz/rosette/synth-target-LZCNTL-R32-R32-9789.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-LZCNTL-R32-R32-9789.rkt
+  spec: LZCNTL-R32-R32
+  state: timeout
+  time: 10.041168689727783
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-0d28.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s2
+  - pseudo-LZCNTL-R32-R32-s8
+  - pseudo-LZCNTL-R32-R32-s1-sr2-sr8
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTL-R32-R32-s1-sr2-sr8
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTL-R32-R32-s2
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s2 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-0d28.rkt
+  spec: pseudo-LZCNTL-R32-R32-s1
+  state: success
+  time: 1.6402432918548584
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-sr2-sr8-7e2e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s2
+  - pseudo-LZCNTL-R32-R32-s8
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s8 2) #(struct:PXOR-R64-R64 2 1) #(struct:PXOR-R64-R64
+    0 1) #(struct:PAND-R64-R64 2 1))
+
+    pseudo-lzcntl-r32-r32-s8 [R2: 64] R2
+
+    pxor-r64-r64 R2, R1
+
+    pxor-r64-r64 R0, R1
+
+    pand-r64-r64 R2, R1'
+  debug: sat! 4
+  max_timeout: 3600
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-sr2-sr8-7e2e.rkt
+  spec: pseudo-LZCNTL-R32-R32-s1-sr2-sr8
+  state: success
+  time: 330.6884033679962
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s108-40e5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000006
+    64) 1))
+
+    pxor-r64-r64 R6, R6
+
+    movq 0x6, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s108-40e5.rkt
+  spec: pseudo-LZCNTL-R32-R32-s108
+  state: success
+  time: 2.526297092437744
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s112-a89b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s113
+  - pseudo-LZCNTL-R32-R32-s124
+  - pseudo-LZCNTL-R32-R32-s128
+  - pseudo-LZCNTL-R32-R32-s112-sr113-sr124-sr128
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s128 0 5) #(struct:pseudo-LZCNTL-R32-R32-s113
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s124 0) #(struct:pseudo-LZCNTL-R32-R32-s112-sr113-sr124-sr128
+    0 5 1))
+
+    pseudo-lzcntl-r32-r32-s128 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s113 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s124 [R2: 64] R0
+
+    pseudo-lzcntl-r32-r32-s112-sr113-sr124-sr128 [R3: 64, R1: 64, R2: 64] R0, R5,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s112-a89b.rkt
+  spec: pseudo-LZCNTL-R32-R32-s112
+  state: success
+  time: 4.1072471141815186
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s113-0a87.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s114
+  - pseudo-LZCNTL-R32-R32-s120
+  - pseudo-LZCNTL-R32-R32-s113-sr114-sr120
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTL-R32-R32-s113-sr114-sr120
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTL-R32-R32-s114
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s114 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s113-0a87.rkt
+  spec: pseudo-LZCNTL-R32-R32-s113
+  state: success
+  time: 1.6345021724700928
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s114-9321.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000001000028 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x1000028, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s114-9321.rkt
+  spec: pseudo-LZCNTL-R32-R32-s114
+  state: success
+  time: 596.6595788002014
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s12-8244.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64
+    1 1))
+
+    pmov-flag-r64 F(bv #x0000000000000006 64), R0
+
+    pxor-r64-r64 R1, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s12-8244.rkt
+  spec: pseudo-LZCNTL-R32-R32-s12
+  state: success
+  time: 2.7413971424102783
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s124-6532.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000007 64) 1) #(struct:PSPLIT-R64-R64
+    6 6 6))
+
+    movq 0x7, R1
+
+    psplit R6, R6, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s124-6532.rkt
+  spec: pseudo-LZCNTL-R32-R32-s124
+  state: success
+  time: 1.9660286903381348
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s128-8814.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s129
+  - pseudo-LZCNTL-R32-R32-s140
+  - pseudo-LZCNTL-R32-R32-s144
+  - pseudo-LZCNTL-R32-R32-s128-sr129-sr140-sr144
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s129 0 1) #(struct:pseudo-LZCNTL-R32-R32-s144
+    0 5) #(struct:pseudo-LZCNTL-R32-R32-s140 6) #(struct:pseudo-LZCNTL-R32-R32-s128-sr129-sr140-sr144
+    6 5 1))
+
+    pseudo-lzcntl-r32-r32-s129 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s144 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s140 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s128-sr129-sr140-sr144 [R3: 64, R1: 64, R2: 64] R6, R5,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s128-8814.rkt
+  spec: pseudo-LZCNTL-R32-R32-s128
+  state: success
+  time: 8.698659896850586
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s129-07e7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s130
+  - pseudo-LZCNTL-R32-R32-s136
+  - pseudo-LZCNTL-R32-R32-s129-sr130-sr136
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTL-R32-R32-s129-sr130-sr136
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTL-R32-R32-s130
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s130 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s129-07e7.rkt
+  spec: pseudo-LZCNTL-R32-R32-s129
+  state: success
+  time: 1.5825352668762207
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s130-24c6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000800029 64) 6) #(struct:PAND-R64-R64
+    6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+
+    movq 0x800029, R6
+
+    pand-r64-r64 R6, R0
+
+    psplit R1, R0, R6'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s130-24c6.rkt
+  spec: pseudo-LZCNTL-R32-R32-s130
+  state: success
+  time: 142.5897400379181
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s140-cfb5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0008480000000010 64) 6) #(struct:PSPLIT-R64-R64
+    1 6 6))
+
+    movq 0x8480000000010, R6
+
+    psplit R1, R6, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s140-cfb5.rkt
+  spec: pseudo-LZCNTL-R32-R32-s140
+  state: success
+  time: 2.4902939796447754
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s144-7aaf.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s145
+  - pseudo-LZCNTL-R32-R32-s156
+  - pseudo-LZCNTL-R32-R32-s160
+  - pseudo-LZCNTL-R32-R32-s144-sr145-sr156-sr160
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s145 0 1) #(struct:pseudo-LZCNTL-R32-R32-s160
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s156 5) #(struct:pseudo-LZCNTL-R32-R32-s144-sr145-sr156-sr160
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s145 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s160 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s156 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s144-sr145-sr156-sr160 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s144-7aaf.rkt
+  spec: pseudo-LZCNTL-R32-R32-s144
+  state: success
+  time: 4.047101736068726
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s145-c9b0.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s146
+  - pseudo-LZCNTL-R32-R32-s152
+  - pseudo-LZCNTL-R32-R32-s145-sr146-sr152
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTL-R32-R32-s145-sr146-sr152
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTL-R32-R32-s146
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s146 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s145-c9b0.rkt
+  spec: pseudo-LZCNTL-R32-R32-s145
+  state: success
+  time: 1.5674810409545898
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s146-3e70.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000040002a 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x40002a, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s146-3e70.rkt
+  spec: pseudo-LZCNTL-R32-R32-s146
+  state: success
+  time: 177.91365265846252
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s156-6955.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000009 64) 1) #(struct:PSPLIT-R64-R64
+    6 0 6))
+
+    movq 0x9, R1
+
+    psplit R6, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s156-6955.rkt
+  spec: pseudo-LZCNTL-R32-R32-s156
+  state: success
+  time: 2.137946844100952
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s16-9e37.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s17
+  - pseudo-LZCNTL-R32-R32-s28
+  - pseudo-LZCNTL-R32-R32-s32
+  - pseudo-LZCNTL-R32-R32-s16-sr17-sr28-sr32
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s17 0 1) #(struct:pseudo-LZCNTL-R32-R32-s32
+    0 5) #(struct:pseudo-LZCNTL-R32-R32-s17 0 1) #(struct:pseudo-LZCNTL-R32-R32-s16-sr17-sr28-sr32
+    1 5 1))
+
+    pseudo-lzcntl-r32-r32-s17 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s32 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s17 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s16-sr17-sr28-sr32 [R3: 64, R1: 64, R2: 64] R1, R5, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s16-9e37.rkt
+  spec: pseudo-LZCNTL-R32-R32-s16
+  state: success
+  time: 7.064166307449341
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s160-7ff1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s161
+  - pseudo-LZCNTL-R32-R32-s172
+  - pseudo-LZCNTL-R32-R32-s176
+  - pseudo-LZCNTL-R32-R32-s160-sr161-sr172-sr176
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s172 5) #(struct:pseudo-LZCNTL-R32-R32-s176
+    0 2) #(struct:pseudo-LZCNTL-R32-R32-s161 0 1) #(struct:pseudo-LZCNTL-R32-R32-s160-sr161-sr172-sr176
+    5 2 1))
+
+    pseudo-lzcntl-r32-r32-s172 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s176 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s161 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s160-sr161-sr172-sr176 [R3: 64, R1: 64, R2: 64] R5, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s160-7ff1.rkt
+  spec: pseudo-LZCNTL-R32-R32-s160
+  state: success
+  time: 7.540261507034302
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s161-e5f0.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s162
+  - pseudo-LZCNTL-R32-R32-s168
+  - pseudo-LZCNTL-R32-R32-s161-sr162-sr168
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTL-R32-R32-s161-sr162-sr168
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTL-R32-R32-s162
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s162 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s161-e5f0.rkt
+  spec: pseudo-LZCNTL-R32-R32-s161
+  state: success
+  time: 1.548619270324707
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s162-f8c5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000020002b 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x20002b, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s162-f8c5.rkt
+  spec: pseudo-LZCNTL-R32-R32-s162
+  state: success
+  time: 34.54549765586853
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s17-4fcb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s18
+  - pseudo-LZCNTL-R32-R32-s24
+  - pseudo-LZCNTL-R32-R32-s17-sr18-sr24
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTL-R32-R32-s17-sr18-sr24
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTL-R32-R32-s18
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s18 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s17-4fcb.rkt
+  spec: pseudo-LZCNTL-R32-R32-s17
+  state: success
+  time: 1.499830961227417
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s172-1921.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PCMOV-R64-R64-R64 5 1 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000000a
+    64) 1))
+
+    pcmov-r64-r64-r64 R5, R1, R0
+
+    movq 0xa, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s172-1921.rkt
+  spec: pseudo-LZCNTL-R32-R32-s172
+  state: success
+  time: 2.1349000930786133
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s176-6c48.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s177
+  - pseudo-LZCNTL-R32-R32-s188
+  - pseudo-LZCNTL-R32-R32-s192
+  - pseudo-LZCNTL-R32-R32-s176-sr177-sr188-sr192
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s188 5) #(struct:pseudo-LZCNTL-R32-R32-s177
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s192 0 2) #(struct:pseudo-LZCNTL-R32-R32-s176-sr177-sr188-sr192
+    5 2 1))
+
+    pseudo-lzcntl-r32-r32-s188 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s177 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s192 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s176-sr177-sr188-sr192 [R3: 64, R1: 64, R2: 64] R5, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s176-6c48.rkt
+  spec: pseudo-LZCNTL-R32-R32-s176
+  state: success
+  time: 4.12824559211731
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s177-f869.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s178
+  - pseudo-LZCNTL-R32-R32-s184
+  - pseudo-LZCNTL-R32-R32-s177-sr178-sr184
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTL-R32-R32-s177-sr178-sr184
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTL-R32-R32-s178
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s178 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s177-f869.rkt
+  spec: pseudo-LZCNTL-R32-R32-s177
+  state: success
+  time: 1.6193907260894775
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s178-51ac.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000010002c 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x10002c, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s178-51ac.rkt
+  spec: pseudo-LZCNTL-R32-R32-s178
+  state: success
+  time: 795.2676637172699
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s18-9ba4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000040400022 64) 2) #(struct:PAND-R64-R64
+    2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+
+    movq 0x40400022, R2
+
+    pand-r64-r64 R2, R0
+
+    psplit R1, R0, R2'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s18-9ba4.rkt
+  spec: pseudo-LZCNTL-R32-R32-s18
+  state: success
+  time: 222.03023600578308
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s188-0f31.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PMOVQ-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000000b
+    64) 1))
+
+    movq R5, R6
+
+    movq 0xb, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s188-0f31.rkt
+  spec: pseudo-LZCNTL-R32-R32-s188
+  state: success
+  time: 2.37888503074646
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s192-7310.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s193
+  - pseudo-LZCNTL-R32-R32-s204
+  - pseudo-LZCNTL-R32-R32-s208
+  - pseudo-LZCNTL-R32-R32-s192-sr193-sr204-sr208
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s193 0 1) #(struct:pseudo-LZCNTL-R32-R32-s208
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s204 5) #(struct:pseudo-LZCNTL-R32-R32-s192-sr193-sr204-sr208
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s193 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s208 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s204 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s192-sr193-sr204-sr208 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s192-7310.rkt
+  spec: pseudo-LZCNTL-R32-R32-s192
+  state: success
+  time: 5.325246334075928
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s193-c786.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s194
+  - pseudo-LZCNTL-R32-R32-s200
+  - pseudo-LZCNTL-R32-R32-s193-sr194-sr200
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTL-R32-R32-s193-sr194-sr200
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTL-R32-R32-s194
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s194 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s193-c786.rkt
+  spec: pseudo-LZCNTL-R32-R32-s193
+  state: success
+  time: 1.5724070072174072
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s194-ce20.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x00000000000f7fed 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0xf7fed, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s194-ce20.rkt
+  spec: pseudo-LZCNTL-R32-R32-s194
+  state: success
+  time: 1110.5036461353302
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s2-7e72.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000080000021 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x80000021, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s2-7e72.rkt
+  spec: pseudo-LZCNTL-R32-R32-s2
+  state: success
+  time: 887.3104112148285
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s204-e489.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PSPLIT-R64-R64 6 1 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000000c
+    64) 1))
+
+    psplit R6, R1, R0
+
+    movq 0xc, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s204-e489.rkt
+  spec: pseudo-LZCNTL-R32-R32-s204
+  state: success
+  time: 2.317084789276123
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s208-1c7a.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s209
+  - pseudo-LZCNTL-R32-R32-s220
+  - pseudo-LZCNTL-R32-R32-s224
+  - pseudo-LZCNTL-R32-R32-s208-sr209-sr220-sr224
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s209 0 1) #(struct:pseudo-LZCNTL-R32-R32-s224
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s220 5) #(struct:pseudo-LZCNTL-R32-R32-s208-sr209-sr220-sr224
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s209 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s224 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s220 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s208-sr209-sr220-sr224 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s208-1c7a.rkt
+  spec: pseudo-LZCNTL-R32-R32-s208
+  state: success
+  time: 7.257639646530151
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s209-d3b3.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s210
+  - pseudo-LZCNTL-R32-R32-s216
+  - pseudo-LZCNTL-R32-R32-s209-sr210-sr216
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTL-R32-R32-s209-sr210-sr216
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTL-R32-R32-s210
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s210 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s209-d3b3.rkt
+  spec: pseudo-LZCNTL-R32-R32-s209
+  state: success
+  time: 1.5796477794647217
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s210-84f1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000004002e 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x4002e, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s210-84f1.rkt
+  spec: pseudo-LZCNTL-R32-R32-s210
+  state: success
+  time: 834.3760087490082
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s220-bded.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000000d 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0xd, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s220-bded.rkt
+  spec: pseudo-LZCNTL-R32-R32-s220
+  state: success
+  time: 2.2213423252105713
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s224-c8e6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s225
+  - pseudo-LZCNTL-R32-R32-s236
+  - pseudo-LZCNTL-R32-R32-s240
+  - pseudo-LZCNTL-R32-R32-s224-sr225-sr236-sr240
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s225 0 1) #(struct:pseudo-LZCNTL-R32-R32-s240
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s236 2) #(struct:pseudo-LZCNTL-R32-R32-s224-sr225-sr236-sr240
+    2 6 1))
+
+    pseudo-lzcntl-r32-r32-s225 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s240 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s236 [R2: 64] R2
+
+    pseudo-lzcntl-r32-r32-s224-sr225-sr236-sr240 [R3: 64, R1: 64, R2: 64] R2, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s224-c8e6.rkt
+  spec: pseudo-LZCNTL-R32-R32-s224
+  state: success
+  time: 8.88492751121521
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s225-5662.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s226
+  - pseudo-LZCNTL-R32-R32-s232
+  - pseudo-LZCNTL-R32-R32-s225-sr226-sr232
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTL-R32-R32-s225-sr226-sr232
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTL-R32-R32-s226
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s226 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s225-5662.rkt
+  spec: pseudo-LZCNTL-R32-R32-s225
+  state: success
+  time: 1.5530602931976318
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s226-c732.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000002002f 64) 6) #(struct:PAND-R64-R64
+    6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+
+    movq 0x2002f, R6
+
+    pand-r64-r64 R6, R0
+
+    psplit R1, R0, R6'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s226-c732.rkt
+  spec: pseudo-LZCNTL-R32-R32-s226
+  state: success
+  time: 59.922191858291626
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s236-33d4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000000e 64) 1) #(struct:PSPLIT-R64-R64
+    0 2 1))
+
+    movq 0xe, R1
+
+    psplit R0, R2, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s236-33d4.rkt
+  spec: pseudo-LZCNTL-R32-R32-s236
+  state: success
+  time: 2.072983980178833
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s240-62c6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s241
+  - pseudo-LZCNTL-R32-R32-s252
+  - pseudo-LZCNTL-R32-R32-s256
+  - pseudo-LZCNTL-R32-R32-s240-sr241-sr252-sr256
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s241 0 1) #(struct:pseudo-LZCNTL-R32-R32-s252
+    6) #(struct:pseudo-LZCNTL-R32-R32-s256 0 0) #(struct:pseudo-LZCNTL-R32-R32-s240-sr241-sr252-sr256
+    6 0 1))
+
+    pseudo-lzcntl-r32-r32-s241 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s252 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s256 [R1: 64, R2: 64] R0, R0
+
+    pseudo-lzcntl-r32-r32-s240-sr241-sr252-sr256 [R3: 64, R1: 64, R2: 64] R6, R0,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s240-62c6.rkt
+  spec: pseudo-LZCNTL-R32-R32-s240
+  state: success
+  time: 11.433226108551025
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s241-3ea7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s242
+  - pseudo-LZCNTL-R32-R32-s248
+  - pseudo-LZCNTL-R32-R32-s241-sr242-sr248
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTL-R32-R32-s241-sr242-sr248
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTL-R32-R32-s242
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s242 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s241-3ea7.rkt
+  spec: pseudo-LZCNTL-R32-R32-s241
+  state: success
+  time: 1.5681443214416504
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s242-fa97.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000010030 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x10030, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s242-fa97.rkt
+  spec: pseudo-LZCNTL-R32-R32-s242
+  state: success
+  time: 671.6831147670746
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s252-c028.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000000f 64) 1) #(struct:PSPLIT-R64-R64
+    0 6 6))
+
+    movq 0xf, R1
+
+    psplit R0, R6, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s252-c028.rkt
+  spec: pseudo-LZCNTL-R32-R32-s252
+  state: success
+  time: 1.9501256942749023
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s256-ebe5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s257
+  - pseudo-LZCNTL-R32-R32-s268
+  - pseudo-LZCNTL-R32-R32-s272
+  - pseudo-LZCNTL-R32-R32-s256-sr257-sr268-sr272
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s257 0 1) #(struct:pseudo-LZCNTL-R32-R32-s272
+    0 2) #(struct:pseudo-LZCNTL-R32-R32-s268 6) #(struct:pseudo-LZCNTL-R32-R32-s256-sr257-sr268-sr272
+    6 2 1))
+
+    pseudo-lzcntl-r32-r32-s257 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s272 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s268 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s256-sr257-sr268-sr272 [R3: 64, R1: 64, R2: 64] R6, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s256-ebe5.rkt
+  spec: pseudo-LZCNTL-R32-R32-s256
+  state: success
+  time: 21.14874029159546
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s257-1576.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s258
+  - pseudo-LZCNTL-R32-R32-s264
+  - pseudo-LZCNTL-R32-R32-s257-sr258-sr264
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTL-R32-R32-s257-sr258-sr264
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTL-R32-R32-s258
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s258 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s257-1576.rkt
+  spec: pseudo-LZCNTL-R32-R32-s257
+  state: success
+  time: 1.5816378593444824
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s258-eb11.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000008031 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x8031, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s258-eb11.rkt
+  spec: pseudo-LZCNTL-R32-R32-s258
+  state: success
+  time: 1620.0359218120575
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s268-70eb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000010 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x10, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s268-70eb.rkt
+  spec: pseudo-LZCNTL-R32-R32-s268
+  state: success
+  time: 2.2117652893066406
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s272-73c8.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s273
+  - pseudo-LZCNTL-R32-R32-s284
+  - pseudo-LZCNTL-R32-R32-s288
+  - pseudo-LZCNTL-R32-R32-s272-sr273-sr284-sr288
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s273 0 1) #(struct:pseudo-LZCNTL-R32-R32-s288
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s284 5) #(struct:pseudo-LZCNTL-R32-R32-s272-sr273-sr284-sr288
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s273 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s288 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s284 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s272-sr273-sr284-sr288 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s272-73c8.rkt
+  spec: pseudo-LZCNTL-R32-R32-s272
+  state: success
+  time: 6.348341226577759
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s273-fbe7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s274
+  - pseudo-LZCNTL-R32-R32-s280
+  - pseudo-LZCNTL-R32-R32-s273-sr274-sr280
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTL-R32-R32-s273-sr274-sr280
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTL-R32-R32-s274
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s274 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s273-fbe7.rkt
+  spec: pseudo-LZCNTL-R32-R32-s273
+  state: success
+  time: 1.5829315185546875
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s274-1820.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000004032 64) 6) #(struct:PAND-R64-R64
+    6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+
+    movq 0x4032, R6
+
+    pand-r64-r64 R6, R0
+
+    psplit R1, R0, R6'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s274-1820.rkt
+  spec: pseudo-LZCNTL-R32-R32-s274
+  state: success
+  time: 890.4523894786835
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s28-52f5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 5) #(struct:PSPLIT-R64-R64
+    1 5 5))
+
+    movq 0x10000024, R5
+
+    psplit R1, R5, R5'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s28-52f5.rkt
+  spec: pseudo-LZCNTL-R32-R32-s28
+  state: success
+  time: 2.1582138538360596
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s284-e16b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000011 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x11, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s284-e16b.rkt
+  spec: pseudo-LZCNTL-R32-R32-s284
+  state: success
+  time: 1.9127528667449951
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s288-eb8d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s289
+  - pseudo-LZCNTL-R32-R32-s300
+  - pseudo-LZCNTL-R32-R32-s304
+  - pseudo-LZCNTL-R32-R32-s288-sr289-sr300-sr304
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s300 6) #(struct:pseudo-LZCNTL-R32-R32-s289
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s304 0 2) #(struct:pseudo-LZCNTL-R32-R32-s288-sr289-sr300-sr304
+    6 2 1))
+
+    pseudo-lzcntl-r32-r32-s300 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s289 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s304 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s288-sr289-sr300-sr304 [R3: 64, R1: 64, R2: 64] R6, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s288-eb8d.rkt
+  spec: pseudo-LZCNTL-R32-R32-s288
+  state: success
+  time: 5.797858476638794
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s289-49ec.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s290
+  - pseudo-LZCNTL-R32-R32-s296
+  - pseudo-LZCNTL-R32-R32-s289-sr290-sr296
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTL-R32-R32-s289-sr290-sr296
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTL-R32-R32-s290
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s290 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s289-49ec.rkt
+  spec: pseudo-LZCNTL-R32-R32-s289
+  state: success
+  time: 1.6239147186279297
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s290-ef74.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000002033 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x2033, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s290-ef74.rkt
+  spec: pseudo-LZCNTL-R32-R32-s290
+  state: success
+  time: 1290.8778719902039
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s300-cf90.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PCMOV-R64-R64-R64 6 6 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000012
+    64) 1))
+
+    pcmov-r64-r64-r64 R6, R6, R5
+
+    movq 0x12, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s300-cf90.rkt
+  spec: pseudo-LZCNTL-R32-R32-s300
+  state: success
+  time: 2.2714126110076904
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s304-8c26.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s305
+  - pseudo-LZCNTL-R32-R32-s316
+  - pseudo-LZCNTL-R32-R32-s320
+  - pseudo-LZCNTL-R32-R32-s304-sr305-sr316-sr320
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s320 0 2) #(struct:pseudo-LZCNTL-R32-R32-s305
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s316 5) #(struct:pseudo-LZCNTL-R32-R32-s304-sr305-sr316-sr320
+    5 2 1))
+
+    pseudo-lzcntl-r32-r32-s320 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s305 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s316 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s304-sr305-sr316-sr320 [R3: 64, R1: 64, R2: 64] R5, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s304-8c26.rkt
+  spec: pseudo-LZCNTL-R32-R32-s304
+  state: success
+  time: 8.290452718734741
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s305-2381.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s306
+  - pseudo-LZCNTL-R32-R32-s312
+  - pseudo-LZCNTL-R32-R32-s305-sr306-sr312
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTL-R32-R32-s305-sr306-sr312
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTL-R32-R32-s306
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s306 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s305-2381.rkt
+  spec: pseudo-LZCNTL-R32-R32-s305
+  state: success
+  time: 1.5990550518035889
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s306-ffee.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000001034 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x1034, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s306-ffee.rkt
+  spec: pseudo-LZCNTL-R32-R32-s306
+  state: success
+  time: 340.83891797065735
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s316-484e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000013 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x13, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s316-484e.rkt
+  spec: pseudo-LZCNTL-R32-R32-s316
+  state: success
+  time: 2.108544111251831
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s32-de2e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s33
+  - pseudo-LZCNTL-R32-R32-s44
+  - pseudo-LZCNTL-R32-R32-s48
+  - pseudo-LZCNTL-R32-R32-s32-sr33-sr44-sr48
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s48 0 2) #(struct:pseudo-LZCNTL-R32-R32-s44
+    6) #(struct:pseudo-LZCNTL-R32-R32-s33 0 1) #(struct:pseudo-LZCNTL-R32-R32-s32-sr33-sr44-sr48
+    6 2 1))
+
+    pseudo-lzcntl-r32-r32-s48 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s44 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s33 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s32-sr33-sr44-sr48 [R3: 64, R1: 64, R2: 64] R6, R2, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s32-de2e.rkt
+  spec: pseudo-LZCNTL-R32-R32-s32
+  state: success
+  time: 8.592338562011719
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s320-085c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s321
+  - pseudo-LZCNTL-R32-R32-s332
+  - pseudo-LZCNTL-R32-R32-s336
+  - pseudo-LZCNTL-R32-R32-s320-sr321-sr332-sr336
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s336 0 2) #(struct:pseudo-LZCNTL-R32-R32-s321
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s332 5) #(struct:pseudo-LZCNTL-R32-R32-s320-sr321-sr332-sr336
+    5 2 1))
+
+    pseudo-lzcntl-r32-r32-s336 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s321 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s332 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s320-sr321-sr332-sr336 [R3: 64, R1: 64, R2: 64] R5, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s320-085c.rkt
+  spec: pseudo-LZCNTL-R32-R32-s320
+  state: success
+  time: 9.504297494888306
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s321-f9a7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s322
+  - pseudo-LZCNTL-R32-R32-s328
+  - pseudo-LZCNTL-R32-R32-s321-sr322-sr328
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTL-R32-R32-s321-sr322-sr328
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTL-R32-R32-s322
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s322 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s321-f9a7.rkt
+  spec: pseudo-LZCNTL-R32-R32-s321
+  state: success
+  time: 1.5761139392852783
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s322-cc47.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000835 64) 2) #(struct:PAND-R64-R64
+    2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+
+    movq 0x835, R2
+
+    pand-r64-r64 R2, R0
+
+    psplit R1, R0, R2'
+  debug: sat! 3
+  max_timeout: 3600
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s322-cc47.rkt
+  spec: pseudo-LZCNTL-R32-R32-s322
+  state: success
+  time: 1566.2996797561646
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s33-50e1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s34
+  - pseudo-LZCNTL-R32-R32-s40
+  - pseudo-LZCNTL-R32-R32-s33-sr34-sr40
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTL-R32-R32-s33-sr34-sr40
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTL-R32-R32-s34
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s34 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s33-50e1.rkt
+  spec: pseudo-LZCNTL-R32-R32-s33
+  state: success
+  time: 1.5043046474456787
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s332-e94c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000014 64) 1) #(struct:PSPLIT-R64-R64
+    6 0 6))
+
+    movq 0x14, R1
+
+    psplit R6, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s332-e94c.rkt
+  spec: pseudo-LZCNTL-R32-R32-s332
+  state: success
+  time: 2.0357754230499268
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s336-6a92.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s337
+  - pseudo-LZCNTL-R32-R32-s348
+  - pseudo-LZCNTL-R32-R32-s352
+  - pseudo-LZCNTL-R32-R32-s336-sr337-sr348-sr352
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s337 0 1) #(struct:pseudo-LZCNTL-R32-R32-s352
+    0 5) #(struct:pseudo-LZCNTL-R32-R32-s348 0) #(struct:pseudo-LZCNTL-R32-R32-s336-sr337-sr348-sr352
+    0 5 1))
+
+    pseudo-lzcntl-r32-r32-s337 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s352 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s348 [R2: 64] R0
+
+    pseudo-lzcntl-r32-r32-s336-sr337-sr348-sr352 [R3: 64, R1: 64, R2: 64] R0, R5,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s336-6a92.rkt
+  spec: pseudo-LZCNTL-R32-R32-s336
+  state: success
+  time: 8.00206708908081
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s337-ef00.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s338
+  - pseudo-LZCNTL-R32-R32-s344
+  - pseudo-LZCNTL-R32-R32-s337-sr338-sr344
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTL-R32-R32-s337-sr338-sr344
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTL-R32-R32-s338
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s338 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s337-ef00.rkt
+  spec: pseudo-LZCNTL-R32-R32-s337
+  state: success
+  time: 1.5292773246765137
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s338-2802.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000436 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x436, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s338-2802.rkt
+  spec: pseudo-LZCNTL-R32-R32-s338
+  state: success
+  time: 187.59525728225708
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s34-bfb2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000020000023 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x20000023, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s34-bfb2.rkt
+  spec: pseudo-LZCNTL-R32-R32-s34
+  state: success
+  time: 556.3955726623535
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s348-0a12.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PCMOV-R64-R64-R64 6 6 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000015
+    64) 1))
+
+    pcmov-r64-r64-r64 R6, R6, R0
+
+    movq 0x15, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s348-0a12.rkt
+  spec: pseudo-LZCNTL-R32-R32-s348
+  state: success
+  time: 2.244600296020508
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s352-5f87.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s353
+  - pseudo-LZCNTL-R32-R32-s364
+  - pseudo-LZCNTL-R32-R32-s368
+  - pseudo-LZCNTL-R32-R32-s352-sr353-sr364-sr368
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s353 0 1) #(struct:pseudo-LZCNTL-R32-R32-s368
+    0 0) #(struct:pseudo-LZCNTL-R32-R32-s364 2) #(struct:pseudo-LZCNTL-R32-R32-s352-sr353-sr364-sr368
+    2 0 1))
+
+    pseudo-lzcntl-r32-r32-s353 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s368 [R1: 64, R2: 64] R0, R0
+
+    pseudo-lzcntl-r32-r32-s364 [R2: 64] R2
+
+    pseudo-lzcntl-r32-r32-s352-sr353-sr364-sr368 [R3: 64, R1: 64, R2: 64] R2, R0,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s352-5f87.rkt
+  spec: pseudo-LZCNTL-R32-R32-s352
+  state: success
+  time: 8.795570611953735
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s353-fe13.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s354
+  - pseudo-LZCNTL-R32-R32-s360
+  - pseudo-LZCNTL-R32-R32-s353-sr354-sr360
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTL-R32-R32-s353-sr354-sr360
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTL-R32-R32-s354
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s354 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s353-fe13.rkt
+  spec: pseudo-LZCNTL-R32-R32-s353
+  state: success
+  time: 1.5803730487823486
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s354-b76d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000237 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x237, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s354-b76d.rkt
+  spec: pseudo-LZCNTL-R32-R32-s354
+  state: success
+  time: 211.2359974384308
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s364-ee14.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000016 64) 1) #(struct:PSPLIT-R64-R64
+    6 0 6))
+
+    movq 0x16, R1
+
+    psplit R6, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s364-ee14.rkt
+  spec: pseudo-LZCNTL-R32-R32-s364
+  state: success
+  time: 2.022841215133667
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s368-ddc2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s369
+  - pseudo-LZCNTL-R32-R32-s380
+  - pseudo-LZCNTL-R32-R32-s384
+  - pseudo-LZCNTL-R32-R32-s368-sr369-sr380-sr384
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s384 0 2) #(struct:pseudo-LZCNTL-R32-R32-s380
+    6) #(struct:pseudo-LZCNTL-R32-R32-s369 0 1) #(struct:pseudo-LZCNTL-R32-R32-s368-sr369-sr380-sr384
+    6 2 1))
+
+    pseudo-lzcntl-r32-r32-s384 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s380 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s369 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s368-sr369-sr380-sr384 [R3: 64, R1: 64, R2: 64] R6, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s368-ddc2.rkt
+  spec: pseudo-LZCNTL-R32-R32-s368
+  state: success
+  time: 6.969715595245361
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s369-fd22.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s370
+  - pseudo-LZCNTL-R32-R32-s376
+  - pseudo-LZCNTL-R32-R32-s369-sr370-sr376
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTL-R32-R32-s369-sr370-sr376
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTL-R32-R32-s370
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s370 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s369-fd22.rkt
+  spec: pseudo-LZCNTL-R32-R32-s369
+  state: success
+  time: 1.5619263648986816
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s370-387d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000138 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x138, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s370-387d.rkt
+  spec: pseudo-LZCNTL-R32-R32-s370
+  state: success
+  time: 131.01674938201904
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s380-0f15.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000017 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x17, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s380-0f15.rkt
+  spec: pseudo-LZCNTL-R32-R32-s380
+  state: success
+  time: 2.2245731353759766
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s384-cca3.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s385
+  - pseudo-LZCNTL-R32-R32-s396
+  - pseudo-LZCNTL-R32-R32-s400
+  - pseudo-LZCNTL-R32-R32-s384-sr385-sr396-sr400
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s400 0 2) #(struct:pseudo-LZCNTL-R32-R32-s396
+    5) #(struct:pseudo-LZCNTL-R32-R32-s385 0 1) #(struct:pseudo-LZCNTL-R32-R32-s384-sr385-sr396-sr400
+    5 2 1))
+
+    pseudo-lzcntl-r32-r32-s400 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s396 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s385 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s384-sr385-sr396-sr400 [R3: 64, R1: 64, R2: 64] R5, R2,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s384-cca3.rkt
+  spec: pseudo-LZCNTL-R32-R32-s384
+  state: success
+  time: 14.747364282608032
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s385-dc74.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s386
+  - pseudo-LZCNTL-R32-R32-s392
+  - pseudo-LZCNTL-R32-R32-s385-sr386-sr392
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTL-R32-R32-s385-sr386-sr392
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTL-R32-R32-s386
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s386 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s385-dc74.rkt
+  spec: pseudo-LZCNTL-R32-R32-s385
+  state: success
+  time: 1.5907328128814697
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s386-c525.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x00000000000000b9 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0xb9, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s386-c525.rkt
+  spec: pseudo-LZCNTL-R32-R32-s386
+  state: success
+  time: 1418.8561661243439
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s396-0d9e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000018 64) 1) #(struct:PSPLIT-R64-R64
+    6 0 6))
+
+    movq 0x18, R1
+
+    psplit R6, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s396-0d9e.rkt
+  spec: pseudo-LZCNTL-R32-R32-s396
+  state: success
+  time: 1.9826405048370361
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s400-af23.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s401
+  - pseudo-LZCNTL-R32-R32-s412
+  - pseudo-LZCNTL-R32-R32-s416
+  - pseudo-LZCNTL-R32-R32-s400-sr401-sr412-sr416
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s416 0 5) #(struct:pseudo-LZCNTL-R32-R32-s412
+    6) #(struct:pseudo-LZCNTL-R32-R32-s401 0 1) #(struct:pseudo-LZCNTL-R32-R32-s400-sr401-sr412-sr416
+    6 5 1))
+
+    pseudo-lzcntl-r32-r32-s416 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s412 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s401 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s400-sr401-sr412-sr416 [R3: 64, R1: 64, R2: 64] R6, R5,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s400-af23.rkt
+  spec: pseudo-LZCNTL-R32-R32-s400
+  state: success
+  time: 6.721246004104614
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s401-bf7e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s402
+  - pseudo-LZCNTL-R32-R32-s408
+  - pseudo-LZCNTL-R32-R32-s401-sr402-sr408
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTL-R32-R32-s401-sr402-sr408
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTL-R32-R32-s402
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s402 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s401-bf7e.rkt
+  spec: pseudo-LZCNTL-R32-R32-s401
+  state: success
+  time: 1.595609426498413
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s402-588d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000007a 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+
+    movq 0x7a, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R0, R5'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s402-588d.rkt
+  spec: pseudo-LZCNTL-R32-R32-s402
+  state: success
+  time: 652.9482729434967
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s412-22d6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 1 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000019
+    64) 1))
+
+    pxor-r64-r64 R1, R6
+
+    movq 0x19, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s412-22d6.rkt
+  spec: pseudo-LZCNTL-R32-R32-s412
+  state: success
+  time: 2.3067524433135986
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s416-de81.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s417
+  - pseudo-LZCNTL-R32-R32-s428
+  - pseudo-LZCNTL-R32-R32-s432
+  - pseudo-LZCNTL-R32-R32-s416-sr417-sr428-sr432
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s432 0 6) #(struct:pseudo-LZCNTL-R32-R32-s417
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s428 5) #(struct:pseudo-LZCNTL-R32-R32-s416-sr417-sr428-sr432
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s432 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s417 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s428 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s416-sr417-sr428-sr432 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s416-de81.rkt
+  spec: pseudo-LZCNTL-R32-R32-s416
+  state: success
+  time: 5.0424909591674805
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s417-2309.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s418
+  - pseudo-LZCNTL-R32-R32-s424
+  - pseudo-LZCNTL-R32-R32-s417-sr418-sr424
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTL-R32-R32-s417-sr418-sr424
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTL-R32-R32-s418
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s418 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s417-2309.rkt
+  spec: pseudo-LZCNTL-R32-R32-s417
+  state: success
+  time: 1.5821692943572998
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s418-fcd6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000003b 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x3b, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s418-fcd6.rkt
+  spec: pseudo-LZCNTL-R32-R32-s418
+  state: success
+  time: 239.26249599456787
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s428-2738.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000001a 64) 1) #(struct:PSPLIT-R64-R64
+    6 0 6))
+
+    movq 0x1a, R1
+
+    psplit R6, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s428-2738.rkt
+  spec: pseudo-LZCNTL-R32-R32-s428
+  state: success
+  time: 2.1246795654296875
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s432-9403.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s433
+  - pseudo-LZCNTL-R32-R32-s444
+  - pseudo-LZCNTL-R32-R32-s448
+  - pseudo-LZCNTL-R32-R32-s432-sr433-sr444-sr448
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s444 2) #(struct:pseudo-LZCNTL-R32-R32-s448
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s433 0 1) #(struct:pseudo-LZCNTL-R32-R32-s432-sr433-sr444-sr448
+    2 6 1))
+
+    pseudo-lzcntl-r32-r32-s444 [R2: 64] R2
+
+    pseudo-lzcntl-r32-r32-s448 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s433 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s432-sr433-sr444-sr448 [R3: 64, R1: 64, R2: 64] R2, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s432-9403.rkt
+  spec: pseudo-LZCNTL-R32-R32-s432
+  state: success
+  time: 6.944083213806152
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s433-298a.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s434
+  - pseudo-LZCNTL-R32-R32-s440
+  - pseudo-LZCNTL-R32-R32-s433-sr434-sr440
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTL-R32-R32-s433-sr434-sr440
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTL-R32-R32-s434
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s434 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s433-298a.rkt
+  spec: pseudo-LZCNTL-R32-R32-s433
+  state: success
+  time: 1.5683765411376953
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s434-7c0d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0001134020405010 64) 2) #(struct:PAND-R64-R64
+    2 0) #(struct:PSPLIT-R64-R64 1 2 0))
+
+    movq 0x1134020405010, R2
+
+    pand-r64-r64 R2, R0
+
+    psplit R1, R2, R0'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s434-7c0d.rkt
+  spec: pseudo-LZCNTL-R32-R32-s434
+  state: success
+  time: 685.9560496807098
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s44-76e2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:POR-R64-R64 1 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000002 64)
+    1))
+
+    por-r64-r64 R1, R1
+
+    movq 0x2, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s44-76e2.rkt
+  spec: pseudo-LZCNTL-R32-R32-s44
+  state: success
+  time: 2.132918357849121
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s444-010f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000001b 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x1b, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s444-010f.rkt
+  spec: pseudo-LZCNTL-R32-R32-s444
+  state: success
+  time: 2.196849822998047
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s448-2891.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s449
+  - pseudo-LZCNTL-R32-R32-s460
+  - pseudo-LZCNTL-R32-R32-s464
+  - pseudo-LZCNTL-R32-R32-s448-sr449-sr460-sr464
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s449 0 1) #(struct:pseudo-LZCNTL-R32-R32-s464
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s460 5) #(struct:pseudo-LZCNTL-R32-R32-s448-sr449-sr460-sr464
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s449 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s464 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s460 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s448-sr449-sr460-sr464 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s448-2891.rkt
+  spec: pseudo-LZCNTL-R32-R32-s448
+  state: success
+  time: 9.540346622467041
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s449-c343.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s450
+  - pseudo-LZCNTL-R32-R32-s456
+  - pseudo-LZCNTL-R32-R32-s449-sr450-sr456
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTL-R32-R32-s449-sr450-sr456
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTL-R32-R32-s450
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s450 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s449-c343.rkt
+  spec: pseudo-LZCNTL-R32-R32-s449
+  state: success
+  time: 1.6051406860351562
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s450-2a61.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0100000000000008 64) 6) #(struct:PAND-R64-R64
+    6 0) #(struct:PSPLIT-R64-R64 1 6 0))
+
+    movq 0x100000000000008, R6
+
+    pand-r64-r64 R6, R0
+
+    psplit R1, R6, R0'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s450-2a61.rkt
+  spec: pseudo-LZCNTL-R32-R32-s450
+  state: success
+  time: 435.00007939338684
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s460-075e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000001c 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x1c, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s460-075e.rkt
+  spec: pseudo-LZCNTL-R32-R32-s460
+  state: success
+  time: 2.0719268321990967
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s464-f867.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s465
+  - pseudo-LZCNTL-R32-R32-s476
+  - pseudo-LZCNTL-R32-R32-s480
+  - pseudo-LZCNTL-R32-R32-s464-sr465-sr476-sr480
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s480 0 6) #(struct:pseudo-LZCNTL-R32-R32-s465
+    0 1) #(struct:pseudo-LZCNTL-R32-R32-s476 5) #(struct:pseudo-LZCNTL-R32-R32-s464-sr465-sr476-sr480
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s480 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s465 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s476 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s464-sr465-sr476-sr480 [R3: 64, R1: 64, R2: 64] R5, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s464-f867.rkt
+  spec: pseudo-LZCNTL-R32-R32-s464
+  state: success
+  time: 8.735283374786377
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s465-dadb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s466
+  - pseudo-LZCNTL-R32-R32-s472
+  - pseudo-LZCNTL-R32-R32-s465-sr466-sr472
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTL-R32-R32-s465-sr466-sr472
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTL-R32-R32-s466
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s466 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s465-dadb.rkt
+  spec: pseudo-LZCNTL-R32-R32-s465
+  state: success
+  time: 1.590604305267334
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s466-5401.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x1000000000000004 64) 5) #(struct:PAND-R64-R64
+    5 0) #(struct:PSPLIT-R64-R64 1 5 0))
+
+    movq 0x1000000000000004, R5
+
+    pand-r64-r64 R5, R0
+
+    psplit R1, R5, R0'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s466-5401.rkt
+  spec: pseudo-LZCNTL-R32-R32-s466
+  state: success
+  time: 954.2432322502136
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s476-40be.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PCMOV-R64-R64-R64 6 6 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000001d
+    64) 1))
+
+    pcmov-r64-r64-r64 R6, R6, R0
+
+    movq 0x1d, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s476-40be.rkt
+  spec: pseudo-LZCNTL-R32-R32-s476
+  state: success
+  time: 2.21785044670105
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s48-8f24.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s49
+  - pseudo-LZCNTL-R32-R32-s60
+  - pseudo-LZCNTL-R32-R32-s64
+  - pseudo-LZCNTL-R32-R32-s48-sr49-sr60-sr64
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s64 0 2) #(struct:pseudo-LZCNTL-R32-R32-s60
+    5) #(struct:pseudo-LZCNTL-R32-R32-s49 0 1) #(struct:pseudo-LZCNTL-R32-R32-s48-sr49-sr60-sr64
+    5 2 1))
+
+    pseudo-lzcntl-r32-r32-s64 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s60 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s49 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s48-sr49-sr60-sr64 [R3: 64, R1: 64, R2: 64] R5, R2, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s48-8f24.rkt
+  spec: pseudo-LZCNTL-R32-R32-s48
+  state: success
+  time: 6.5976996421813965
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-acb8.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s481
+  - pseudo-LZCNTL-R32-R32-s492
+  - pseudo-LZCNTL-R32-R32-s496
+  - pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s481 0 1) #(struct:pseudo-LZCNTL-R32-R32-s496
+    0 6) #(struct:pseudo-LZCNTL-R32-R32-s492 2) #(struct:pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496
+    2 6 1))
+
+    pseudo-lzcntl-r32-r32-s481 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s496 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s492 [R2: 64] R2
+
+    pseudo-lzcntl-r32-r32-s480-sr481-sr492-sr496 [R3: 64, R1: 64, R2: 64] R2, R6,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-acb8.rkt
+  spec: pseudo-LZCNTL-R32-R32-s480
+  state: success
+  time: 2.043355703353882
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496-2e91.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s481
+  - pseudo-LZCNTL-R32-R32-s492
+  - pseudo-LZCNTL-R32-R32-s496
+  data: '(#(struct:PCMOV-R64-R64-R64 1 2 0) #(struct:PMOVQ-R64-R64 2 1))
+
+    pcmov-r64-r64-r64 R1, R2, R0
+
+    movq R2, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496-2e91.rkt
+  spec: pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496
+  state: success
+  time: 7.342164754867554
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s481-fe43.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s482
+  - pseudo-LZCNTL-R32-R32-s488
+  - pseudo-LZCNTL-R32-R32-s481-sr482-sr488
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTL-R32-R32-s481-sr482-sr488
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTL-R32-R32-s482
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s482 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s481-fe43.rkt
+  spec: pseudo-LZCNTL-R32-R32-s481
+  state: success
+  time: 1.5614206790924072
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s482-f078.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x001995097501103f 64) 6) #(struct:PSPLIT-R64-R64
+    1 0 6) #(struct:PSPLIT-R64-R64 6 1 6))
+
+    movq 0x1995097501103f, R6
+
+    psplit R1, R0, R6
+
+    psplit R6, R1, R6'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s482-f078.rkt
+  spec: pseudo-LZCNTL-R32-R32-s482
+  state: success
+  time: 185.2884805202484
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s49-1faa.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s50
+  - pseudo-LZCNTL-R32-R32-s56
+  - pseudo-LZCNTL-R32-R32-s49-sr50-sr56
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTL-R32-R32-s49-sr50-sr56
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTL-R32-R32-s50
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s50 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s49-1faa.rkt
+  spec: pseudo-LZCNTL-R32-R32-s49
+  state: success
+  time: 1.5951495170593262
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s492-e4ef.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000001e
+    64) 1))
+
+    pxor-r64-r64 R5, R6
+
+    movq 0x1e, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s492-e4ef.rkt
+  spec: pseudo-LZCNTL-R32-R32-s492
+  state: success
+  time: 1.9894824028015137
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-5c98.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s497
+  - pseudo-LZCNTL-R32-R32-s508
+  - pseudo-LZCNTL-R32-R32-s512
+  - pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s512 5) #(struct:pseudo-LZCNTL-R32-R32-s497
+    0 2) #(struct:pseudo-LZCNTL-R32-R32-s508 1) #(struct:pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512
+    2 5 1))
+
+    pseudo-lzcntl-r32-r32-s512 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s497 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s508 [R2: 64] R1
+
+    pseudo-lzcntl-r32-r32-s496-sr497-sr508-sr512 [R1: 64, R3: 64, R2: 64] R2, R5,
+    R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-5c98.rkt
+  spec: pseudo-LZCNTL-R32-R32-s496
+  state: success
+  time: 2.9124088287353516
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512-b996.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s497
+  - pseudo-LZCNTL-R32-R32-s508
+  - pseudo-LZCNTL-R32-R32-s512
+  data: '(#(struct:PCMOV-R64-R64-R64 0 1 2) #(struct:PAND-R64-R64 6 6))
+
+    pcmov-r64-r64-r64 R0, R1, R2
+
+    pand-r64-r64 R6, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512-b996.rkt
+  spec: pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512
+  state: success
+  time: 4.591153621673584
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s497-d16c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s498
+  - pseudo-LZCNTL-R32-R32-s504
+  - pseudo-LZCNTL-R32-R32-s497-sr498-sr504
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s498 1 6) #(struct:pseudo-LZCNTL-R32-R32-s498
+    0 2) #(struct:pseudo-LZCNTL-R32-R32-s498 6 6) #(struct:pseudo-LZCNTL-R32-R32-s498
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R1, R6
+
+    pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R0, R2
+
+    pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s497-d16c.rkt
+  spec: pseudo-LZCNTL-R32-R32-s497
+  state: success
+  time: 1.8138535022735596
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s498-a439.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 1) #(struct:PAND-R64-R64
+    0 1))
+
+    movq 0x1, R1
+
+    pand-r64-r64 R0, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s498-a439.rkt
+  spec: pseudo-LZCNTL-R32-R32-s498
+  state: success
+  time: 4.68026876449585
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s50-dd38.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x10000024, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s50-dd38.rkt
+  spec: pseudo-LZCNTL-R32-R32-s50
+  state: success
+  time: 116.5761821269989
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s508-29fe.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000001f
+    64) 1))
+
+    pxor-r64-r64 R6, R6
+
+    movq 0x1f, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s508-29fe.rkt
+  spec: pseudo-LZCNTL-R32-R32-s508
+  state: success
+  time: 2.540165901184082
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s512-44d8.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000020 64) 1) #(struct:PSPLIT-R64-R64
+    0 0 6))
+
+    movq 0x20, R1
+
+    psplit R0, R0, R6'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s512-44d8.rkt
+  spec: pseudo-LZCNTL-R32-R32-s512
+  state: success
+  time: 2.165592908859253
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s60-e523.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000030000024 64) 5) #(struct:PSPLIT-R64-R64
+    1 5 5))
+
+    movq 0x30000024, R5
+
+    psplit R1, R5, R5'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s60-e523.rkt
+  spec: pseudo-LZCNTL-R32-R32-s60
+  state: success
+  time: 2.1342685222625732
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s64-3b2d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s65
+  - pseudo-LZCNTL-R32-R32-s76
+  - pseudo-LZCNTL-R32-R32-s80
+  - pseudo-LZCNTL-R32-R32-s64-sr65-sr76-sr80
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s65 0 1) #(struct:pseudo-LZCNTL-R32-R32-s76
+    6) #(struct:pseudo-LZCNTL-R32-R32-s80 0 5) #(struct:pseudo-LZCNTL-R32-R32-s64-sr65-sr76-sr80
+    6 5 1))
+
+    pseudo-lzcntl-r32-r32-s65 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s76 [R2: 64] R6
+
+    pseudo-lzcntl-r32-r32-s80 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s64-sr65-sr76-sr80 [R3: 64, R1: 64, R2: 64] R6, R5, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s64-3b2d.rkt
+  spec: pseudo-LZCNTL-R32-R32-s64
+  state: success
+  time: 4.442417144775391
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s65-a594.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s66
+  - pseudo-LZCNTL-R32-R32-s72
+  - pseudo-LZCNTL-R32-R32-s65-sr66-sr72
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTL-R32-R32-s65-sr66-sr72
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTL-R32-R32-s66
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s66 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s65-a594.rkt
+  spec: pseudo-LZCNTL-R32-R32-s65
+  state: success
+  time: 1.5755794048309326
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s66-d9bc.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000008000025 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x8000025, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s66-d9bc.rkt
+  spec: pseudo-LZCNTL-R32-R32-s66
+  state: success
+  time: 862.7258589267731
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s76-3f4c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:MOVQ-IMM-R64
+    (bv #x0000000000000004 64) 1))
+
+    movq 0x0, R6
+
+    movq 0x4, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s76-3f4c.rkt
+  spec: pseudo-LZCNTL-R32-R32-s76
+  state: success
+  time: 2.7911417484283447
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s8-1333.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 5) #(struct:PSPLIT-R64-R64
+    1 5 5))
+
+    movq 0x10000024, R5
+
+    psplit R1, R5, R5'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s8-1333.rkt
+  spec: pseudo-LZCNTL-R32-R32-s8
+  state: success
+  time: 1.9605166912078857
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s80-d4d7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s81
+  - pseudo-LZCNTL-R32-R32-s92
+  - pseudo-LZCNTL-R32-R32-s96
+  - pseudo-LZCNTL-R32-R32-s80-sr81-sr92-sr96
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s92 2) #(struct:pseudo-LZCNTL-R32-R32-s96
+    0 5) #(struct:pseudo-LZCNTL-R32-R32-s81 0 1) #(struct:pseudo-LZCNTL-R32-R32-s80-sr81-sr92-sr96
+    2 5 1))
+
+    pseudo-lzcntl-r32-r32-s92 [R2: 64] R2
+
+    pseudo-lzcntl-r32-r32-s96 [R1: 64, R2: 64] R0, R5
+
+    pseudo-lzcntl-r32-r32-s81 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s80-sr81-sr92-sr96 [R3: 64, R1: 64, R2: 64] R2, R5, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s80-d4d7.rkt
+  spec: pseudo-LZCNTL-R32-R32-s80
+  state: success
+  time: 15.958478689193726
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s81-120c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s82
+  - pseudo-LZCNTL-R32-R32-s88
+  - pseudo-LZCNTL-R32-R32-s81-sr82-sr88
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTL-R32-R32-s81-sr82-sr88
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTL-R32-R32-s82
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s82 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s81-120c.rkt
+  spec: pseudo-LZCNTL-R32-R32-s81
+  state: success
+  time: 1.557436466217041
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s82-f809.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000004000026 64) 1) #(struct:PAND-R64-R64
+    1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+
+    movq 0x4000026, R1
+
+    pand-r64-r64 R1, R0
+
+    psplit R1, R0, R1'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s82-f809.rkt
+  spec: pseudo-LZCNTL-R32-R32-s82
+  state: success
+  time: 59.10381722450256
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s92-f80b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PSPLIT-R64-R64 6 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000005
+    64) 1))
+
+    psplit R6, R6, R6
+
+    movq 0x5, R1'
+  debug: sat! 2
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s92-f80b.rkt
+  spec: pseudo-LZCNTL-R32-R32-s92
+  state: success
+  time: 2.369417905807495
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s96-325f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s97
+  - pseudo-LZCNTL-R32-R32-s108
+  - pseudo-LZCNTL-R32-R32-s112
+  - pseudo-LZCNTL-R32-R32-s96-sr97-sr108-sr112
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s112 0 6) #(struct:pseudo-LZCNTL-R32-R32-s108
+    5) #(struct:pseudo-LZCNTL-R32-R32-s97 0 1) #(struct:pseudo-LZCNTL-R32-R32-s96-sr97-sr108-sr112
+    5 6 1))
+
+    pseudo-lzcntl-r32-r32-s112 [R1: 64, R2: 64] R0, R6
+
+    pseudo-lzcntl-r32-r32-s108 [R2: 64] R5
+
+    pseudo-lzcntl-r32-r32-s97 [R1: 64, R2: 64] R0, R1
+
+    pseudo-lzcntl-r32-r32-s96-sr97-sr108-sr112 [R3: 64, R1: 64, R2: 64] R5, R6, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s96-325f.rkt
+  spec: pseudo-LZCNTL-R32-R32-s96
+  state: success
+  time: 5.6719746589660645
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s97-1c40.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-LZCNTL-R32-R32-s98
+  - pseudo-LZCNTL-R32-R32-s104
+  - pseudo-LZCNTL-R32-R32-s97-sr98-sr104
+  data: '(#(struct:pseudo-LZCNTL-R32-R32-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTL-R32-R32-s97-sr98-sr104
+    6 6) #(struct:pseudo-LZCNTL-R32-R32-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTL-R32-R32-s98
+    0 1))
+
+    pseudo-lzcntl-r32-r32-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+
+    pseudo-lzcntl-r32-r32-s98 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s97-1c40.rkt
+  spec: pseudo-LZCNTL-R32-R32-s97
+  state: success
+  time: 1.6261639595031738
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s98-f61b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000002000027 64) 2) #(struct:PAND-R64-R64
+    2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+
+    movq 0x2000027, R2
+
+    pand-r64-r64 R2, R0
+
+    psplit R1, R0, R2'
+  debug: sat! 3
+  max_timeout: 1800
+  name: rosette/synth-target-pseudo-LZCNTL-R32-R32-s98-f61b.rkt
+  spec: pseudo-LZCNTL-R32-R32-s98
+  state: success
+  time: 550.1806218624115

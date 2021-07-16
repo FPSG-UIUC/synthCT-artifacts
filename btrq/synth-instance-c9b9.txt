@@ -1,0 +1,20 @@
+rosette/synth-target-BTRQ-R64-R64-ff16.rkt:
+[x] rosette/synth-target-BTRQ-R64-R64-ff16.rkt: Timeout!
+rosette/synth-target-pseudo-BTRQ-R64-R64-sr4-773b.rkt:
+[*] rosette/synth-target-pseudo-BTRQ-R64-R64-sr4-773b.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 6) #(struct:PAND-R64-R64 6 1))
+movq R0, R6
+pand-r64-r64 R6, R1
+rosette/synth-target-pseudo-BTRQ-R64-R64-s4-0f75.rkt:
+[*] rosette/synth-target-pseudo-BTRQ-R64-R64-s4-0f75.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #xffffffffffffffff 64) 5) #(struct:PXOR-R64-R64 1 1) #(struct:PCONCAT-R32-R32 5 1 0))
+movq 0xffffffffffffffff, R5
+pxor-r64-r64 R1, R1
+pconcat-r32-r32 R5, R1, R0
+rosette/synth-target-BTRQ-R64-R64-dc17.rkt:
+[*] rosette/synth-target-BTRQ-R64-R64-dc17.rkt: Success!
+(#(struct:pseudo-BTRQ-R64-R64-s4 0 0) #(struct:PAND-R64-R64 0 1) #(struct:PSET-FLAG (bv #x0000000000000004 64)) #(struct:PNOT-R64 0))
+pseudo-btrq-r64-r64-s4 [R1: 64, R2: 64] R0, R0
+pand-r64-r64 R0, R1
+pset-flag F(bv #x0000000000000004 64)
+pnot R0

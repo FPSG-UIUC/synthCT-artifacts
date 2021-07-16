@@ -1,0 +1,97 @@
+rosette/synth-target-BTSQ-R64-R64-a635.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSQ-R64-R64-s4
+  - pseudo-BTSQ-R64-R64-sr4
+  data: '(#(struct:pseudo-BTSQ-R64-R64-s4 0 6) #(struct:pseudo-BTSQ-R64-R64-sr4 6
+    1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:PNOP))
+
+    pseudo-btsq-r64-r64-s4 [R1: 64, R2: 64] R0, R6
+
+    pseudo-btsq-r64-r64-sr4 [R1: 64, R2: 64] R6, R1
+
+    movq 0x0, R2
+
+    pnop'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BTSQ-R64-R64-a635.rkt
+  spec: BTSQ-R64-R64
+  state: success
+  time: 38.13863134384155
+rosette/synth-target-BTSQ-R64-R64-be4d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - BTCQ-R64-R64
+  - BTRQ-R64-R64
+  - BTQ-R64-R64
+  - SARXQ-R64-R64-R64
+  - SHLXQ-R64-R64-R64
+  - RORQ-R64-ONE
+  - BLSRQ-R64-R64
+  - DECQ-R64
+  - BLSMSKQ-R64-R64
+  - ROLQ-R64-ONE
+  - INCQ-R64
+  - BSFL-R32-R32
+  - TESTB-RH-RH
+  - SARL-R32-ONE
+  - BZHIL-R32-R32-R32
+  - XORL-R32-R32
+  - BLSRL-R32-R32
+  - ANDW-R16-R16
+  - BLSIL-R32-R32
+  - POPCNTQ-R64-R64
+  - ANDB-R8-R8
+  - ORB-R8-R8
+  - CQTO
+  - BZHIQ-R64-R64-R64
+  - ANDL-R32-R32
+  - XORB-R8-R8
+  - BSRL-R32-R32
+  - ANDNQ-R64-R64-R64
+  - BLSIQ-R64-R64
+  - XORQ-R64-R64
+  - ORW-R16-R16
+  - XORW-R16-R16
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:151:0:\
+    \ cegis\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-BTSQ-R64-R64-be4d.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-BTSQ-R64-R64-be4d.rkt
+  spec: BTSQ-R64-R64
+  state: timeout
+  time: 10.02304220199585
+rosette/synth-target-pseudo-BTSQ-R64-R64-s4-f3d4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 2) #(struct:PSPLIT-R64-R64
+    1 2 2) #(struct:PCONCAT-R32-R32 2 1 0))
+
+    movq 0x1, R2
+
+    psplit R1, R2, R2
+
+    pconcat-r32-r32 R2, R1, R0'
+  debug: sat! 3
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSQ-R64-R64-s4-f3d4.rkt
+  spec: pseudo-BTSQ-R64-R64-s4
+  state: success
+  time: 37.3986029624939
+rosette/synth-target-pseudo-BTSQ-R64-R64-sr4-38b9.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 0 5) #(struct:POR-R64-R64 0 1))
+
+    pxor-r64-r64 R0, R5
+
+    por-r64-r64 R0, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSQ-R64-R64-sr4-38b9.rkt
+  spec: pseudo-BTSQ-R64-R64-sr4
+  state: success
+  time: 0.8563704490661621

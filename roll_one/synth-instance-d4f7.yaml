@@ -1,0 +1,1363 @@
+rosette/synth-target-ROLL-R32-ONE-a4d2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s1
+  - pseudo-ROLL-R32-ONE-sr1
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0001000000000000 64) 5) #(struct:PAND-R64-R64
+    6 4) #(struct:PXOR-R64-R64 5 1) #(struct:pseudo-ROLL-R32-ONE-sr1 5 1))
+
+    movq 0x1000000000000, R5
+
+    pand-r64-r64 R6, R4
+
+    pxor-r64-r64 R5, R1
+
+    pseudo-roll-r32-one-sr1 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-ROLL-R32-ONE-a4d2.rkt
+  spec: ROLL-R32-ONE
+  state: success
+  time: 130.0879476070404
+rosette/synth-target-ROLL-R32-ONE-f6bb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-ROLL-R32-ONE-f6bb.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-ROLL-R32-ONE-f6bb.rkt
+  spec: ROLL-R32-ONE
+  state: timeout
+  time: 10.022212743759155
+rosette/synth-target-pseudo-ROLL-R32-ONE-s1-36f1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 1 1) #(struct:PSET-FLAG (bv #x0000000000000006 64)))
+
+    pxor-r64-r64 R1, R1
+
+    pset-flag F(bv #x0000000000000006 64)'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s1-36f1.rkt
+  spec: pseudo-ROLL-R32-ONE-s1
+  state: success
+  time: 4.719728946685791
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0784.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0784.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 287.65144538879395
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0a26.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0a26.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 307.1867456436157
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-114f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-114f.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 291.41141724586487
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2398.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2398.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 287.58707308769226
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-23be.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-23be.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 287.0963361263275
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-28d6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-28d6.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 298.317991733551
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2e5c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2e5c.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2e5c.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0715186595917
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3602.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3602.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3602.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0742406845093
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3829.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3829.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 287.3301956653595
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3c17.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3c17.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3c17.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1130895614624
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-41f9.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-41f9.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 288.1970057487488
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-48cd.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-48cd.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-48cd.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0529398918152
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-550b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-550b.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-550b.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1124691963196
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5c31.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5c31.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 286.6992754936218
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5d9d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5d9d.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 287.3202977180481
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-6350.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-6350.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-6350.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1139376163483
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-64fb.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-64fb.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 289.00797629356384
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-68d2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-68d2.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 289.4106967449188
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7426.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7426.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 288.000595331192
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7e1f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7e1f.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7e1f.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0694372653961
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7f7c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7f7c.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7f7c.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1027879714966
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-8041.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-8041.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-8041.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1162858009338
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-953d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-953d.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 289.44235944747925
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-9bbd.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-9bbd.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-9bbd.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0769188404083
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afb8.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afb8.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afb8.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0910091400146
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afc4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afc4.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 288.6527690887451
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b581.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b581.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 333.66253995895386
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b5bc.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b5bc.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b5bc.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0715842247009
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-c447.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-c447.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 287.8569846153259
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cc3c.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cc3c.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cc3c.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1111433506012
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cf19.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cf19.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 257.8746509552002
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d880.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d880.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d880.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1151034832001
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d887.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d887.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d887.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1119260787964
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-e577.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-e577.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-e577.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.0788006782532
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-edc4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-edc4.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-edc4.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1143925189972
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f312.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s16
+  - pseudo-ROLL-R32-ONE-s17-sr16
+  data: '(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64
+    6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+
+    movq R1, R5
+
+    pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+
+    psplit R6, R5, R2
+
+    pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f312.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: success
+  time: 289.0310814380646
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f520.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f520.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f520.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1156136989594
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-fd6a.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-s15
+  - pseudo-ROLL-R32-ONE-s17-sr15
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-fd6a.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-fd6a.rkt
+  spec: pseudo-ROLL-R32-ONE-s17
+  state: timeout
+  time: 600.1120104789734
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-s15-54d4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000021 64) 4) #(struct:PCONCAT-R32-R32
+    1 4 4) #(struct:MOVQ-IMM-R64 (bv #xfff9a0282ecddfe0 64) 0) #(struct:PSPLIT-R64-R64
+    1 4 0))
+
+    movq 0x21, R4
+
+    pconcat-r32-r32 R1, R4, R4
+
+    movq 0xfff9a0282ecddfe0, R0
+
+    psplit R1, R4, R0'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-s15-54d4.rkt
+  spec: pseudo-ROLL-R32-ONE-s17-s15
+  state: success
+  time: 238.5961616039276
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-a269.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-a269.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-a269.rkt
+  spec: pseudo-ROLL-R32-ONE-s17-sr15
+  state: timeout
+  time: 600.0774593353271
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-defd.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-s17-sr15-s16
+  - pseudo-ROLL-R32-ONE-s17-sr15-sr16
+  data: '(#(struct:pseudo-ROLL-R32-ONE-s17-sr15-s16 1) #(struct:pseudo-ROLL-R32-ONE-s17-sr15-sr16
+    1 2) #(struct:POR-R64-R64 6 6) #(struct:pseudo-ROLL-R32-ONE-s17-sr15-sr16 0 1))
+
+    pseudo-roll-r32-one-s17-sr15-s16 [R2: 64] R1
+
+    pseudo-roll-r32-one-s17-sr15-sr16 [R1: 64, R2: 64] R1, R2
+
+    por-r64-r64 R6, R6
+
+    pseudo-roll-r32-one-s17-sr15-sr16 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-defd.rkt
+  spec: pseudo-ROLL-R32-ONE-s17-sr15
+  state: success
+  time: 19.998058557510376
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-1f3e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-1f3e.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-1f3e.rkt
+  spec: pseudo-ROLL-R32-ONE-sr1
+  state: timeout
+  time: 600.1153075695038
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-e4a7.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-sr1-s17
+  - pseudo-ROLL-R32-ONE-sr1-sr17
+  data: '(#(struct:POR-R64-R64 0 6) #(struct:pseudo-ROLL-R32-ONE-sr1-s17 1) #(struct:pseudo-ROLL-R32-ONE-sr1-sr17
+    6 6) #(struct:pseudo-ROLL-R32-ONE-sr1-sr17 0 1))
+
+    por-r64-r64 R0, R6
+
+    pseudo-roll-r32-one-sr1-s17 [R2: 64] R1
+
+    pseudo-roll-r32-one-sr1-sr17 [R1: 64, R2: 64] R6, R6
+
+    pseudo-roll-r32-one-sr1-sr17 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-e4a7.rkt
+  spec: pseudo-ROLL-R32-ONE-sr1
+  state: success
+  time: 95.5577449798584
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-sr17-027b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000100000020 64) 4) #(struct:PSPLIT-R64-R64
+    2 1 4) #(struct:PCONCAT-R32-R32 0 1 4))
+
+    movq 0x100000020, R4
+
+    psplit R2, R1, R4
+
+    pconcat-r32-r32 R0, R1, R4'
+  debug: sat! 3
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-sr17-027b.rkt
+  spec: pseudo-ROLL-R32-ONE-sr1-sr17
+  state: success
+  time: 75.49090433120728
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-41a3.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-ROLL-R32-ONE-sr17-s1
+  - pseudo-ROLL-R32-ONE-sr17-sr1
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x39a0c70a00000000 64) 6) #(struct:pseudo-ROLL-R32-ONE-sr17-sr1
+    2 4) #(struct:pseudo-ROLL-R32-ONE-sr17-sr1 0 6) #(struct:PMOVQ-R64-R64 6 1))
+
+    movq 0x39a0c70a00000000, R6
+
+    pseudo-roll-r32-one-sr17-sr1 [R1: 64, R2: 64] R2, R4
+
+    pseudo-roll-r32-one-sr17-sr1 [R1: 64, R2: 64] R0, R6
+
+    movq R6, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-41a3.rkt
+  spec: pseudo-ROLL-R32-ONE-sr17
+  state: success
+  time: 12.462007761001587
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-c009.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADCB-R8-R8
+  - ADCB-R8-RH
+  - ADCB-RH-R8
+  - ADCB-RH-RH
+  - ADCL-R32-R32
+  - ADCQ-R64-R64
+  - ADCW-R16-R16
+  - ADDB-R8-R8
+  - ADDB-R8-RH
+  - ADDB-RH-R8
+  - ADDB-RH-RH
+  - ADDL-R32-R32
+  - ADDQ-R64-R64
+  - ADDW-R16-R16
+  - ANDB-R8-R8
+  - ANDB-R8-RH
+  - ANDB-RH-R8
+  - ANDB-RH-RH
+  - ANDL-R32-R32
+  - ANDNL-R32-R32-R32
+  - ANDNQ-R64-R64-R64
+  - ANDQ-R64-R64
+  - ANDW-R16-R16
+  - BEXTRL-R32-R32-R32
+  - BEXTRQ-R64-R64-R64
+  - BLSIL-R32-R32
+  - BLSIQ-R64-R64
+  - BLSMSKL-R32-R32
+  - BLSMSKQ-R64-R64
+  - BLSRL-R32-R32
+  - BLSRQ-R64-R64
+  - BSFL-R32-R32
+  - BSFQ-R64-R64
+  - bsfw-R16-R16
+  - BSRL-R32-R32
+  - BSRQ-R64-R64
+  - BSRW-R16-R16
+  - BSWAP-R32
+  - BSWAP-R64
+  - BTCL-R32-R32
+  - BTCQ-R64-R64
+  - BTCW-R16-R16
+  - BTL-R32-R32
+  - BTQ-R64-R64
+  - BTRL-R32-R32
+  - BTRQ-R64-R64
+  - BTRW-R16-R16
+  - BTSL-R32-R32
+  - BTSQ-R64-R64
+  - BTSW-R16-R16
+  - BTW-R16-R16
+  - BZHIL-R32-R32-R32
+  - BZHIQ-R64-R64-R64
+  - CBTW
+  - CLC
+  - CLTD
+  - CLTQ
+  - CMC
+  - CMOVAEL-R32-R32
+  - CMOVAEQ-R64-R64
+  - CMOVAEW-R16-R16
+  - CMOVAL-R32-R32
+  - CMOVAQ-R64-R64
+  - CMOVAW-R16-R16
+  - CMOVBEL-R32-R32
+  - CMOVBEQ-R64-R64
+  - CMOVBEW-R16-R16
+  - CMOVBL-R32-R32
+  - CMOVBQ-R64-R64
+  - CMOVBW-R16-R16
+  - CMOVCL-R32-R32
+  - CMOVCQ-R64-R64
+  - CMOVCW-R16-R16
+  - CMOVEL-R32-R32
+  - CMOVEQ-R64-R64
+  - CMOVEW-R16-R16
+  - CMOVGEL-R32-R32
+  - CMOVGEQ-R64-R64
+  - CMOVGEW-R16-R16
+  - CMOVGL-R32-R32
+  - CMOVGQ-R64-R64
+  - CMOVGW-R16-R16
+  - CMOVLEL-R32-R32
+  - CMOVLEQ-R64-R64
+  - CMOVLEW-R16-R16
+  - CMOVLL-R32-R32
+  - CMOVLQ-R64-R64
+  - CMOVLW-R16-R16
+  - CMOVNAEL-R32-R32
+  - CMOVNAEQ-R64-R64
+  - CMOVNAEW-R16-R16
+  - CMOVNAL-R32-R32
+  - CMOVNAQ-R64-R64
+  - CMOVNAW-R16-R16
+  - CMOVNBEL-R32-R32
+  - CMOVNBEQ-R64-R64
+  - CMOVNBEW-R16-R16
+  - CMOVNBL-R32-R32
+  - CMOVNBQ-R64-R64
+  - CMOVNBW-R16-R16
+  - CMOVNCL-R32-R32
+  - CMOVNCQ-R64-R64
+  - CMOVNCW-R16-R16
+  - CMOVNEL-R32-R32
+  - CMOVNEQ-R64-R64
+  - CMOVNEW-R16-R16
+  - CMOVNGEL-R32-R32
+  - CMOVNGEQ-R64-R64
+  - CMOVNGEW-R16-R16
+  - CMOVNGL-R32-R32
+  - CMOVNGQ-R64-R64
+  - CMOVNGW-R16-R16
+  - CMOVNLEL-R32-R32
+  - CMOVNLEQ-R64-R64
+  - CMOVNLEW-R16-R16
+  - CMOVNLL-R32-R32
+  - CMOVNLQ-R64-R64
+  - CMOVNLW-R16-R16
+  - CMOVNOL-R32-R32
+  - CMOVNOQ-R64-R64
+  - CMOVNOW-R16-R16
+  - CMOVNPL-R32-R32
+  - CMOVNPQ-R64-R64
+  - CMOVNPW-R16-R16
+  - CMOVNSL-R32-R32
+  - CMOVNSQ-R64-R64
+  - CMOVNSW-R16-R16
+  - CMOVNZL-R32-R32
+  - CMOVNZQ-R64-R64
+  - CMOVNZW-R16-R16
+  - CMOVOL-R32-R32
+  - CMOVOQ-R64-R64
+  - CMOVOW-R16-R16
+  - CMOVPEL-R32-R32
+  - CMOVPEQ-R64-R64
+  - CMOVPEW-R16-R16
+  - CMOVPL-R32-R32
+  - CMOVPOL-R32-R32
+  - CMOVPOQ-R64-R64
+  - CMOVPOW-R16-R16
+  - CMOVPQ-R64-R64
+  - CMOVPW-R16-R16
+  - CMOVSL-R32-R32
+  - CMOVSQ-R64-R64
+  - CMOVSW-R16-R16
+  - CMOVZL-R32-R32
+  - CMOVZQ-R64-R64
+  - CMOVZW-R16-R16
+  - CMPB-R8-R8
+  - CMPB-R8-RH
+  - CMPB-RH-R8
+  - CMPB-RH-RH
+  - CMPL-R32-R32
+  - CMPQ-R64-R64
+  - CMPW-R16-R16
+  - CMPXCHGB-R8-R8
+  - CMPXCHGB-R8-RH
+  - CMPXCHGB-RH-R8
+  - CMPXCHGB-RH-RH
+  - CMPXCHGL-R32-R32
+  - CMPXCHGQ-R64-R64
+  - CMPXCHGW-R16-R16
+  - CQTO
+  - CWTD
+  - CWTL
+  - DECB-R8
+  - DECB-RH
+  - DECL-R32
+  - DECQ-R64
+  - DECW-R16
+  - DIVB-R8
+  - DIVB-RH
+  - DIVL-R32
+  - DIVQ-R64
+  - DIVW-R16
+  - IDIVB-R8
+  - IDIVB-RH
+  - IDIVL-R32
+  - IDIVQ-R64
+  - IDIVW-R16
+  - IMULB-R8
+  - IMULB-RH
+  - IMULL-R32
+  - IMULL-R32-R32
+  - IMULQ-R64
+  - IMULQ-R64-R64
+  - IMULW-R16
+  - IMULW-R16-R16
+  - INCB-R8
+  - INCB-RH
+  - INCL-R32
+  - INCQ-R64
+  - INCW-R16
+  - LZCNTL-R32-R32
+  - LZCNTQ-R64-R64
+  - LZCNTQ-SMALL-R64-R64
+  - LZCNTW-R16-R16
+  - MOVB-R8-R8
+  - MOVB-R8-RH
+  - MOVB-RH-R8
+  - MOVB-RH-RH
+  - MOVL-R32-R32
+  - MOVQ-R64-R64
+  - MOVSBL-R32-R8
+  - MOVSBL-R32-RH
+  - MOVSBQ-R64-R8
+  - MOVSBW-R16-R8
+  - MOVSBW-R16-RH
+  - MOVSLQ-R64-R32
+  - MOVSWL-R32-R16
+  - MOVSWQ-R64-R16
+  - MOVW-R16-R16
+  - MOVZBL-R32-R8
+  - MOVZBL-R32-RH
+  - MOVZBQ-R64-R8
+  - MOVZBW-R16-R8
+  - MOVZBW-R16-RH
+  - MOVZWL-R32-R16
+  - MOVZWQ-R64-R16
+  - MULB-R8
+  - MULB-RH
+  - MULL-R32
+  - MULQ-R64
+  - MULW-R16
+  - MULXL-R32-R32-R32
+  - MULXQ-R64-R64-R64
+  - NEGB-R8
+  - NEGB-RH
+  - NEGL-R32
+  - NEGQ-R64
+  - NEGW-R16
+  - NOP
+  - NOPL-R32
+  - NOPW-R16
+  - NOTB-R8
+  - NOTB-RH
+  - NOTL-R32
+  - NOTQ-R64
+  - NOTW-R16
+  - ORB-R8-R8
+  - ORB-R8-RH
+  - ORB-RH-R8
+  - ORB-RH-RH
+  - ORL-R32-R32
+  - ORQ-R64-R64
+  - ORW-R16-R16
+  - PDEPL-R32-R32-R32
+  - PDEPQ-R64-R64-R64
+  - PEXTL-R32-R32-R32
+  - PEXTQ-R64-R64-R64
+  - POPCNTL-R32-R32
+  - POPCNTQ-R64-R64
+  - POPCNTW-R16-R16
+  - RCLB-R8-CL
+  - RCLB-R8-ONE
+  - RCLB-RH-CL
+  - RCLB-RH-ONE
+  - RCLL-R32-CL
+  - RCLL-R32-ONE
+  - RCLQ-R64-CL
+  - RCLQ-R64-ONE
+  - RCLW-R16-CL
+  - RCLW-R16-ONE
+  - RCRB-R8-CL
+  - RCRB-R8-ONE
+  - RCRB-RH-CL
+  - RCRB-RH-ONE
+  - RCRL-R32-CL
+  - RCRL-R32-ONE
+  - RCRQ-R64-CL
+  - RCRQ-R64-ONE
+  - RCRW-R16-CL
+  - RCRW-R16-ONE
+  - ROLB-R8-CL
+  - ROLB-R8-ONE
+  - ROLB-RH-CL
+  - ROLB-RH-ONE
+  - ROLL-R32-CL
+  - ROLQ-R64-CL
+  - ROLQ-R64-ONE
+  - ROLW-R16-CL
+  - ROLW-R16-ONE
+  - RORB-R8-CL
+  - RORB-R8-ONE
+  - RORB-RH-CL
+  - RORB-RH-ONE
+  - RORL-R32-CL
+  - RORL-R32-ONE
+  - RORQ-R64-CL
+  - RORQ-R64-ONE
+  - RORW-R16-CL
+  - RORW-R16-ONE
+  - SALB-R8-CL
+  - SALB-R8-ONE
+  - SALB-RH-CL
+  - SALB-RH-ONE
+  - SALL-R32-CL
+  - SALL-R32-ONE
+  - SALQ-R64-CL
+  - SALQ-R64-ONE
+  - SALW-R16-CL
+  - SALW-R16-ONE
+  - SARB-R8-CL
+  - SARB-R8-ONE
+  - SARB-RH-CL
+  - SARB-RH-ONE
+  - SARL-R32-CL
+  - SARL-R32-ONE
+  - SARQ-R64-CL
+  - SARQ-R64-ONE
+  - SARW-R16-CL
+  - SARW-R16-ONE
+  - SARXL-R32-R32-R32
+  - SARXQ-R64-R64-R64
+  - SBBB-R8-R8
+  - SBBB-R8-RH
+  - SBBB-RH-R8
+  - SBBB-RH-RH
+  - SBBL-R32-R32
+  - SBBQ-R64-R64
+  - SBBW-R16-R16
+  - SETA-R8
+  - SETA-RH
+  - SETAE-R8
+  - SETAE-RH
+  - SETB-R8
+  - SETB-RH
+  - SETBE-R8
+  - SETBE-RH
+  - SETC-R8
+  - SETC-RH
+  - SETE-R8
+  - SETE-RH
+  - SETG-R8
+  - SETG-RH
+  - SETGE-R8
+  - SETGE-RH
+  - SETL-R8
+  - SETL-RH
+  - SETLE-R8
+  - SETLE-RH
+  - SETNA-R8
+  - SETNA-RH
+  - SETNAE-R8
+  - SETNAE-RH
+  - SETNB-R8
+  - SETNB-RH
+  - SETNBE-R8
+  - SETNBE-RH
+  - SETNC-R8
+  - SETNC-RH
+  - SETNE-R8
+  - SETNE-RH
+  - SETNG-R8
+  - SETNG-RH
+  - SETNGE-R8
+  - SETNGE-RH
+  - SETNL-R8
+  - SETNL-RH
+  - SETNLE-R8
+  - SETNLE-RH
+  - SETNO-R8
+  - SETNO-RH
+  - SETNP-R8
+  - SETNP-RH
+  - SETNS-R8
+  - SETNS-RH
+  - SETNZ-R8
+  - SETNZ-RH
+  - SETO-R8
+  - SETO-RH
+  - SETP-R8
+  - SETP-RH
+  - SETPE-R8
+  - SETPE-RH
+  - SETPO-R8
+  - SETPO-RH
+  - SETS-R8
+  - SETS-RH
+  - SETZ-R8
+  - SETZ-RH
+  - SHLB-R8-CL
+  - SHLB-R8-ONE
+  - SHLB-RH-CL
+  - SHLB-RH-ONE
+  - SHLL-R32-CL
+  - SHLL-R32-ONE
+  - SHLQ-R64-CL
+  - SHLQ-R64-ONE
+  - SHLW-R16-CL
+  - SHLW-R16-ONE
+  - SHLXL-R32-R32-R32
+  - SHLXQ-R64-R64-R64
+  - SHRB-R8-CL
+  - SHRB-R8-ONE
+  - SHRB-RH-CL
+  - SHRB-RH-ONE
+  - SHRL-R32-CL
+  - SHRL-R32-ONE
+  - SHRQ-R64-CL
+  - SHRQ-R64-ONE
+  - SHRW-R16-CL
+  - SHRW-R16-ONE
+  - SHRXL-R32-R32-R32
+  - SHRXQ-R64-R64-R64
+  - STC
+  - SUBB-R8-R8
+  - SUBB-R8-RH
+  - SUBB-RH-R8
+  - SUBB-RH-RH
+  - SUBL-R32-R32
+  - SUBQ-R64-R64
+  - SUBW-R16-R16
+  - TESTB-R8-R8
+  - TESTB-R8-RH
+  - TESTB-RH-R8
+  - TESTB-RH-RH
+  - TESTL-R32-R32
+  - TESTQ-R64-R64
+  - TESTW-R16-R16
+  - TZCNTL-R32-R32
+  - TZCNTQ-R64-R64
+  - TZCNTW-R16-R16
+  - XADDB-R8-R8
+  - XADDB-R8-RH
+  - XADDB-RH-R8
+  - XADDB-RH-RH
+  - XADDL-R32-R32
+  - XADDQ-R64-R64
+  - XADDW-R16-R16
+  - XCHGB-R8-R8
+  - XCHGB-R8-RH
+  - XCHGB-RH-R8
+  - XCHGB-RH-RH
+  - XCHGL-EAX-R32
+  - XCHGL-R32-EAX
+  - XCHGL-R32-R32
+  - XCHGQ-R64-R64
+  - XCHGQ-R64-RAX
+  - XCHGQ-RAX-R64
+  - XCHGW-AX-R16
+  - XCHGW-R16-AX
+  - XCHGW-R16-R16
+  - XORB-R8-R8
+  - XORB-R8-RH
+  - XORB-RH-R8
+  - XORB-RH-RH
+  - XORL-R32-R32
+  - XORQ-R64-R64
+  - XORW-R16-R16
+  - pseudo-ROLL-R32-ONE-sr17
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:151:0:\
+    \ cegis\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-c009.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-c009.rkt
+  spec: pseudo-ROLL-R32-ONE-sr17
+  state: timeout
+  time: 600.1195452213287

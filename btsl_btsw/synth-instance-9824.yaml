@@ -1,0 +1,449 @@
+rosette/synth-target-BTSL-R32-R32-2b81.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSL-R32-R32-s4
+  - pseudo-BTSL-R32-R32-sr4
+  data: '(#(struct:pseudo-BTSL-R32-R32-s4 0 1) #(struct:PMOVQ-R64-R64 1 5) #(struct:PCMOV-R64-R64-R64
+    6 6 5) #(struct:POR-R64-R64 6 6))
+
+    pseudo-btsl-r32-r32-s4 [R1: 64, R2: 64] R0, R1
+
+    movq R1, R5
+
+    pcmov-r64-r64-r64 R6, R6, R5
+
+    por-r64-r64 R6, R6'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BTSL-R32-R32-2b81.rkt
+  spec: BTSL-R32-R32
+  state: success
+  time: 15.291845321655273
+rosette/synth-target-BTSL-R32-R32-6038.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - BTCL-R32-R32
+  - BTRL-R32-R32
+  - SARXL-R32-R32-R32
+  - SHRXL-R32-R32-R32
+  - SHLXL-R32-R32-R32
+  - BTL-R32-R32
+  - ANDL-R32-R32
+  - XCHGL-EAX-R32
+  - IDIVL-R32
+  - DIVL-R32
+  - XCHGL-R32-R32
+  - MOVL-R32-R32
+  - BLSMSKL-R32-R32
+  - CMPXCHGL-R32-R32
+  - BLSRL-R32-R32
+  - RORL-R32-ONE
+  - XCHGL-R32-EAX
+  - ROLL-R32-ONE
+  - DECL-R32
+  - INCL-R32
+  - TESTL-R32-R32
+  - XADDL-R32-R32
+  - CMOVPEL-R32-R32
+  - ANDNL-R32-R32-R32
+  - CMOVCL-R32-R32
+  - CMOVBL-R32-R32
+  - CMOVNAEL-R32-R32
+  - CMOVPL-R32-R32
+  - CMOVEL-R32-R32
+  - XORL-R32-R32
+  - MULXL-R32-R32-R32
+  - NOTL-R32
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:151:0:\
+    \ cegis\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-BTSL-R32-R32-6038.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-BTSL-R32-R32-6038.rkt
+  spec: BTSL-R32-R32
+  state: timeout
+  time: 10.023382663726807
+rosette/synth-target-BTSL-R32-R32-f1f3.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSL-R32-R32-s1
+  - pseudo-BTSL-R32-R32-sr1
+  data: '(#(struct:PMOVQ-R64-R64 0 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000
+    64) 6) #(struct:pseudo-BTSL-R32-R32-sr1 6 5 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000005
+    64) 0))
+
+    movq R0, R5
+
+    movq 0x0, R6
+
+    pseudo-btsl-r32-r32-sr1 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+
+    pmov-flag-r64 F(bv #x0000000000000005 64), R0'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BTSL-R32-R32-f1f3.rkt
+  spec: BTSL-R32-R32
+  state: success
+  time: 105.06594586372375
+rosette/synth-target-BTSW-R16-R16-4a6a.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSW-R16-R16-s7
+  - pseudo-BTSW-R16-R16-sr7
+  data: '(#(struct:pseudo-BTSW-R16-R16-sr7 1 6) #(struct:POR-R64-R64 1 1) #(struct:pseudo-BTSW-R16-R16-s7
+    0 6) #(struct:pseudo-BTSW-R16-R16-sr7 6 1))
+
+    pseudo-btsw-r16-r16-sr7 [R1: 64, R2: 64] R1, R6
+
+    por-r64-r64 R1, R1
+
+    pseudo-btsw-r16-r16-s7 [R1: 64, R2: 64] R0, R6
+
+    pseudo-btsw-r16-r16-sr7 [R1: 64, R2: 64] R6, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-BTSW-R16-R16-4a6a.rkt
+  spec: BTSW-R16-R16
+  state: success
+  time: 403.92550325393677
+rosette/synth-target-BTSW-R16-R16-9af9.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - BTCW-R16-R16
+  - BTRW-R16-R16
+  - BTW-R16-R16
+  - RORW-R16-ONE
+  - ANDW-R16-R16
+  - ROLW-R16-ONE
+  - XCHGW-R16-R16
+  - CMOVPEW-R16-R16
+  - INCW-R16
+  - CMOVPW-R16-R16
+  - MOVW-R16-R16
+  - CMOVNAEW-R16-R16
+  - ORW-R16-R16
+  - CMOVEW-R16-R16
+  - CMOVBW-R16-R16
+  - XCHGW-R16-AX
+  - CMOVZW-R16-R16
+  - CMPXCHGW-R16-R16
+  - DECW-R16
+  - XORW-R16-R16
+  - CMOVCW-R16-R16
+  - IDIVW-R16
+  - CMOVSW-R16-R16
+  - CMOVOW-R16-R16
+  - DIVW-R16
+  - TESTW-R16-R16
+  - CMOVPOW-R16-R16
+  - CMOVNSW-R16-R16
+  - XCHGW-AX-R16
+  - POPCNTW-R16-R16
+  - XADDW-R16-R16
+  - CWTD
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-BTSW-R16-R16-9af9.rkt\""
+  max_timeout: 10
+  name: rosette/synth-target-BTSW-R16-R16-9af9.rkt
+  spec: BTSW-R16-R16
+  state: timeout
+  time: 10.021230220794678
+rosette/synth-target-pseudo-BTSL-R32-R32-s1-83e5.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64
+    1 1))
+
+    pmov-flag-r64 F(bv #x0000000000000006 64), R0
+
+    pxor-r64-r64 R1, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-s1-83e5.rkt
+  spec: pseudo-BTSL-R32-R32-s1
+  state: success
+  time: 1.0981709957122803
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-4be6.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BTSL-R32-R32-s4-4be6.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-s4-4be6.rkt
+  spec: pseudo-BTSL-R32-R32-s4
+  state: timeout
+  time: 600.1170883178711
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-6eff.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSL-R32-R32-s4-s11
+  - pseudo-BTSL-R32-R32-s4-sr11
+  data: '(#(struct:pseudo-BTSL-R32-R32-s4-s11 0 0) #(struct:pseudo-BTSL-R32-R32-s4-sr11
+    0 1) #(struct:PSPLIT-R64-R64 6 0 1) #(struct:PXOR-R64-R64 6 6))
+
+    pseudo-btsl-r32-r32-s4-s11 [R1: 64, R2: 64] R0, R0
+
+    pseudo-btsl-r32-r32-s4-sr11 [R1: 64, R2: 64] R0, R1
+
+    psplit R6, R0, R1
+
+    pxor-r64-r64 R6, R6'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-s4-6eff.rkt
+  spec: pseudo-BTSL-R32-R32-s4
+  state: success
+  time: 384.6678342819214
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-d1de.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSL-R32-R32-s4-s5
+  - pseudo-BTSL-R32-R32-s4-sr5
+  data: '(#(struct:PCONCAT-R32-R32 6 2 6) #(struct:PMOVQ-R64-R64 1 1) #(struct:pseudo-BTSL-R32-R32-s4-sr5
+    0 1) #(struct:PAND-R64-R64 6 6))
+
+    pconcat-r32-r32 R6, R2, R6
+
+    movq R1, R1
+
+    pseudo-btsl-r32-r32-s4-sr5 [R1: 64, R2: 64] R0, R1
+
+    pand-r64-r64 R6, R6'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-s4-d1de.rkt
+  spec: pseudo-BTSL-R32-R32-s4
+  state: success
+  time: 15.256638288497925
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-s5-dd3b.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 6) #(struct:PAND-R64-R64
+    6 1))
+
+    movq 0xffffffff, R6
+
+    pand-r64-r64 R6, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-s4-s5-dd3b.rkt
+  spec: pseudo-BTSL-R32-R32-s4-s5
+  state: success
+  time: 1.3404099941253662
+rosette/synth-target-pseudo-BTSL-R32-R32-sr1-2d40.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSL-R32-R32-sr1-s4
+  - pseudo-BTSL-R32-R32-sr1-sr4
+  data: '(#(struct:pseudo-BTSL-R32-R32-sr1-s4 0 1) #(struct:pseudo-BTSL-R32-R32-sr1-sr4
+    2 1 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 0) #(struct:pseudo-BTSL-R32-R32-sr1-sr4
+    6 6 6))
+
+    pseudo-btsl-r32-r32-sr1-s4 [R1: 64, R2: 64] R0, R1
+
+    pseudo-btsl-r32-r32-sr1-sr4 [R3: 64, R1: 64, R2: 64] R2, R1, R1
+
+    pmov-flag-r64 F(bv #x0000000000000000 64), R0
+
+    pseudo-btsl-r32-r32-sr1-sr4 [R3: 64, R1: 64, R2: 64] R6, R6, R6'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-sr1-2d40.rkt
+  spec: pseudo-BTSL-R32-R32-sr1
+  state: success
+  time: 25.406739473342896
+rosette/synth-target-pseudo-BTSL-R32-R32-sr1-47ad.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BTSL-R32-R32-sr1-47ad.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-sr1-47ad.rkt
+  spec: pseudo-BTSL-R32-R32-sr1
+  state: timeout
+  time: 600.1130607128143
+rosette/synth-target-pseudo-BTSL-R32-R32-sr4-78c2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64
+    0 1))
+
+    movq 0xffffffff, R1
+
+    pand-r64-r64 R0, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSL-R32-R32-sr4-78c2.rkt
+  spec: pseudo-BTSL-R32-R32-sr4
+  state: success
+  time: 1.0740711688995361
+rosette/synth-target-pseudo-BTSW-R16-R16-s1-8f1f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000010030 64) 2) #(struct:PSPLIT-R64-R64
+    5 1 2) #(struct:PMOVQ-R64-R64 5 1))
+
+    movq 0x10030, R2
+
+    psplit R5, R1, R2
+
+    movq R5, R1'
+  debug: sat! 3
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-s1-8f1f.rkt
+  spec: pseudo-BTSW-R16-R16-s1
+  state: success
+  time: 17.757951974868774
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-1f84.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSW-R16-R16-s7-s8
+  - pseudo-BTSW-R16-R16-s7-sr8
+  data: '(#(struct:pseudo-BTSW-R16-R16-s7-sr8 0 1) #(struct:PSPLIT-R64-R64 6 5 6)
+    #(struct:PNOP) #(struct:PMOV-R64-FLAG 6 (bv #x0000000000000006 64)))
+
+    pseudo-btsw-r16-r16-s7-sr8 [R1: 64, R2: 64] R0, R1
+
+    psplit R6, R5, R6
+
+    pnop
+
+    pmov-r64-flag R6, F(bv #x0000000000000006 64)'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-s7-1f84.rkt
+  spec: pseudo-BTSW-R16-R16-s7
+  state: success
+  time: 6.1363396644592285
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-365d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BTSW-R16-R16-s7-365d.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-s7-365d.rkt
+  spec: pseudo-BTSW-R16-R16-s7
+  state: timeout
+  time: 600.1167404651642
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-cec9.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSW-R16-R16-s7-s14
+  - pseudo-BTSW-R16-R16-s7-sr14
+  data: '(#(struct:pseudo-BTSW-R16-R16-s7-s14 0 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000
+    64) 2) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:pseudo-BTSW-R16-R16-s7-sr14
+    6 1))
+
+    pseudo-btsw-r16-r16-s7-s14 [R1: 64, R2: 64] R0, R6
+
+    movq 0x0, R2
+
+    movq 0x0, R2
+
+    pseudo-btsw-r16-r16-s7-sr14 [R1: 64, R2: 64] R6, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-s7-cec9.rkt
+  spec: pseudo-BTSW-R16-R16-s7
+  state: success
+  time: 7.088464021682739
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-s8-b55f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x000000000000ffff 64) 5) #(struct:PAND-R64-R64
+    5 1))
+
+    movq 0xffff, R5
+
+    pand-r64-r64 R5, R1'
+  debug: sat! 2
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-s7-s8-b55f.rkt
+  spec: pseudo-BTSW-R16-R16-s7-s8
+  state: success
+  time: 1.3312418460845947
+rosette/synth-target-pseudo-BTSW-R16-R16-sr1-3ca1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - pseudo-BTSW-R16-R16-sr1-s7
+  - pseudo-BTSW-R16-R16-sr1-sr7
+  data: '(#(struct:pseudo-BTSW-R16-R16-sr1-sr7 0 1 6) #(struct:pseudo-BTSW-R16-R16-sr1-s7
+    0 6) #(struct:PMOVQ-R64-R64 6 0) #(struct:pseudo-BTSW-R16-R16-sr1-sr7 2 6 1))
+
+    pseudo-btsw-r16-r16-sr1-sr7 [R3: 64, R1: 64, R2: 64] R0, R1, R6
+
+    pseudo-btsw-r16-r16-sr1-s7 [R1: 64, R2: 64] R0, R6
+
+    movq R6, R0
+
+    pseudo-btsw-r16-r16-sr1-sr7 [R3: 64, R1: 64, R2: 64] R2, R6, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-sr1-3ca1.rkt
+  spec: pseudo-BTSW-R16-R16-sr1
+  state: success
+  time: 113.94573974609375
+rosette/synth-target-pseudo-BTSW-R16-R16-sr1-6e1e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BTSW-R16-R16-sr1-6e1e.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-sr1-6e1e.rkt
+  spec: pseudo-BTSW-R16-R16-sr1
+  state: timeout
+  time: 600.1161572933197
+rosette/synth-target-pseudo-BTSW-R16-R16-sr1-sr7-20f4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: ''
+  debug: "user break\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:133:0:\
+    \ read-solution\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/solver/smt/base-solver.rkt:92:0:\
+    \ solver-check\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:157:2:\
+    \ guess\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:174:2:\
+    \ loop\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/query/core.rkt:129:6\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:42:0: synthesize-prog\n\
+    \   /home/sushant94/projects/dsa-fuzz/rosette/synthesis_core.rkt:74:0: optimize-prog-single\n\
+    \   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-pseudo-BTSW-R16-R16-sr1-sr7-20f4.rkt\""
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-sr1-sr7-20f4.rkt
+  spec: pseudo-BTSW-R16-R16-sr1-sr7
+  state: timeout
+  time: 600.1152422428131
+rosette/synth-target-pseudo-BTSW-R16-R16-sr7-1aa0.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components: []
+  data: '(#(struct:PXOR-R64-R64 0 1) #(struct:MOVQ-IMM-R64 (bv #xffffffffffff0000
+    64) 2) #(struct:PAND-R64-R64 2 1) #(struct:PXOR-R64-R64 0 1))
+
+    pxor-r64-r64 R0, R1
+
+    movq 0xffffffffffff0000, R2
+
+    pand-r64-r64 R2, R1
+
+    pxor-r64-r64 R0, R1'
+  debug: sat! 4
+  max_timeout: 600
+  name: rosette/synth-target-pseudo-BTSW-R16-R16-sr7-1aa0.rkt
+  spec: pseudo-BTSW-R16-R16-sr7
+  state: success
+  time: 69.34856057167053

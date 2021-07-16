@@ -1,0 +1,110 @@
+rosette/synth-target-BTSL-R32-R32-6038.rkt:
+[x] rosette/synth-target-BTSL-R32-R32-6038.rkt: Timeout!
+rosette/synth-target-pseudo-BTSL-R32-R32-sr4-78c2.rkt:
+[*] rosette/synth-target-pseudo-BTSL-R32-R32-sr4-78c2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0xffffffff, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTSL-R32-R32-s1-83e5.rkt:
+[*] rosette/synth-target-pseudo-BTSL-R32-R32-s1-83e5.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64 1 1))
+pmov-flag-r64 F(bv #x0000000000000006 64), R0
+pxor-r64-r64 R1, R1
+rosette/synth-target-pseudo-BTSL-R32-R32-sr1-47ad.rkt:
+[x] rosette/synth-target-pseudo-BTSL-R32-R32-sr1-47ad.rkt: Timeout!
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-4be6.rkt:
+[x] rosette/synth-target-pseudo-BTSL-R32-R32-s4-4be6.rkt: Timeout!
+rosette/synth-target-BTSW-R16-R16-9af9.rkt:
+[x] rosette/synth-target-BTSW-R16-R16-9af9.rkt: Timeout!
+rosette/synth-target-pseudo-BTSW-R16-R16-s1-8f1f.rkt:
+[*] rosette/synth-target-pseudo-BTSW-R16-R16-s1-8f1f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000010030 64) 2) #(struct:PSPLIT-R64-R64 5 1 2) #(struct:PMOVQ-R64-R64 5 1))
+movq 0x10030, R2
+psplit R5, R1, R2
+movq R5, R1
+rosette/synth-target-pseudo-BTSW-R16-R16-sr1-6e1e.rkt:
+[x] rosette/synth-target-pseudo-BTSW-R16-R16-sr1-6e1e.rkt: Timeout!
+rosette/synth-target-pseudo-BTSW-R16-R16-sr7-1aa0.rkt:
+[*] rosette/synth-target-pseudo-BTSW-R16-R16-sr7-1aa0.rkt: Success!
+(#(struct:PXOR-R64-R64 0 1) #(struct:MOVQ-IMM-R64 (bv #xffffffffffff0000 64) 2) #(struct:PAND-R64-R64 2 1) #(struct:PXOR-R64-R64 0 1))
+pxor-r64-r64 R0, R1
+movq 0xffffffffffff0000, R2
+pand-r64-r64 R2, R1
+pxor-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-365d.rkt:
+[x] rosette/synth-target-pseudo-BTSW-R16-R16-s7-365d.rkt: Timeout!
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-s5-dd3b.rkt:
+[*] rosette/synth-target-pseudo-BTSL-R32-R32-s4-s5-dd3b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 6) #(struct:PAND-R64-R64 6 1))
+movq 0xffffffff, R6
+pand-r64-r64 R6, R1
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-d1de.rkt:
+[*] rosette/synth-target-pseudo-BTSL-R32-R32-s4-d1de.rkt: Success!
+(#(struct:PCONCAT-R32-R32 6 2 6) #(struct:PMOVQ-R64-R64 1 1) #(struct:pseudo-BTSL-R32-R32-s4-sr5 0 1) #(struct:PAND-R64-R64 6 6))
+pconcat-r32-r32 R6, R2, R6
+movq R1, R1
+pseudo-btsl-r32-r32-s4-sr5 [R1: 64, R2: 64] R0, R1
+pand-r64-r64 R6, R6
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-1f84.rkt:
+[*] rosette/synth-target-pseudo-BTSW-R16-R16-s7-1f84.rkt: Success!
+(#(struct:pseudo-BTSW-R16-R16-s7-sr8 0 1) #(struct:PSPLIT-R64-R64 6 5 6) #(struct:PNOP) #(struct:PMOV-R64-FLAG 6 (bv #x0000000000000006 64)))
+pseudo-btsw-r16-r16-s7-sr8 [R1: 64, R2: 64] R0, R1
+psplit R6, R5, R6
+pnop
+pmov-r64-flag R6, F(bv #x0000000000000006 64)
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-cec9.rkt:
+[*] rosette/synth-target-pseudo-BTSW-R16-R16-s7-cec9.rkt: Success!
+(#(struct:pseudo-BTSW-R16-R16-s7-s14 0 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 2) #(struct:pseudo-BTSW-R16-R16-s7-sr14 6 1))
+pseudo-btsw-r16-r16-s7-s14 [R1: 64, R2: 64] R0, R6
+movq 0x0, R2
+movq 0x0, R2
+pseudo-btsw-r16-r16-s7-sr14 [R1: 64, R2: 64] R6, R1
+rosette/synth-target-pseudo-BTSW-R16-R16-sr1-sr7-20f4.rkt:
+[x] rosette/synth-target-pseudo-BTSW-R16-R16-sr1-sr7-20f4.rkt: Timeout!
+rosette/synth-target-pseudo-BTSW-R16-R16-s7-s8-b55f.rkt:
+[*] rosette/synth-target-pseudo-BTSW-R16-R16-s7-s8-b55f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000ffff 64) 5) #(struct:PAND-R64-R64 5 1))
+movq 0xffff, R5
+pand-r64-r64 R5, R1
+rosette/synth-target-BTSL-R32-R32-f1f3.rkt:
+[*] rosette/synth-target-BTSL-R32-R32-f1f3.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:pseudo-BTSL-R32-R32-sr1 6 5 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000005 64) 0))
+movq R0, R5
+movq 0x0, R6
+pseudo-btsl-r32-r32-sr1 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+pmov-flag-r64 F(bv #x0000000000000005 64), R0
+rosette/synth-target-pseudo-BTSW-R16-R16-sr1-3ca1.rkt:
+[*] rosette/synth-target-pseudo-BTSW-R16-R16-sr1-3ca1.rkt: Success!
+(#(struct:pseudo-BTSW-R16-R16-sr1-sr7 0 1 6) #(struct:pseudo-BTSW-R16-R16-sr1-s7 0 6) #(struct:PMOVQ-R64-R64 6 0) #(struct:pseudo-BTSW-R16-R16-sr1-sr7 2 6 1))
+pseudo-btsw-r16-r16-sr1-sr7 [R3: 64, R1: 64, R2: 64] R0, R1, R6
+pseudo-btsw-r16-r16-sr1-s7 [R1: 64, R2: 64] R0, R6
+movq R6, R0
+pseudo-btsw-r16-r16-sr1-sr7 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-BTSL-R32-R32-2b81.rkt:
+[*] rosette/synth-target-BTSL-R32-R32-2b81.rkt: Success!
+(#(struct:pseudo-BTSL-R32-R32-s4 0 1) #(struct:PMOVQ-R64-R64 1 5) #(struct:PCMOV-R64-R64-R64 6 6 5) #(struct:POR-R64-R64 6 6))
+pseudo-btsl-r32-r32-s4 [R1: 64, R2: 64] R0, R1
+movq R1, R5
+pcmov-r64-r64-r64 R6, R6, R5
+por-r64-r64 R6, R6
+rosette/synth-target-pseudo-BTSL-R32-R32-sr1-2d40.rkt:
+[*] rosette/synth-target-pseudo-BTSL-R32-R32-sr1-2d40.rkt: Success!
+(#(struct:pseudo-BTSL-R32-R32-sr1-s4 0 1) #(struct:pseudo-BTSL-R32-R32-sr1-sr4 2 1 1) #(struct:PMOV-FLAG-R64 (bv #x0000000000000000 64) 0) #(struct:pseudo-BTSL-R32-R32-sr1-sr4 6 6 6))
+pseudo-btsl-r32-r32-sr1-s4 [R1: 64, R2: 64] R0, R1
+pseudo-btsl-r32-r32-sr1-sr4 [R3: 64, R1: 64, R2: 64] R2, R1, R1
+pmov-flag-r64 F(bv #x0000000000000000 64), R0
+pseudo-btsl-r32-r32-sr1-sr4 [R3: 64, R1: 64, R2: 64] R6, R6, R6
+rosette/synth-target-pseudo-BTSL-R32-R32-s4-6eff.rkt:
+[*] rosette/synth-target-pseudo-BTSL-R32-R32-s4-6eff.rkt: Success!
+(#(struct:pseudo-BTSL-R32-R32-s4-s11 0 0) #(struct:pseudo-BTSL-R32-R32-s4-sr11 0 1) #(struct:PSPLIT-R64-R64 6 0 1) #(struct:PXOR-R64-R64 6 6))
+pseudo-btsl-r32-r32-s4-s11 [R1: 64, R2: 64] R0, R0
+pseudo-btsl-r32-r32-s4-sr11 [R1: 64, R2: 64] R0, R1
+psplit R6, R0, R1
+pxor-r64-r64 R6, R6
+rosette/synth-target-BTSW-R16-R16-4a6a.rkt:
+[*] rosette/synth-target-BTSW-R16-R16-4a6a.rkt: Success!
+(#(struct:pseudo-BTSW-R16-R16-sr7 1 6) #(struct:POR-R64-R64 1 1) #(struct:pseudo-BTSW-R16-R16-s7 0 6) #(struct:pseudo-BTSW-R16-R16-sr7 6 1))
+pseudo-btsw-r16-r16-sr7 [R1: 64, R2: 64] R1, R6
+por-r64-r64 R1, R1
+pseudo-btsw-r16-r16-s7 [R1: 64, R2: 64] R0, R6
+pseudo-btsw-r16-r16-sr7 [R1: 64, R2: 64] R6, R1

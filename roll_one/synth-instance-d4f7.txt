@@ -1,0 +1,225 @@
+rosette/synth-target-ROLL-R32-ONE-f6bb.rkt:
+[x] rosette/synth-target-ROLL-R32-ONE-f6bb.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-c009.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-c009.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-1f3e.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-1f3e.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3602.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3602.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s1-36f1.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s1-36f1.rkt: Success!
+(#(struct:PXOR-R64-R64 1 1) #(struct:PSET-FLAG (bv #x0000000000000006 64)))
+pxor-r64-r64 R1, R1
+pset-flag F(bv #x0000000000000006 64)
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-41a3.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-sr17-41a3.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x39a0c70a00000000 64) 6) #(struct:pseudo-ROLL-R32-ONE-sr17-sr1 2 4) #(struct:pseudo-ROLL-R32-ONE-sr17-sr1 0 6) #(struct:PMOVQ-R64-R64 6 1))
+movq 0x39a0c70a00000000, R6
+pseudo-roll-r32-one-sr17-sr1 [R1: 64, R2: 64] R2, R4
+pseudo-roll-r32-one-sr17-sr1 [R1: 64, R2: 64] R0, R6
+movq R6, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-sr17-027b.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-sr17-027b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000100000020 64) 4) #(struct:PSPLIT-R64-R64 2 1 4) #(struct:PCONCAT-R32-R32 0 1 4))
+movq 0x100000020, R4
+psplit R2, R1, R4
+pconcat-r32-r32 R0, R1, R4
+rosette/synth-target-ROLL-R32-ONE-a4d2.rkt:
+[*] rosette/synth-target-ROLL-R32-ONE-a4d2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0001000000000000 64) 5) #(struct:PAND-R64-R64 6 4) #(struct:PXOR-R64-R64 5 1) #(struct:pseudo-ROLL-R32-ONE-sr1 5 1))
+movq 0x1000000000000, R5
+pand-r64-r64 R6, R4
+pxor-r64-r64 R5, R1
+pseudo-roll-r32-one-sr1 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-e4a7.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-sr1-e4a7.rkt: Success!
+(#(struct:POR-R64-R64 0 6) #(struct:pseudo-ROLL-R32-ONE-sr1-s17 1) #(struct:pseudo-ROLL-R32-ONE-sr1-sr17 6 6) #(struct:pseudo-ROLL-R32-ONE-sr1-sr17 0 1))
+por-r64-r64 R0, R6
+pseudo-roll-r32-one-sr1-s17 [R2: 64] R1
+pseudo-roll-r32-one-sr1-sr17 [R1: 64, R2: 64] R6, R6
+pseudo-roll-r32-one-sr1-sr17 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-28d6.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-28d6.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d887.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d887.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-s15-54d4.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-s15-54d4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000021 64) 4) #(struct:PCONCAT-R32-R32 1 4 4) #(struct:MOVQ-IMM-R64 (bv #xfff9a0282ecddfe0 64) 0) #(struct:PSPLIT-R64-R64 1 4 0))
+movq 0x21, R4
+pconcat-r32-r32 R1, R4, R4
+movq 0xfff9a0282ecddfe0, R0
+psplit R1, R4, R0
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-a269.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-a269.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b581.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b581.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-e577.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-e577.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0a26.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0a26.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-defd.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-sr15-defd.rkt: Success!
+(#(struct:pseudo-ROLL-R32-ONE-s17-sr15-s16 1) #(struct:pseudo-ROLL-R32-ONE-s17-sr15-sr16 1 2) #(struct:POR-R64-R64 6 6) #(struct:pseudo-ROLL-R32-ONE-s17-sr15-sr16 0 1))
+pseudo-roll-r32-one-s17-sr15-s16 [R2: 64] R1
+pseudo-roll-r32-one-s17-sr15-sr16 [R1: 64, R2: 64] R1, R2
+por-r64-r64 R6, R6
+pseudo-roll-r32-one-s17-sr15-sr16 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7f7c.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7f7c.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-23be.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-23be.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cc3c.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cc3c.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5d9d.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5d9d.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d880.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-d880.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-953d.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-953d.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7e1f.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7e1f.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-114f.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-114f.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2e5c.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2e5c.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-64fb.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-64fb.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b5bc.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-b5bc.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-c447.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-c447.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f520.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f520.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0784.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-0784.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-6350.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-6350.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-68d2.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-68d2.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afb8.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afb8.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5c31.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-5c31.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-550b.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-550b.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2398.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-2398.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-48cd.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-48cd.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7426.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-7426.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3c17.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3c17.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f312.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-f312.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-9bbd.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-9bbd.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-41f9.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-41f9.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-edc4.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-edc4.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afc4.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-afc4.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-8041.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-8041.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3829.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-3829.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-fd6a.rkt:
+[x] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-fd6a.rkt: Timeout!
+rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cf19.rkt:
+[*] rosette/synth-target-pseudo-ROLL-R32-ONE-s17-cf19.rkt: Success!
+(#(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-ROLL-R32-ONE-s17-s16 5) #(struct:PSPLIT-R64-R64 6 5 2) #(struct:pseudo-ROLL-R32-ONE-s17-sr16 5 1))
+movq R1, R5
+pseudo-roll-r32-one-s17-s16 [R2: 64] R5
+psplit R6, R5, R2
+pseudo-roll-r32-one-s17-sr16 [R1: 64, R2: 64] R5, R1

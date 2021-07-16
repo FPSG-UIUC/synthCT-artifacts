@@ -1,0 +1,144 @@
+rosette/synth-target-BSWAP-R64-68cc.rkt:
+[x] rosette/synth-target-BSWAP-R64-68cc.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s49-28e1.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s49-28e1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000010 64) 2) #(struct:PMOVQ-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x4200019002000008 64) 1) #(struct:PSPLIT-R64-R64 6 6 1) #(struct:PMOVQ-R64-R64 1 5) #(struct:PSPLIT-R64-R64 4 0 5) #(struct:PMOVQ-R64-R64 4 0))
+movq 0x10, R2
+movq R6, R6
+movq 0x4200019002000008, R1
+psplit R6, R6, R1
+movq R1, R5
+psplit R4, R0, R5
+movq R4, R0
+rosette/synth-target-pseudo-BSWAP-R64-s3-b01a.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s3-b01a.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0010000000000000 64) 2) #(struct:MOVQ-IMM-R64 (bv #x0040000000000020 64) 5) #(struct:PCONCAT-R32-R32 1 5 4) #(struct:PMOVQ-R64-R64 6 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000038 64) 4) #(struct:PNOP) #(struct:PSPLIT-R64-R64 6 0 4))
+movq 0x10000000000000, R2
+movq 0x40000000000020, R5
+pconcat-r32-r32 R1, R5, R4
+movq R6, R1
+movq 0x38, R4
+pnop
+psplit R6, R0, R4
+rosette/synth-target-pseudo-BSWAP-R64-s36-e5b9.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s36-e5b9.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0008000000000010 64) 2) #(struct:PSPLIT-R64-R64 5 2 2) #(struct:PMOVQ-R64-R64 5 4) #(struct:PNOP) #(struct:PNOP) #(struct:PCONCAT-R32-R32 0 4 2) #(struct:PSPLIT-R64-R64 0 4 5))
+movq 0x8000000000010, R2
+psplit R5, R2, R2
+movq R5, R4
+pnop
+pnop
+pconcat-r32-r32 R0, R4, R2
+psplit R0, R4, R5
+rosette/synth-target-pseudo-BSWAP-R64-s43-6951.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s43-6951.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x2800000000000020 64) 1) #(struct:MOVQ-IMM-R64 (bv #x4000000000000008 64) 1) #(struct:PSPLIT-R64-R64 5 1 1) #(struct:PNOP) #(struct:PCONCAT-R32-R32 0 5 1) #(struct:PMOVQ-R64-R64 5 5) #(struct:PSPLIT-R64-R64 0 5 1))
+movq 0x2800000000000020, R1
+movq 0x4000000000000008, R1
+psplit R5, R1, R1
+pnop
+pconcat-r32-r32 R0, R5, R1
+movq R5, R5
+psplit R0, R5, R1
+rosette/synth-target-pseudo-BSWAP-R64-s9-69f8.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s9-69f8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000038 64) 2) #(struct:PSPLIT-R64-R64 4 0 2) #(struct:PMOVQ-R64-R64 6 6) #(struct:PSPLIT-R64-R64 6 4 2) #(struct:PSPLIT-R64-R64 6 4 2) #(struct:PMOVQ-R64-R64 6 1) #(struct:PMOVQ-R64-R64 4 0))
+movq 0x38, R2
+psplit R4, R0, R2
+movq R6, R6
+psplit R6, R4, R2
+psplit R6, R4, R2
+movq R6, R1
+movq R4, R0
+rosette/synth-target-pseudo-BSWAP-R64-sr1-sr28-bf2c.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-sr1-sr28-bf2c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x2000000000000000 64) 5) #(struct:PMOVQ-R64-R64 5 6) #(struct:PNOP) #(struct:pseudo-BSWAP-R64-s28 6) #(struct:PSPLIT-R64-R64 5 0 6) #(struct:PNOP) #(struct:PCONCAT-R32-R32 1 0 6))
+movq 0x2000000000000000, R5
+movq R5, R6
+pnop
+pseudo-bswap-r64-s28 [R1: 64] R6
+psplit R5, R0, R6
+pnop
+pconcat-r32-r32 R1, R0, R6
+rosette/synth-target-pseudo-BSWAP-R64-s2-sr3-sr9-19c5.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s2-sr3-sr9-19c5.rkt: Success!
+(#(struct:pseudo-BSWAP-R64-s3 0) #(struct:pseudo-BSWAP-R64-s3 1) #(struct:pseudo-BSWAP-R64-s9 4) #(struct:MOVQ-IMM-R64 (bv #x000000000000003d 64) 6) #(struct:PSPLIT-R64-R64 5 5 4) #(struct:MOVQ-IMM-R64 (bv #x0000000000000008 64) 5) #(struct:PCONCAT-R32-R32 1 0 5))
+pseudo-bswap-r64-s3 [R1: 64] R0
+pseudo-bswap-r64-s3 [R1: 64] R1
+pseudo-bswap-r64-s9 [R1: 64] R4
+movq 0x3d, R6
+psplit R5, R5, R4
+movq 0x8, R5
+pconcat-r32-r32 R1, R0, R5
+rosette/synth-target-BSWAP-R64-90df.rkt:
+[x] rosette/synth-target-BSWAP-R64-90df.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s28-7b67.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s28-7b67.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s15-b51e.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s15-b51e.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s1-9985.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s1-9985.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s42-4fdd.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s42-4fdd.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s16-fd09.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s16-fd09.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s22-591f.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s22-591f.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s29-8dcf.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s29-8dcf.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s2-33d1.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s2-33d1.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s1-sr2-sr15-933b.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s1-sr2-sr15-933b.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s30-2ce5.rkt:
+[x] rosette/synth-target-pseudo-BSWAP-R64-s30-2ce5.rkt: Timeout!
+rosette/synth-target-pseudo-BSWAP-R64-s42-6b56.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s42-6b56.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 6) #(struct:MOVQ-IMM-R64 (bv #x0000010000000001 64) 5) #(struct:pseudo-BSWAP-R64-s43 6) #(struct:pseudo-BSWAP-R64-s49 0) #(struct:pseudo-BSWAP-R64-s49 5) #(struct:pseudo-BSWAP-R64-s42-sr43-sr49 6 6) #(struct:pseudo-BSWAP-R64-s42-sr43-sr49 6 0))
+movq R0, R6
+movq 0x10000000001, R5
+pseudo-bswap-r64-s43 [R1: 64] R6
+pseudo-bswap-r64-s49 [R1: 64] R0
+pseudo-bswap-r64-s49 [R1: 64] R5
+pseudo-bswap-r64-s42-sr43-sr49 [R2: 64, R1: 64] R6, R6
+pseudo-bswap-r64-s42-sr43-sr49 [R2: 64, R1: 64] R6, R0
+rosette/synth-target-pseudo-BSWAP-R64-s15-0552.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s15-0552.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 2) #(struct:MOVQ-IMM-R64 (bv #x000000000000033e 64) 5) #(struct:pseudo-BSWAP-R64-s16 2) #(struct:MOVQ-IMM-R64 (bv #x0000000000000028 64) 4) #(struct:pseudo-BSWAP-R64-s22 0) #(struct:pseudo-BSWAP-R64-s15-sr16-sr22 2 0) #(struct:PSPLIT-R64-R64 6 6 6))
+movq R0, R2
+movq 0x33e, R5
+pseudo-bswap-r64-s16 [R1: 64] R2
+movq 0x28, R4
+pseudo-bswap-r64-s22 [R1: 64] R0
+pseudo-bswap-r64-s15-sr16-sr22 [R2: 64, R1: 64] R2, R0
+psplit R6, R6, R6
+rosette/synth-target-pseudo-BSWAP-R64-s2-ff5a.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s2-ff5a.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 2) #(struct:pseudo-BSWAP-R64-s9 0) #(struct:pseudo-BSWAP-R64-s2-sr3-sr9 2 0) #(struct:MOVQ-IMM-R64 (bv #x8020000000000024 64) 1) #(struct:MOVQ-IMM-R64 (bv #x002400000000001a 64) 2) #(struct:PSPLIT-R64-R64 6 2 2) #(struct:pseudo-BSWAP-R64-s9 6))
+movq R0, R2
+pseudo-bswap-r64-s9 [R1: 64] R0
+pseudo-bswap-r64-s2-sr3-sr9 [R2: 64, R1: 64] R2, R0
+movq 0x8020000000000024, R1
+movq 0x2400000000001a, R2
+psplit R6, R2, R2
+pseudo-bswap-r64-s9 [R1: 64] R6
+rosette/synth-target-pseudo-BSWAP-R64-s1-bd07.rkt:
+[*] rosette/synth-target-pseudo-BSWAP-R64-s1-bd07.rkt: Success!
+(#(struct:PMOVQ-R64-R64 0 1) #(struct:pseudo-BSWAP-R64-s1-sr2-sr15 1 1) #(struct:pseudo-BSWAP-R64-s15 1) #(struct:PCONCAT-R32-R32 6 6 4) #(struct:pseudo-BSWAP-R64-s15 0) #(struct:pseudo-BSWAP-R64-s1-sr2-sr15 1 0) #(struct:PSPLIT-R64-R64 6 6 6))
+movq R0, R1
+pseudo-bswap-r64-s1-sr2-sr15 [R2: 64, R1: 64] R1, R1
+pseudo-bswap-r64-s15 [R1: 64] R1
+pconcat-r32-r32 R6, R6, R4
+pseudo-bswap-r64-s15 [R1: 64] R0
+pseudo-bswap-r64-s1-sr2-sr15 [R2: 64, R1: 64] R1, R0
+psplit R6, R6, R6
+rosette/synth-target-BSWAP-R64-027d.rkt:
+[*] rosette/synth-target-BSWAP-R64-027d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x1001019b97ff7b8f 64) 1) #(struct:pseudo-BSWAP-R64-sr1-sr28 0 1) #(struct:PMOVQ-R64-R64 1 5) #(struct:pseudo-BSWAP-R64-s28 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 1) #(struct:pseudo-BSWAP-R64-s28 5) #(struct:pseudo-BSWAP-R64-sr1-sr28 5 0))
+movq 0x1001019b97ff7b8f, R1
+pseudo-bswap-r64-sr1-sr28 [R2: 64, R1: 64] R0, R1
+movq R1, R5
+pseudo-bswap-r64-s28 [R1: 64] R0
+movq 0x0, R1
+pseudo-bswap-r64-s28 [R1: 64] R5
+pseudo-bswap-r64-sr1-sr28 [R2: 64, R1: 64] R5, R0

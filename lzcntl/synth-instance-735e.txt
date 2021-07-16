@@ -1,0 +1,828 @@
+rosette/synth-target-LZCNTL-R32-R32-9789.rkt:
+[x] rosette/synth-target-LZCNTL-R32-R32-9789.rkt: Timeout!
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s492-e4ef.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s492-e4ef.rkt: Success!
+(#(struct:PXOR-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000001e 64) 1))
+pxor-r64-r64 R5, R6
+movq 0x1e, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s364-ee14.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s364-ee14.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000016 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x16, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s332-e94c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s332-e94c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000014 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x14, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s44-76e2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s44-76e2.rkt: Success!
+(#(struct:POR-R64-R64 1 1) #(struct:MOVQ-IMM-R64 (bv #x0000000000000002 64) 1))
+por-r64-r64 R1, R1
+movq 0x2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s28-52f5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s28-52f5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 5) #(struct:PSPLIT-R64-R64 1 5 5))
+movq 0x10000024, R5
+psplit R1, R5, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s252-c028.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s252-c028.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000000f 64) 1) #(struct:PSPLIT-R64-R64 0 6 6))
+movq 0xf, R1
+psplit R0, R6, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s512-44d8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s512-44d8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000020 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x20, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s8-1333.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s8-1333.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 5) #(struct:PSPLIT-R64-R64 1 5 5))
+movq 0x10000024, R5
+psplit R1, R5, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s380-0f15.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s380-0f15.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000017 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x17, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s60-e523.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s60-e523.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000030000024 64) 5) #(struct:PSPLIT-R64-R64 1 5 5))
+movq 0x30000024, R5
+psplit R1, R5, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s428-2738.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s428-2738.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000001a 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x1a, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s284-e16b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s284-e16b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000011 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x11, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s124-6532.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s124-6532.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000007 64) 1) #(struct:PSPLIT-R64-R64 6 6 6))
+movq 0x7, R1
+psplit R6, R6, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s156-6955.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s156-6955.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000009 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x9, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s396-0d9e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s396-0d9e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000018 64) 1) #(struct:PSPLIT-R64-R64 6 0 6))
+movq 0x18, R1
+psplit R6, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s316-484e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s316-484e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000013 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x13, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s236-33d4.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s236-33d4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000000e 64) 1) #(struct:PSPLIT-R64-R64 0 2 1))
+movq 0xe, R1
+psplit R0, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s172-1921.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s172-1921.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 5 1 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000000a 64) 1))
+pcmov-r64-r64-r64 R5, R1, R0
+movq 0xa, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s460-075e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s460-075e.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000001c 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x1c, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s268-70eb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s268-70eb.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000010 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x10, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s444-010f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s444-010f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000001b 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0x1b, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s220-bded.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s220-bded.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000000d 64) 1) #(struct:PSPLIT-R64-R64 0 0 6))
+movq 0xd, R1
+psplit R0, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s300-cf90.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s300-cf90.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 5) #(struct:MOVQ-IMM-R64 (bv #x0000000000000012 64) 1))
+pcmov-r64-r64-r64 R6, R6, R5
+movq 0x12, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s348-0a12.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s348-0a12.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 0) #(struct:MOVQ-IMM-R64 (bv #x0000000000000015 64) 1))
+pcmov-r64-r64-r64 R6, R6, R0
+movq 0x15, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s476-40be.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s476-40be.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 6 6 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000001d 64) 1))
+pcmov-r64-r64-r64 R6, R6, R0
+movq 0x1d, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s204-e489.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s204-e489.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 1 0) #(struct:MOVQ-IMM-R64 (bv #x000000000000000c 64) 1))
+psplit R6, R1, R0
+movq 0xc, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s92-f80b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s92-f80b.rkt: Success!
+(#(struct:PSPLIT-R64-R64 6 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000005 64) 1))
+psplit R6, R6, R6
+movq 0x5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s412-22d6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s412-22d6.rkt: Success!
+(#(struct:PXOR-R64-R64 1 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000019 64) 1))
+pxor-r64-r64 R1, R6
+movq 0x19, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s188-0f31.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s188-0f31.rkt: Success!
+(#(struct:PMOVQ-R64-R64 5 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000000b 64) 1))
+movq R5, R6
+movq 0xb, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s108-40e5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s108-40e5.rkt: Success!
+(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000006 64) 1))
+pxor-r64-r64 R6, R6
+movq 0x6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s140-cfb5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s140-cfb5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0008480000000010 64) 6) #(struct:PSPLIT-R64-R64 1 6 6))
+movq 0x8480000000010, R6
+psplit R1, R6, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s508-29fe.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s508-29fe.rkt: Success!
+(#(struct:PXOR-R64-R64 6 6) #(struct:MOVQ-IMM-R64 (bv #x000000000000001f 64) 1))
+pxor-r64-r64 R6, R6
+movq 0x1f, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s322-cc47.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s322-cc47.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000835 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x835, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s12-8244.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s12-8244.rkt: Success!
+(#(struct:PMOV-FLAG-R64 (bv #x0000000000000006 64) 0) #(struct:PXOR-R64-R64 1 1))
+pmov-flag-r64 F(bv #x0000000000000006 64), R0
+pxor-r64-r64 R1, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s76-3f4c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s76-3f4c.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:MOVQ-IMM-R64 (bv #x0000000000000004 64) 1))
+movq 0x0, R6
+movq 0x4, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s50-dd38.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s50-dd38.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000010000024 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x10000024, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s370-387d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s370-387d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000138 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x138, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s274-1820.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s274-1820.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000004032 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x4032, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s242-fa97.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s242-fa97.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000010030 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x10030, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s34-bfb2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s34-bfb2.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000020000023 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x20000023, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s258-eb11.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s258-eb11.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000008031 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x8031, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-sr2-sr8-7e2e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-sr2-sr8-7e2e.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s8 2) #(struct:PXOR-R64-R64 2 1) #(struct:PXOR-R64-R64 0 1) #(struct:PAND-R64-R64 2 1))
+pseudo-lzcntl-r32-r32-s8 [R2: 64] R2
+pxor-r64-r64 R2, R1
+pxor-r64-r64 R0, R1
+pand-r64-r64 R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s146-3e70.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s146-3e70.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000040002a 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x40002a, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s354-b76d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s354-b76d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000237 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x237, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s226-c732.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s226-c732.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000002002f 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x2002f, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s338-2802.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s338-2802.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000436 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x436, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s18-9ba4.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s18-9ba4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000040400022 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x40400022, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s130-24c6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s130-24c6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000800029 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 0 6))
+movq 0x800029, R6
+pand-r64-r64 R6, R0
+psplit R1, R0, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s114-9321.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s114-9321.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000001000028 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x1000028, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s402-588d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s402-588d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000007a 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x7a, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512-b996.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512-b996.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 0 1 2) #(struct:PAND-R64-R64 6 6))
+pcmov-r64-r64-r64 R0, R1, R2
+pand-r64-r64 R6, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s450-2a61.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s450-2a61.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0100000000000008 64) 6) #(struct:PAND-R64-R64 6 0) #(struct:PSPLIT-R64-R64 1 6 0))
+movq 0x100000000000008, R6
+pand-r64-r64 R6, R0
+psplit R1, R6, R0
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s498-a439.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s498-a439.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000001 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0x1, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s82-f809.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s82-f809.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000004000026 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x4000026, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s386-c525.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s386-c525.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000000b9 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0xb9, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s210-84f1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s210-84f1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000004002e 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x4002e, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s2-7e72.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s2-7e72.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000080000021 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x80000021, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s66-d9bc.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s66-d9bc.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000008000025 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x8000025, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s466-5401.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s466-5401.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x1000000000000004 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 5 0))
+movq 0x1000000000000004, R5
+pand-r64-r64 R5, R0
+psplit R1, R5, R0
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s482-f078.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s482-f078.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x001995097501103f 64) 6) #(struct:PSPLIT-R64-R64 1 0 6) #(struct:PSPLIT-R64-R64 6 1 6))
+movq 0x1995097501103f, R6
+psplit R1, R0, R6
+psplit R6, R1, R6
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s194-ce20.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s194-ce20.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000000f7fed 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0xf7fed, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s178-51ac.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s178-51ac.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000010002c 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x10002c, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s98-f61b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s98-f61b.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000002000027 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 0 2))
+movq 0x2000027, R2
+pand-r64-r64 R2, R0
+psplit R1, R0, R2
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s434-7c0d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s434-7c0d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0001134020405010 64) 2) #(struct:PAND-R64-R64 2 0) #(struct:PSPLIT-R64-R64 1 2 0))
+movq 0x1134020405010, R2
+pand-r64-r64 R2, R0
+psplit R1, R2, R0
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s306-ffee.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s306-ffee.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000001034 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x1034, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496-2e91.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496-2e91.rkt: Success!
+(#(struct:PCMOV-R64-R64-R64 1 2 0) #(struct:PMOVQ-R64-R64 2 1))
+pcmov-r64-r64-r64 R1, R2, R0
+movq R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s418-fcd6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s418-fcd6.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000000003b 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x3b, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s290-ef74.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s290-ef74.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000002033 64) 5) #(struct:PAND-R64-R64 5 0) #(struct:PSPLIT-R64-R64 1 0 5))
+movq 0x2033, R5
+pand-r64-r64 R5, R0
+psplit R1, R0, R5
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s162-f8c5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s162-f8c5.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x000000000020002b 64) 1) #(struct:PAND-R64-R64 1 0) #(struct:PSPLIT-R64-R64 1 0 1))
+movq 0x20002b, R1
+pand-r64-r64 R1, R0
+psplit R1, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s481-fe43.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s481-fe43.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTL-R32-R32-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTL-R32-R32-s481-sr482-sr488 6 6) #(struct:pseudo-LZCNTL-R32-R32-s482 0 1))
+pseudo-lzcntl-r32-r32-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s481-sr482-sr488 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s482 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-0d28.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s1-0d28.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTL-R32-R32-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTL-R32-R32-s1-sr2-sr8 6 6) #(struct:pseudo-LZCNTL-R32-R32-s2 0 1))
+pseudo-lzcntl-r32-r32-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s1-sr2-sr8 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s2 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s33-50e1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s33-50e1.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTL-R32-R32-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTL-R32-R32-s33-sr34-sr40 6 6) #(struct:pseudo-LZCNTL-R32-R32-s34 0 1))
+pseudo-lzcntl-r32-r32-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s33-sr34-sr40 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s34 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s161-e5f0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s161-e5f0.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTL-R32-R32-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTL-R32-R32-s161-sr162-sr168 6 6) #(struct:pseudo-LZCNTL-R32-R32-s162 0 1))
+pseudo-lzcntl-r32-r32-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s161-sr162-sr168 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s162 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s497-d16c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s497-d16c.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s498 1 6) #(struct:pseudo-LZCNTL-R32-R32-s498 0 2) #(struct:pseudo-LZCNTL-R32-R32-s498 6 6) #(struct:pseudo-LZCNTL-R32-R32-s498 0 1))
+pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R1, R6
+pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s498 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s49-1faa.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s49-1faa.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTL-R32-R32-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTL-R32-R32-s49-sr50-sr56 6 6) #(struct:pseudo-LZCNTL-R32-R32-s50 0 1))
+pseudo-lzcntl-r32-r32-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s49-sr50-sr56 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s50 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s369-fd22.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s369-fd22.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTL-R32-R32-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTL-R32-R32-s369-sr370-sr376 6 6) #(struct:pseudo-LZCNTL-R32-R32-s370 0 1))
+pseudo-lzcntl-r32-r32-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s369-sr370-sr376 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s370 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s81-120c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s81-120c.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTL-R32-R32-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTL-R32-R32-s81-sr82-sr88 6 6) #(struct:pseudo-LZCNTL-R32-R32-s82 0 1))
+pseudo-lzcntl-r32-r32-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s81-sr82-sr88 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s82 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s17-4fcb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s17-4fcb.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTL-R32-R32-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTL-R32-R32-s17-sr18-sr24 6 6) #(struct:pseudo-LZCNTL-R32-R32-s18 0 1))
+pseudo-lzcntl-r32-r32-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s17-sr18-sr24 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s18 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s273-fbe7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s273-fbe7.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTL-R32-R32-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTL-R32-R32-s273-sr274-sr280 6 6) #(struct:pseudo-LZCNTL-R32-R32-s274 0 1))
+pseudo-lzcntl-r32-r32-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s273-sr274-sr280 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s274 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s65-a594.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s65-a594.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTL-R32-R32-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTL-R32-R32-s65-sr66-sr72 6 6) #(struct:pseudo-LZCNTL-R32-R32-s66 0 1))
+pseudo-lzcntl-r32-r32-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s65-sr66-sr72 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s66 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s113-0a87.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s113-0a87.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTL-R32-R32-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTL-R32-R32-s113-sr114-sr120 6 6) #(struct:pseudo-LZCNTL-R32-R32-s114 0 1))
+pseudo-lzcntl-r32-r32-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s113-sr114-sr120 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s114 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s337-ef00.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s337-ef00.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTL-R32-R32-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTL-R32-R32-s337-sr338-sr344 6 6) #(struct:pseudo-LZCNTL-R32-R32-s338 0 1))
+pseudo-lzcntl-r32-r32-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s337-sr338-sr344 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s338 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s129-07e7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s129-07e7.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTL-R32-R32-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTL-R32-R32-s129-sr130-sr136 6 6) #(struct:pseudo-LZCNTL-R32-R32-s130 0 1))
+pseudo-lzcntl-r32-r32-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s129-sr130-sr136 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s130 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s289-49ec.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s289-49ec.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTL-R32-R32-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTL-R32-R32-s289-sr290-sr296 6 6) #(struct:pseudo-LZCNTL-R32-R32-s290 0 1))
+pseudo-lzcntl-r32-r32-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s289-sr290-sr296 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s290 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s385-dc74.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s385-dc74.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTL-R32-R32-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTL-R32-R32-s385-sr386-sr392 6 6) #(struct:pseudo-LZCNTL-R32-R32-s386 0 1))
+pseudo-lzcntl-r32-r32-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s385-sr386-sr392 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s386 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s145-c9b0.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s145-c9b0.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTL-R32-R32-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTL-R32-R32-s145-sr146-sr152 6 6) #(struct:pseudo-LZCNTL-R32-R32-s146 0 1))
+pseudo-lzcntl-r32-r32-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s145-sr146-sr152 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s146 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s193-c786.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s193-c786.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTL-R32-R32-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTL-R32-R32-s193-sr194-sr200 6 6) #(struct:pseudo-LZCNTL-R32-R32-s194 0 1))
+pseudo-lzcntl-r32-r32-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s193-sr194-sr200 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s194 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s433-298a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s433-298a.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTL-R32-R32-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTL-R32-R32-s433-sr434-sr440 6 6) #(struct:pseudo-LZCNTL-R32-R32-s434 0 1))
+pseudo-lzcntl-r32-r32-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s433-sr434-sr440 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s434 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s225-5662.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s225-5662.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTL-R32-R32-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTL-R32-R32-s225-sr226-sr232 6 6) #(struct:pseudo-LZCNTL-R32-R32-s226 0 1))
+pseudo-lzcntl-r32-r32-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s225-sr226-sr232 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s226 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s97-1c40.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s97-1c40.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTL-R32-R32-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTL-R32-R32-s97-sr98-sr104 6 6) #(struct:pseudo-LZCNTL-R32-R32-s98 0 1))
+pseudo-lzcntl-r32-r32-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s97-sr98-sr104 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s98 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s241-3ea7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s241-3ea7.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTL-R32-R32-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTL-R32-R32-s241-sr242-sr248 6 6) #(struct:pseudo-LZCNTL-R32-R32-s242 0 1))
+pseudo-lzcntl-r32-r32-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s241-sr242-sr248 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s242 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s465-dadb.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s465-dadb.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTL-R32-R32-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTL-R32-R32-s465-sr466-sr472 6 6) #(struct:pseudo-LZCNTL-R32-R32-s466 0 1))
+pseudo-lzcntl-r32-r32-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s465-sr466-sr472 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s466 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s321-f9a7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s321-f9a7.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTL-R32-R32-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTL-R32-R32-s321-sr322-sr328 6 6) #(struct:pseudo-LZCNTL-R32-R32-s322 0 1))
+pseudo-lzcntl-r32-r32-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s321-sr322-sr328 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s322 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s257-1576.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s257-1576.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTL-R32-R32-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTL-R32-R32-s257-sr258-sr264 6 6) #(struct:pseudo-LZCNTL-R32-R32-s258 0 1))
+pseudo-lzcntl-r32-r32-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s257-sr258-sr264 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s258 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s353-fe13.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s353-fe13.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTL-R32-R32-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTL-R32-R32-s353-sr354-sr360 6 6) #(struct:pseudo-LZCNTL-R32-R32-s354 0 1))
+pseudo-lzcntl-r32-r32-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s353-sr354-sr360 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s354 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s417-2309.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s417-2309.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTL-R32-R32-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTL-R32-R32-s417-sr418-sr424 6 6) #(struct:pseudo-LZCNTL-R32-R32-s418 0 1))
+pseudo-lzcntl-r32-r32-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s417-sr418-sr424 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s418 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s449-c343.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s449-c343.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTL-R32-R32-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTL-R32-R32-s449-sr450-sr456 6 6) #(struct:pseudo-LZCNTL-R32-R32-s450 0 1))
+pseudo-lzcntl-r32-r32-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s449-sr450-sr456 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s450 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s401-bf7e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s401-bf7e.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTL-R32-R32-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTL-R32-R32-s401-sr402-sr408 6 6) #(struct:pseudo-LZCNTL-R32-R32-s402 0 1))
+pseudo-lzcntl-r32-r32-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s401-sr402-sr408 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s402 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s305-2381.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s305-2381.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTL-R32-R32-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTL-R32-R32-s305-sr306-sr312 6 6) #(struct:pseudo-LZCNTL-R32-R32-s306 0 1))
+pseudo-lzcntl-r32-r32-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s305-sr306-sr312 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s306 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s177-f869.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s177-f869.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTL-R32-R32-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTL-R32-R32-s177-sr178-sr184 6 6) #(struct:pseudo-LZCNTL-R32-R32-s178 0 1))
+pseudo-lzcntl-r32-r32-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s177-sr178-sr184 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s178 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s209-d3b3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s209-d3b3.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTL-R32-R32-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTL-R32-R32-s209-sr210-sr216 6 6) #(struct:pseudo-LZCNTL-R32-R32-s210 0 1))
+pseudo-lzcntl-r32-r32-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s209-sr210-sr216 [R1: 64, R2: 64] R6, R6
+pseudo-lzcntl-r32-r32-s210 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-5c98.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s496-5c98.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s512 5) #(struct:pseudo-LZCNTL-R32-R32-s497 0 2) #(struct:pseudo-LZCNTL-R32-R32-s508 1) #(struct:pseudo-LZCNTL-R32-R32-s496-sr497-sr508-sr512 2 5 1))
+pseudo-lzcntl-r32-r32-s512 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s497 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s508 [R2: 64] R1
+pseudo-lzcntl-r32-r32-s496-sr497-sr508-sr512 [R1: 64, R3: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-acb8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s480-acb8.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s481 0 1) #(struct:pseudo-LZCNTL-R32-R32-s496 0 6) #(struct:pseudo-LZCNTL-R32-R32-s492 2) #(struct:pseudo-LZCNTL-R32-R32-s480-sr481-sr492-sr496 2 6 1))
+pseudo-lzcntl-r32-r32-s481 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s496 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s492 [R2: 64] R2
+pseudo-lzcntl-r32-r32-s480-sr481-sr492-sr496 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s464-f867.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s464-f867.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s480 0 6) #(struct:pseudo-LZCNTL-R32-R32-s465 0 1) #(struct:pseudo-LZCNTL-R32-R32-s476 5) #(struct:pseudo-LZCNTL-R32-R32-s464-sr465-sr476-sr480 5 6 1))
+pseudo-lzcntl-r32-r32-s480 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s465 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s476 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s464-sr465-sr476-sr480 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s448-2891.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s448-2891.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s449 0 1) #(struct:pseudo-LZCNTL-R32-R32-s464 0 6) #(struct:pseudo-LZCNTL-R32-R32-s460 5) #(struct:pseudo-LZCNTL-R32-R32-s448-sr449-sr460-sr464 5 6 1))
+pseudo-lzcntl-r32-r32-s449 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s464 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s460 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s448-sr449-sr460-sr464 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s432-9403.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s432-9403.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s444 2) #(struct:pseudo-LZCNTL-R32-R32-s448 0 6) #(struct:pseudo-LZCNTL-R32-R32-s433 0 1) #(struct:pseudo-LZCNTL-R32-R32-s432-sr433-sr444-sr448 2 6 1))
+pseudo-lzcntl-r32-r32-s444 [R2: 64] R2
+pseudo-lzcntl-r32-r32-s448 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s433 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s432-sr433-sr444-sr448 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s416-de81.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s416-de81.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s432 0 6) #(struct:pseudo-LZCNTL-R32-R32-s417 0 1) #(struct:pseudo-LZCNTL-R32-R32-s428 5) #(struct:pseudo-LZCNTL-R32-R32-s416-sr417-sr428-sr432 5 6 1))
+pseudo-lzcntl-r32-r32-s432 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s417 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s428 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s416-sr417-sr428-sr432 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s400-af23.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s400-af23.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s416 0 5) #(struct:pseudo-LZCNTL-R32-R32-s412 6) #(struct:pseudo-LZCNTL-R32-R32-s401 0 1) #(struct:pseudo-LZCNTL-R32-R32-s400-sr401-sr412-sr416 6 5 1))
+pseudo-lzcntl-r32-r32-s416 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s412 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s401 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s400-sr401-sr412-sr416 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s384-cca3.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s384-cca3.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s400 0 2) #(struct:pseudo-LZCNTL-R32-R32-s396 5) #(struct:pseudo-LZCNTL-R32-R32-s385 0 1) #(struct:pseudo-LZCNTL-R32-R32-s384-sr385-sr396-sr400 5 2 1))
+pseudo-lzcntl-r32-r32-s400 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s396 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s385 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s384-sr385-sr396-sr400 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s368-ddc2.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s368-ddc2.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s384 0 2) #(struct:pseudo-LZCNTL-R32-R32-s380 6) #(struct:pseudo-LZCNTL-R32-R32-s369 0 1) #(struct:pseudo-LZCNTL-R32-R32-s368-sr369-sr380-sr384 6 2 1))
+pseudo-lzcntl-r32-r32-s384 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s380 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s369 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s368-sr369-sr380-sr384 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s352-5f87.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s352-5f87.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s353 0 1) #(struct:pseudo-LZCNTL-R32-R32-s368 0 0) #(struct:pseudo-LZCNTL-R32-R32-s364 2) #(struct:pseudo-LZCNTL-R32-R32-s352-sr353-sr364-sr368 2 0 1))
+pseudo-lzcntl-r32-r32-s353 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s368 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntl-r32-r32-s364 [R2: 64] R2
+pseudo-lzcntl-r32-r32-s352-sr353-sr364-sr368 [R3: 64, R1: 64, R2: 64] R2, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s336-6a92.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s336-6a92.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s337 0 1) #(struct:pseudo-LZCNTL-R32-R32-s352 0 5) #(struct:pseudo-LZCNTL-R32-R32-s348 0) #(struct:pseudo-LZCNTL-R32-R32-s336-sr337-sr348-sr352 0 5 1))
+pseudo-lzcntl-r32-r32-s337 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s352 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s348 [R2: 64] R0
+pseudo-lzcntl-r32-r32-s336-sr337-sr348-sr352 [R3: 64, R1: 64, R2: 64] R0, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s320-085c.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s320-085c.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s336 0 2) #(struct:pseudo-LZCNTL-R32-R32-s321 0 1) #(struct:pseudo-LZCNTL-R32-R32-s332 5) #(struct:pseudo-LZCNTL-R32-R32-s320-sr321-sr332-sr336 5 2 1))
+pseudo-lzcntl-r32-r32-s336 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s321 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s332 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s320-sr321-sr332-sr336 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s304-8c26.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s304-8c26.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s320 0 2) #(struct:pseudo-LZCNTL-R32-R32-s305 0 1) #(struct:pseudo-LZCNTL-R32-R32-s316 5) #(struct:pseudo-LZCNTL-R32-R32-s304-sr305-sr316-sr320 5 2 1))
+pseudo-lzcntl-r32-r32-s320 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s305 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s316 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s304-sr305-sr316-sr320 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s288-eb8d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s288-eb8d.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s300 6) #(struct:pseudo-LZCNTL-R32-R32-s289 0 1) #(struct:pseudo-LZCNTL-R32-R32-s304 0 2) #(struct:pseudo-LZCNTL-R32-R32-s288-sr289-sr300-sr304 6 2 1))
+pseudo-lzcntl-r32-r32-s300 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s289 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s304 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s288-sr289-sr300-sr304 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s272-73c8.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s272-73c8.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s273 0 1) #(struct:pseudo-LZCNTL-R32-R32-s288 0 6) #(struct:pseudo-LZCNTL-R32-R32-s284 5) #(struct:pseudo-LZCNTL-R32-R32-s272-sr273-sr284-sr288 5 6 1))
+pseudo-lzcntl-r32-r32-s273 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s288 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s284 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s272-sr273-sr284-sr288 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s256-ebe5.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s256-ebe5.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s257 0 1) #(struct:pseudo-LZCNTL-R32-R32-s272 0 2) #(struct:pseudo-LZCNTL-R32-R32-s268 6) #(struct:pseudo-LZCNTL-R32-R32-s256-sr257-sr268-sr272 6 2 1))
+pseudo-lzcntl-r32-r32-s257 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s272 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s268 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s256-sr257-sr268-sr272 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s240-62c6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s240-62c6.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s241 0 1) #(struct:pseudo-LZCNTL-R32-R32-s252 6) #(struct:pseudo-LZCNTL-R32-R32-s256 0 0) #(struct:pseudo-LZCNTL-R32-R32-s240-sr241-sr252-sr256 6 0 1))
+pseudo-lzcntl-r32-r32-s241 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s252 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s256 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntl-r32-r32-s240-sr241-sr252-sr256 [R3: 64, R1: 64, R2: 64] R6, R0, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s224-c8e6.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s224-c8e6.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s225 0 1) #(struct:pseudo-LZCNTL-R32-R32-s240 0 6) #(struct:pseudo-LZCNTL-R32-R32-s236 2) #(struct:pseudo-LZCNTL-R32-R32-s224-sr225-sr236-sr240 2 6 1))
+pseudo-lzcntl-r32-r32-s225 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s240 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s236 [R2: 64] R2
+pseudo-lzcntl-r32-r32-s224-sr225-sr236-sr240 [R3: 64, R1: 64, R2: 64] R2, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s208-1c7a.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s208-1c7a.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s209 0 1) #(struct:pseudo-LZCNTL-R32-R32-s224 0 6) #(struct:pseudo-LZCNTL-R32-R32-s220 5) #(struct:pseudo-LZCNTL-R32-R32-s208-sr209-sr220-sr224 5 6 1))
+pseudo-lzcntl-r32-r32-s209 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s224 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s220 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s208-sr209-sr220-sr224 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s192-7310.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s192-7310.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s193 0 1) #(struct:pseudo-LZCNTL-R32-R32-s208 0 6) #(struct:pseudo-LZCNTL-R32-R32-s204 5) #(struct:pseudo-LZCNTL-R32-R32-s192-sr193-sr204-sr208 5 6 1))
+pseudo-lzcntl-r32-r32-s193 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s208 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s204 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s192-sr193-sr204-sr208 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s176-6c48.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s176-6c48.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s188 5) #(struct:pseudo-LZCNTL-R32-R32-s177 0 1) #(struct:pseudo-LZCNTL-R32-R32-s192 0 2) #(struct:pseudo-LZCNTL-R32-R32-s176-sr177-sr188-sr192 5 2 1))
+pseudo-lzcntl-r32-r32-s188 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s177 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s192 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s176-sr177-sr188-sr192 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s160-7ff1.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s160-7ff1.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s172 5) #(struct:pseudo-LZCNTL-R32-R32-s176 0 2) #(struct:pseudo-LZCNTL-R32-R32-s161 0 1) #(struct:pseudo-LZCNTL-R32-R32-s160-sr161-sr172-sr176 5 2 1))
+pseudo-lzcntl-r32-r32-s172 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s176 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s161 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s160-sr161-sr172-sr176 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s144-7aaf.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s144-7aaf.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s145 0 1) #(struct:pseudo-LZCNTL-R32-R32-s160 0 6) #(struct:pseudo-LZCNTL-R32-R32-s156 5) #(struct:pseudo-LZCNTL-R32-R32-s144-sr145-sr156-sr160 5 6 1))
+pseudo-lzcntl-r32-r32-s145 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s160 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s156 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s144-sr145-sr156-sr160 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s128-8814.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s128-8814.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s129 0 1) #(struct:pseudo-LZCNTL-R32-R32-s144 0 5) #(struct:pseudo-LZCNTL-R32-R32-s140 6) #(struct:pseudo-LZCNTL-R32-R32-s128-sr129-sr140-sr144 6 5 1))
+pseudo-lzcntl-r32-r32-s129 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s144 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s140 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s128-sr129-sr140-sr144 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s112-a89b.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s112-a89b.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s128 0 5) #(struct:pseudo-LZCNTL-R32-R32-s113 0 1) #(struct:pseudo-LZCNTL-R32-R32-s124 0) #(struct:pseudo-LZCNTL-R32-R32-s112-sr113-sr124-sr128 0 5 1))
+pseudo-lzcntl-r32-r32-s128 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s113 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s124 [R2: 64] R0
+pseudo-lzcntl-r32-r32-s112-sr113-sr124-sr128 [R3: 64, R1: 64, R2: 64] R0, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s96-325f.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s96-325f.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s112 0 6) #(struct:pseudo-LZCNTL-R32-R32-s108 5) #(struct:pseudo-LZCNTL-R32-R32-s97 0 1) #(struct:pseudo-LZCNTL-R32-R32-s96-sr97-sr108-sr112 5 6 1))
+pseudo-lzcntl-r32-r32-s112 [R1: 64, R2: 64] R0, R6
+pseudo-lzcntl-r32-r32-s108 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s97 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s96-sr97-sr108-sr112 [R3: 64, R1: 64, R2: 64] R5, R6, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s80-d4d7.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s80-d4d7.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s92 2) #(struct:pseudo-LZCNTL-R32-R32-s96 0 5) #(struct:pseudo-LZCNTL-R32-R32-s81 0 1) #(struct:pseudo-LZCNTL-R32-R32-s80-sr81-sr92-sr96 2 5 1))
+pseudo-lzcntl-r32-r32-s92 [R2: 64] R2
+pseudo-lzcntl-r32-r32-s96 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s81 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s80-sr81-sr92-sr96 [R3: 64, R1: 64, R2: 64] R2, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s64-3b2d.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s64-3b2d.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s65 0 1) #(struct:pseudo-LZCNTL-R32-R32-s76 6) #(struct:pseudo-LZCNTL-R32-R32-s80 0 5) #(struct:pseudo-LZCNTL-R32-R32-s64-sr65-sr76-sr80 6 5 1))
+pseudo-lzcntl-r32-r32-s65 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s76 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s80 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s64-sr65-sr76-sr80 [R3: 64, R1: 64, R2: 64] R6, R5, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s48-8f24.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s48-8f24.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s64 0 2) #(struct:pseudo-LZCNTL-R32-R32-s60 5) #(struct:pseudo-LZCNTL-R32-R32-s49 0 1) #(struct:pseudo-LZCNTL-R32-R32-s48-sr49-sr60-sr64 5 2 1))
+pseudo-lzcntl-r32-r32-s64 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s60 [R2: 64] R5
+pseudo-lzcntl-r32-r32-s49 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s48-sr49-sr60-sr64 [R3: 64, R1: 64, R2: 64] R5, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s32-de2e.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s32-de2e.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s48 0 2) #(struct:pseudo-LZCNTL-R32-R32-s44 6) #(struct:pseudo-LZCNTL-R32-R32-s33 0 1) #(struct:pseudo-LZCNTL-R32-R32-s32-sr33-sr44-sr48 6 2 1))
+pseudo-lzcntl-r32-r32-s48 [R1: 64, R2: 64] R0, R2
+pseudo-lzcntl-r32-r32-s44 [R2: 64] R6
+pseudo-lzcntl-r32-r32-s33 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s32-sr33-sr44-sr48 [R3: 64, R1: 64, R2: 64] R6, R2, R1
+rosette/synth-target-pseudo-LZCNTL-R32-R32-s16-9e37.rkt:
+[*] rosette/synth-target-pseudo-LZCNTL-R32-R32-s16-9e37.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s17 0 1) #(struct:pseudo-LZCNTL-R32-R32-s32 0 5) #(struct:pseudo-LZCNTL-R32-R32-s17 0 1) #(struct:pseudo-LZCNTL-R32-R32-s16-sr17-sr28-sr32 1 5 1))
+pseudo-lzcntl-r32-r32-s17 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s32 [R1: 64, R2: 64] R0, R5
+pseudo-lzcntl-r32-r32-s17 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s16-sr17-sr28-sr32 [R3: 64, R1: 64, R2: 64] R1, R5, R1
+rosette/synth-target-LZCNTL-R32-R32-2303.rkt:
+[*] rosette/synth-target-LZCNTL-R32-R32-2303.rkt: Success!
+(#(struct:pseudo-LZCNTL-R32-R32-s1 0 1) #(struct:pseudo-LZCNTL-R32-R32-s1 1 6) #(struct:pseudo-LZCNTL-R32-R32-s16 0 0) #(struct:pseudo-LZCNTL-R32-R32-sr1-sr12-sr16 6 0 1))
+pseudo-lzcntl-r32-r32-s1 [R1: 64, R2: 64] R0, R1
+pseudo-lzcntl-r32-r32-s1 [R1: 64, R2: 64] R1, R6
+pseudo-lzcntl-r32-r32-s16 [R1: 64, R2: 64] R0, R0
+pseudo-lzcntl-r32-r32-sr1-sr12-sr16 [R3: 64, R1: 64, R2: 64] R6, R0, R1

@@ -3,6 +3,10 @@ error:
 - ./third-party/X86-64-semantics/semantics/registerInstructions/cvtss2si_r64_xmm.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/cvttsd2si_r64_xmm.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/cvttss2si_r64_xmm.k
+- ./third-party/X86-64-semantics/semantics/registerInstructions/pdepl_r32_r32_r32.k
+- ./third-party/X86-64-semantics/semantics/registerInstructions/pdepq_r64_r64_r64.k
+- ./third-party/X86-64-semantics/semantics/registerInstructions/pextl_r32_r32_r32.k
+- ./third-party/X86-64-semantics/semantics/registerInstructions/pextq_r64_r64_r64.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/vcvtsd2si_r64_xmm.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/vcvtss2si_r64_xmm.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/vcvttsd2si_r64_xmm.k
@@ -885,7 +889,6 @@ success:
 - ./third-party/X86-64-semantics/semantics/registerInstructions/incw_r16.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/lzcntl_r32_r32.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/lzcntq_r64_r64.k
-- ./third-party/X86-64-semantics/semantics/registerInstructions/lzcntq_small_r64_r64.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/lzcntw_r16_r16.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/movb_r8_r8.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/movb_r8_rh.k
@@ -936,10 +939,6 @@ success:
 - ./third-party/X86-64-semantics/semantics/registerInstructions/orl_r32_r32.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/orq_r64_r64.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/orw_r16_r16.k
-- ./third-party/X86-64-semantics/semantics/registerInstructions/pdepl_r32_r32_r32.k
-- ./third-party/X86-64-semantics/semantics/registerInstructions/pdepq_r64_r64_r64.k
-- ./third-party/X86-64-semantics/semantics/registerInstructions/pextl_r32_r32_r32.k
-- ./third-party/X86-64-semantics/semantics/registerInstructions/pextq_r64_r64_r64.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/popcntl_r32_r32.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/popcntq_r64_r64.k
 - ./third-party/X86-64-semantics/semantics/registerInstructions/popcntw_r16_r16.k

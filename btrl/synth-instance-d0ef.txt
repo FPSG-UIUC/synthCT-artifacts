@@ -1,0 +1,77 @@
+rosette/synth-target-BTRL-R32-R32-02ad.rkt:
+[x] rosette/synth-target-BTRL-R32-R32-02ad.rkt: Timeout!
+rosette/synth-target-pseudo-BTRL-R32-R32-sr1-68d5.rkt:
+[x] rosette/synth-target-pseudo-BTRL-R32-R32-sr1-68d5.rkt: Timeout!
+rosette/synth-target-pseudo-BTRL-R32-R32-sr4-158d.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-sr4-158d.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64 0 1))
+movq 0xffffffff, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-7fbb.rkt:
+[x] rosette/synth-target-pseudo-BTRL-R32-R32-s4-7fbb.rkt: Timeout!
+rosette/synth-target-pseudo-BTRL-R32-R32-s1-bc68.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s1-bc68.rkt: Success!
+(#(struct:PXOR-R64-R64 1 1) #(struct:PSET-FLAG (bv #x0000000000000006 64)))
+pxor-r64-r64 R1, R1
+pset-flag F(bv #x0000000000000006 64)
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-91b2.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-91b2.rkt: Success!
+(#(struct:pseudo-BTRL-R32-R32-s4-sr5 0 1) #(struct:pseudo-BTRL-R32-R32-s4-s5 0) #(struct:pseudo-BTRL-R32-R32-s4-s5 0) #(struct:pseudo-BTRL-R32-R32-s4-sr5 6 0))
+pseudo-btrl-r32-r32-s4-sr5 [R1: 64, R2: 64] R0, R1
+pseudo-btrl-r32-r32-s4-s5 [R2: 64] R0
+pseudo-btrl-r32-r32-s4-s5 [R2: 64] R0
+pseudo-btrl-r32-r32-s4-sr5 [R1: 64, R2: 64] R6, R0
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-4ee1.rkt:
+[x] rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-4ee1.rkt: Timeout!
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-s5-efa8.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-s5-efa8.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 6) #(struct:PAND-R64-R64 6 1))
+movq 0xffffffff, R6
+pand-r64-r64 R6, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-c750.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-c750.rkt: Success!
+(#(struct:PNOP) #(struct:PNOP) #(struct:pseudo-BTRL-R32-R32-s4-s11 0 4) #(struct:pseudo-BTRL-R32-R32-s4-sr11 4 1))
+pnop
+pnop
+pseudo-btrl-r32-r32-s4-s11 [R1: 64, R2: 64] R0, R4
+pseudo-btrl-r32-r32-s4-sr11 [R1: 64, R2: 64] R4, R1
+rosette/synth-target-BTRL-R32-R32-19f3.rkt:
+[*] rosette/synth-target-BTRL-R32-R32-19f3.rkt: Success!
+(#(struct:pseudo-BTRL-R32-R32-s4 0 1) #(struct:pseudo-BTRL-R32-R32-s4 6 0) #(struct:pseudo-BTRL-R32-R32-s4 6 0) #(struct:PNOP))
+pseudo-btrl-r32-r32-s4 [R1: 64, R2: 64] R0, R1
+pseudo-btrl-r32-r32-s4 [R1: 64, R2: 64] R6, R0
+pseudo-btrl-r32-r32-s4 [R1: 64, R2: 64] R6, R0
+pnop
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-sr11-c0f4.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-sr11-c0f4.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000020 64) 2) #(struct:PSPLIT-R64-R64 6 1 2) #(struct:PAND-R64-R64 0 1))
+movq 0x20, R2
+psplit R6, R1, R2
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-sr1-sr4-a9da.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-sr1-sr4-a9da.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000020020 64) 5) #(struct:PSPLIT-R64-R64 1 0 5) #(struct:PCONCAT-R32-R32 2 0 5) #(struct:PMOVQ-R64-R64 0 1))
+movq 0x20020, R5
+psplit R1, R0, R5
+pconcat-r32-r32 R2, R0, R5
+movq R0, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-s12-1c24.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-s12-1c24.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x00000000a8a28220 64) 6) #(struct:POR-R64-R64 6 0) #(struct:MOVQ-IMM-R64 (bv #x0000000100000000 64) 6) #(struct:PSPLIT-R64-R64 1 6 0))
+movq 0xa8a28220, R6
+por-r64-r64 R6, R0
+movq 0x100000000, R6
+psplit R1, R6, R0
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-sr12-b405.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-sr12-b405.rkt: Success!
+(#(struct:PNOT-R64 0) #(struct:MOVQ-IMM-R64 (bv #x00000000ffffffff 64) 1) #(struct:PAND-R64-R64 0 1))
+pnot R0
+movq 0xffffffff, R1
+pand-r64-r64 R0, R1
+rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-819c.rkt:
+[*] rosette/synth-target-pseudo-BTRL-R32-R32-s4-s11-819c.rkt: Success!
+(#(struct:pseudo-BTRL-R32-R32-s4-s11-s12 0 4) #(struct:pseudo-BTRL-R32-R32-s4-s11-sr12 4 1) #(struct:pseudo-BTRL-R32-R32-s4-s11-s12 6 0) #(struct:pseudo-BTRL-R32-R32-s4-s11-s12 6 6))
+pseudo-btrl-r32-r32-s4-s11-s12 [R1: 64, R2: 64] R0, R4
+pseudo-btrl-r32-r32-s4-s11-sr12 [R1: 64, R2: 64] R4, R1
+pseudo-btrl-r32-r32-s4-s11-s12 [R1: 64, R2: 64] R6, R0
+pseudo-btrl-r32-r32-s4-s11-s12 [R1: 64, R2: 64] R6, R6

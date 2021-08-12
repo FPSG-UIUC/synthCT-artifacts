@@ -1,0 +1,54 @@
+rosette/synth-target-PMOV-FLAG-R64-7925.rkt:
+
+rosette/synth-target-MOVQ-IMM-R64-71e4.rkt:
+
+rosette/synth-target-PMOVQ-R64-R64-a21e.rkt:
+[*] rosette/synth-target-PMOVQ-R64-R64-a21e.rkt: Success!
+(#(struct:MOVQ-R64-R64 0 1) #(struct:CMOVEQ-R64-R64 0 1))
+movq-r64-r64 [R1: 64, R2: 64] R0, R1
+cmoveq-r64-r64 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-PNOT-R64-3638.rkt:
+[*] rosette/synth-target-PNOT-R64-3638.rkt: Success!
+(#(struct:NOTQ-R64 1) #(struct:SHRQ-R64-CL 6))
+notq-r64 [R1: 64] R1
+shrq-r64-cl [%cl: 8, R2: 64] R6
+rosette/synth-target-PSET-FLAG-291a.rkt:
+
+rosette/synth-target-PMOV-R64-FLAG-790e.rkt:
+
+rosette/synth-target-PRESET-FLAG-bbc9.rkt:
+
+rosette/synth-target-PEXTRACT-R64-BIT-48c2.rkt:
+
+rosette/synth-target-PNOP-411f.rkt:
+[*] rosette/synth-target-PNOP-411f.rkt: Success!
+(#(struct:MOVQ-IMM-R64 i$20 6) #(struct:MOVQ-IMM-R64 i$51 6))
+rosette/synth-target-PSPLIT-R64-R64-c30d.rkt:
+[x] rosette/synth-target-PSPLIT-R64-R64-c30d.rkt: Unsat!
+unsat! 4
+rosette/synth-target-PCONCAT-R32-R32-9602.rkt:
+[*] rosette/synth-target-PCONCAT-R32-R32-9602.rkt: Success!
+(#(struct:MOVQ-R64-R64 2 5) #(struct:SHLQ-R64-CL 0) #(struct:ORQ-R64-R64 0 1))
+movq-r64-r64 [R1: 64, R2: 64] R2, R5
+shlq-r64-cl [%cl: 8, R2: 64] R0
+orq-r64-r64 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-POR-R64-R64-922a.rkt:
+[*] rosette/synth-target-POR-R64-R64-922a.rkt: Success!
+(#(struct:ORQ-R64-R64 0 1) #(struct:SHRQ-R64-CL 0))
+orq-r64-r64 [R1: 64, R2: 64] R0, R1
+shrq-r64-cl [%cl: 8, R2: 64] R0
+rosette/synth-target-PAND-R64-R64-4cfd.rkt:
+[*] rosette/synth-target-PAND-R64-R64-4cfd.rkt: Success!
+(#(struct:ANDQ-R64-R64 0 1) #(struct:SHRQ-R64-CL 0))
+andq-r64-r64 [R1: 64, R2: 64] R0, R1
+shrq-r64-cl [%cl: 8, R2: 64] R0
+rosette/synth-target-PXOR-R64-R64-d3b1.rkt:
+[*] rosette/synth-target-PXOR-R64-R64-d3b1.rkt: Success!
+(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:XORQ-R64-R64 0 1))
+movq 0x0, R6
+xorq-r64-r64 [R1: 64, R2: 64] R0, R1
+rosette/synth-target-PCMOV-R64-R64-R64-e112.rkt:
+[*] rosette/synth-target-PCMOV-R64-R64-R64-e112.rkt: Success!
+(#(struct:ANDQ-R64-R64 0 0) #(struct:CMOVEQ-R64-R64 2 1))
+andq-r64-r64 [R1: 64, R2: 64] R0, R0
+cmoveq-r64-r64 [R1: 64, R2: 64] R2, R1

@@ -1,0 +1,368 @@
+rosette/synth-target-MOVQ-IMM-R64-71e4.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: null
+  debug: !!python/object/apply:subprocess.CalledProcessError
+    args:
+    - 1
+    - raco make rosette/synth-target-MOVQ-IMM-R64-71e4.rkt
+    state:
+      cmd: raco make rosette/synth-target-MOVQ-IMM-R64-71e4.rkt
+      output: null
+      returncode: 1
+      stderr: null
+  max_timeout: 86400
+  name: rosette/synth-target-MOVQ-IMM-R64-71e4.rkt
+  spec: MOVQ-IMM-R64
+  state: error
+  time: -1
+rosette/synth-target-PAND-R64-R64-4cfd.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:ANDQ-R64-R64 0 1) #(struct:SHRQ-R64-CL 0))
+
+    andq-r64-r64 [R1: 64, R2: 64] R0, R1
+
+    shrq-r64-cl [%cl: 8, R2: 64] R0'
+  debug: sat! 2
+  max_timeout: 86400
+  name: rosette/synth-target-PAND-R64-R64-4cfd.rkt
+  spec: PAND-R64-R64
+  state: success
+  time: 1.1043970584869385
+rosette/synth-target-PCMOV-R64-R64-R64-e112.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:ANDQ-R64-R64 0 0) #(struct:CMOVEQ-R64-R64 2 1))
+
+    andq-r64-r64 [R1: 64, R2: 64] R0, R0
+
+    cmoveq-r64-r64 [R1: 64, R2: 64] R2, R1'
+  debug: sat! 2
+  max_timeout: 86400
+  name: rosette/synth-target-PCMOV-R64-R64-R64-e112.rkt
+  spec: PCMOV-R64-R64-R64
+  state: success
+  time: 7.037861347198486
+rosette/synth-target-PCONCAT-R32-R32-9602.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:MOVQ-R64-R64 2 5) #(struct:SHLQ-R64-CL 0) #(struct:ORQ-R64-R64
+    0 1))
+
+    movq-r64-r64 [R1: 64, R2: 64] R2, R5
+
+    shlq-r64-cl [%cl: 8, R2: 64] R0
+
+    orq-r64-r64 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 3
+  max_timeout: 86400
+  name: rosette/synth-target-PCONCAT-R32-R32-9602.rkt
+  spec: PCONCAT-R32-R32
+  state: success
+  time: 108.99116253852844
+rosette/synth-target-PEXTRACT-R64-BIT-48c2.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: null
+  debug: !!python/object/apply:subprocess.CalledProcessError
+    args:
+    - 1
+    - raco make rosette/synth-target-PEXTRACT-R64-BIT-48c2.rkt
+    state:
+      cmd: raco make rosette/synth-target-PEXTRACT-R64-BIT-48c2.rkt
+      output: null
+      returncode: 1
+      stderr: null
+  max_timeout: 86400
+  name: rosette/synth-target-PEXTRACT-R64-BIT-48c2.rkt
+  spec: PEXTRACT-R64-BIT
+  state: error
+  time: -1
+rosette/synth-target-PMOV-FLAG-R64-7925.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: null
+  debug: !!python/object/apply:subprocess.CalledProcessError
+    args:
+    - 1
+    - raco make rosette/synth-target-PMOV-FLAG-R64-7925.rkt
+    state:
+      cmd: raco make rosette/synth-target-PMOV-FLAG-R64-7925.rkt
+      output: null
+      returncode: 1
+      stderr: null
+  max_timeout: 86400
+  name: rosette/synth-target-PMOV-FLAG-R64-7925.rkt
+  spec: PMOV-FLAG-R64
+  state: error
+  time: -1
+rosette/synth-target-PMOV-R64-FLAG-790e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: null
+  debug: !!python/object/apply:subprocess.CalledProcessError
+    args:
+    - 1
+    - raco make rosette/synth-target-PMOV-R64-FLAG-790e.rkt
+    state:
+      cmd: raco make rosette/synth-target-PMOV-R64-FLAG-790e.rkt
+      output: null
+      returncode: 1
+      stderr: null
+  max_timeout: 86400
+  name: rosette/synth-target-PMOV-R64-FLAG-790e.rkt
+  spec: PMOV-R64-FLAG
+  state: error
+  time: -1
+rosette/synth-target-PMOVQ-R64-R64-a21e.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:MOVQ-R64-R64 0 1) #(struct:CMOVEQ-R64-R64 0 1))
+
+    movq-r64-r64 [R1: 64, R2: 64] R0, R1
+
+    cmoveq-r64-r64 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 2
+  max_timeout: 86400
+  name: rosette/synth-target-PMOVQ-R64-R64-a21e.rkt
+  spec: PMOVQ-R64-R64
+  state: success
+  time: 0.8867771625518799
+rosette/synth-target-PNOP-411f.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:MOVQ-IMM-R64 i$20 6) #(struct:MOVQ-IMM-R64 i$51 6))'
+  debug: "sat! 2\nprintf: format string requires a exact integer, given something\
+    \ else\n  bad argument: (bitvector->natural i$20); arguments were: (bitvector->natural\
+    \ i$20) 6\n  context...:\n   /home/sushant94/.racket/8.0/pkgs/rosette/rosette/base/adt/list.rkt:119:9:\
+    \ @for-each\n   body of \"/home/sushant94/projects/dsa-fuzz/rosette/synth-target-PNOP-411f.rkt\""
+  max_timeout: 86400
+  name: rosette/synth-target-PNOP-411f.rkt
+  spec: PNOP
+  state: success
+  time: 0.8680381774902344
+rosette/synth-target-PNOT-R64-3638.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:NOTQ-R64 1) #(struct:SHRQ-R64-CL 6))
+
+    notq-r64 [R1: 64] R1
+
+    shrq-r64-cl [%cl: 8, R2: 64] R6'
+  debug: sat! 2
+  max_timeout: 86400
+  name: rosette/synth-target-PNOT-R64-3638.rkt
+  spec: PNOT-R64
+  state: success
+  time: 0.8322494029998779
+rosette/synth-target-POR-R64-R64-922a.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:ORQ-R64-R64 0 1) #(struct:SHRQ-R64-CL 0))
+
+    orq-r64-r64 [R1: 64, R2: 64] R0, R1
+
+    shrq-r64-cl [%cl: 8, R2: 64] R0'
+  debug: sat! 2
+  max_timeout: 86400
+  name: rosette/synth-target-POR-R64-R64-922a.rkt
+  spec: POR-R64-R64
+  state: success
+  time: 1.1165671348571777
+rosette/synth-target-PRESET-FLAG-bbc9.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: null
+  debug: !!python/object/apply:subprocess.CalledProcessError
+    args:
+    - 1
+    - raco make rosette/synth-target-PRESET-FLAG-bbc9.rkt
+    state:
+      cmd: raco make rosette/synth-target-PRESET-FLAG-bbc9.rkt
+      output: null
+      returncode: 1
+      stderr: null
+  max_timeout: 86400
+  name: rosette/synth-target-PRESET-FLAG-bbc9.rkt
+  spec: PRESET-FLAG
+  state: error
+  time: -1
+rosette/synth-target-PSET-FLAG-291a.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: null
+  debug: !!python/object/apply:subprocess.CalledProcessError
+    args:
+    - 1
+    - raco make rosette/synth-target-PSET-FLAG-291a.rkt
+    state:
+      cmd: raco make rosette/synth-target-PSET-FLAG-291a.rkt
+      output: null
+      returncode: 1
+      stderr: null
+  max_timeout: 86400
+  name: rosette/synth-target-PSET-FLAG-291a.rkt
+  spec: PSET-FLAG
+  state: error
+  time: -1
+rosette/synth-target-PSPLIT-R64-R64-c30d.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: ''
+  debug: unsat! 4
+  max_timeout: 86400
+  name: rosette/synth-target-PSPLIT-R64-R64-c30d.rkt
+  spec: PSPLIT-R64-R64
+  state: unsat
+  time: 774.1870934963226
+rosette/synth-target-PXOR-R64-R64-d3b1.rkt: !!python/object:synthesis.task_result.SynthesisTaskResult
+  components:
+  - ADDQ-R64-R64
+  - ANDQ-R64-R64
+  - CMOVEQ-R64-R64
+  - MOVQ-R64-R64
+  - NOTQ-R64
+  - ORQ-R64-R64
+  - SHLQ-R64-CL
+  - SHRQ-R64-CL
+  - SUBQ-R64-R64
+  - XORQ-R64-R64
+  data: '(#(struct:MOVQ-IMM-R64 (bv #x0000000000000000 64) 6) #(struct:XORQ-R64-R64
+    0 1))
+
+    movq 0x0, R6
+
+    xorq-r64-r64 [R1: 64, R2: 64] R0, R1'
+  debug: sat! 2
+  max_timeout: 86400
+  name: rosette/synth-target-PXOR-R64-R64-d3b1.rkt
+  spec: PXOR-R64-R64
+  state: success
+  time: 1.0959770679473877

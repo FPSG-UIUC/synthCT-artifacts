@@ -1,7 +1,9 @@
 # SynthCT Artifacts
 
 This repository contains all SynthCT artifacts / synthesized translations during our runs
-for NDSS'22. If you're looking for the code for SynthCT framework, it can be found [here](https://github.com/FPSG-UIUC/synthCT).
+for NDSS'22. For technical details, please refer to our [paper](https://sushant94.me/publications/22ndss-synthct.pdf).
+    
+If you're looking for the code for SynthCT framework, it can be found [here](https://github.com/FPSG-UIUC/synthCT).
 
 See individual directories for README / settings to reproduce the results.
 
@@ -10,7 +12,7 @@ See individual directories for README / settings to reproduce the results.
 
 The results are in a machine-readable yaml format, named `synth-instance-xxxx.yaml` in
 their corresponding directories. You can load them back into python object, i.e.,
-`SynthCT/synthesis/task\_result:SynthesisTaskResult`, using `yaml.load`. Make sure that
+`SynthCT/synthesis/task_result:SynthesisTaskResult`, using `yaml.load`. Make sure that
 you import the `SynthesisTaskResult` class first! Each entry is a separate synthesis task
 that is run. Here are some important fields from the `SynthesisTaskResult` class.
 
